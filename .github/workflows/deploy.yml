@@ -1,0 +1,48 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/feed.json"      # re-deploy whenever data updates
+      - "site/**"             # or when the UI changes
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Prepare site bundle
+        run: |
+          mkdir -p _site
+          cp site/index.html _site/index.html
+          mkdir -p _site/data
+          cp data/feed.json     _site/data/feed.json
+          cp data/sources.json  _site/data/sources.json
+          echo "Site bundle ready:"
+          ls -lh _site/ _site/data/
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4

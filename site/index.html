@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Ecosystem Radar</title>
+  <style>
+    :root {
+      --bg:       #ffffff;
+      --bg2:      #f6f6f3;
+      --bg3:      #efefeb;
+      --text:     #1a1a18;
+      --text2:    #6b6b67;
+      --text3:    #9b9b96;
+      --border:   rgba(0,0,0,0.1);
+      --border2:  rgba(0,0,0,0.18);
+      --accent:   #534AB7;
+      --hot:      #993C1D;
+      --hot-bg:   #FAECE7;
+      --rising:   #854F0B;
+      --rising-bg:#FAEEDA;
+      --radius:   10px;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg:      #1a1a18;
+        --bg2:     #242422;
+        --bg3:     #2e2e2b;
+        --text:    #e8e8e2;
+        --text2:   #9b9b96;
+        --text3:   #6b6b67;
+        --border:  rgba(255,255,255,0.1);
+        --border2: rgba(255,255,255,0.18);
+        --accent:  #AFA9EC;
+        --hot:     #F0997B;
+        --hot-bg:  #2a1810;
+        --rising:  #EF9F27;
+        --rising-bg:#2a2010;
+      }
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg); color: var(--text); font-size: 14px; line-height: 1.6; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    header { border-bottom: 0.5px solid var(--border); padding: 16px 24px; display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+    .logo { font-size: 16px; font-weight: 600; letter-spacing: -.3px; }
+    .logo span { color: var(--accent); }
+    .tagline { font-size: 12px; color: var(--text2); }
+    .header-right { margin-left: auto; display: flex; align-items: center; gap: 10px; }
+    .last-updated { font-size: 11px; color: var(--text3); }
+    .gh-link { font-size: 12px; border: 0.5px solid var(--border2); border-radius: 6px; padding: 4px 10px; color: var(--text2); }
+    .gh-link:hover { color: var(--text); text-decoration: none; border-color: var(--text3); }
+
+    .stats-bar { display: flex; gap: 0; border-bottom: 0.5px solid var(--border); overflow-x: auto; }
+    .stat { padding: 10px 20px; text-align: center; border-right: 0.5px solid var(--border); flex-shrink: 0; }
+    .stat-num { font-size: 20px; font-weight: 600; }
+    .stat-label { font-size: 11px; color: var(--text2); margin-top: 1px; }
+
+    .controls { display: flex; align-items: center; gap: 8px; padding: 12px 24px; border-bottom: 0.5px solid var(--border); flex-wrap: wrap; }
+    .search { flex: 1; min-width: 180px; max-width: 320px; padding: 6px 12px; border: 0.5px solid var(--border2); border-radius: 20px; background: var(--bg2); color: var(--text); font-size: 13px; outline: none; }
+    .search:focus { border-color: var(--accent); }
+    .filter-group { display: flex; gap: 6px; flex-wrap: wrap; }
+    .filter-btn { padding: 4px 12px; border: 0.5px solid var(--border2); border-radius: 20px; background: transparent; color: var(--text2); font-size: 12px; cursor: pointer; transition: all .15s; }
+    .filter-btn:hover { color: var(--text); border-color: var(--text3); }
+    .filter-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+    .sort-select { padding: 4px 10px; border: 0.5px solid var(--border2); border-radius: 6px; background: var(--bg2); color: var(--text2); font-size: 12px; cursor: pointer; margin-left: auto; }
+
+    main { display: grid; grid-template-columns: 1fr; max-width: 860px; margin: 0 auto; padding: 16px 24px; gap: 10px; }
+
+    .card { background: var(--bg); border: 0.5px solid var(--border); border-radius: var(--radius); padding: 14px 16px; transition: border-color .15s; }
+    .card:hover { border-color: var(--border2); }
+    .card-top { display: flex; align-items: center; gap: 7px; margin-bottom: 6px; flex-wrap: wrap; }
+    .pill { display: inline-block; padding: 2px 9px; border-radius: 12px; font-size: 11px; font-weight: 500; }
+    .pill-tool      { background: #E1F5EE; color: #085041; }
+    .pill-repo      { background: #E6F1FB; color: #0C447C; }
+    .pill-news      { background: #EEEDFE; color: #3C3489; }
+    .pill-model     { background: #FAEEDA; color: #633806; }
+    .pill-paper     { background: #EAF3DE; color: #27500A; }
+    .pill-framework { background: #FBEAF0; color: #72243E; }
+    .pill-unknown   { background: var(--bg3); color: var(--text2); }
+    .pill-hot       { background: var(--hot-bg); color: var(--hot); }
+    .pill-rising    { background: var(--rising-bg); color: var(--rising); }
+    .pill-breaking  { background: #FCEBEB; color: #791F1F; }
+    .source-tag { font-size: 11px; color: var(--text3); }
+    .age { font-size: 11px; color: var(--text3); margin-left: auto; }
+    .stars { font-size: 11px; color: var(--text2); }
+    .card-title { font-size: 14px; font-weight: 500; margin-bottom: 4px; }
+    .card-summary { font-size: 13px; color: var(--text2); line-height: 1.5; }
+
+    .empty { text-align: center; padding: 48px 24px; color: var(--text3); }
+
+    footer { text-align: center; padding: 24px; font-size: 12px; color: var(--text3); border-top: 0.5px solid var(--border); margin-top: 12px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <div class="logo">AI Ecosystem <span>Radar</span></div>
+    <div class="tagline">live signal for engineers building with AI</div>
+  </div>
+  <div class="header-right">
+    <span class="last-updated" id="last-updated">loading...</span>
+    <a class="gh-link" href="https://github.com/ai-radar-hq/ai-ecosystem-radar" target="_blank">★ GitHub</a>
+  </div>
+</header>
+
+<div class="stats-bar" id="stats-bar">
+  <div class="stat"><div class="stat-num" id="stat-total">—</div><div class="stat-label">tracked</div></div>
+  <div class="stat"><div class="stat-num" id="stat-hot">—</div><div class="stat-label">hot</div></div>
+  <div class="stat"><div class="stat-num" id="stat-breaking">—</div><div class="stat-label">breaking changes</div></div>
+  <div class="stat"><div class="stat-num" id="stat-models">—</div><div class="stat-label">model updates</div></div>
+</div>
+
+<div class="controls">
+  <input class="search" type="search" id="search" placeholder="Search titles, summaries, tags...">
+  <div class="filter-group" id="filters">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="model">Models</button>
+    <button class="filter-btn" data-filter="tool">Tools</button>
+    <button class="filter-btn" data-filter="framework">Frameworks</button>
+    <button class="filter-btn" data-filter="repo">Repos</button>
+    <button class="filter-btn" data-filter="paper">Papers</button>
+    <button class="filter-btn" data-filter="news">News</button>
+  </div>
+  <select class="sort-select" id="sort">
+    <option value="relevance">Sort: relevance</option>
+    <option value="hot">Sort: trending</option>
+    <option value="stars">Sort: stars</option>
+    <option value="newest">Sort: newest</option>
+  </select>
+</div>
+
+<main id="feed"></main>
+
+<footer>
+  <p>Auto-updated every 6h via GitHub Actions · <a href="https://github.com/ai-radar-hq/ai-ecosystem-radar">Contribute a source</a> · <a href="https://github.com/ai-radar-hq/ai-ecosystem-radar/releases">Subscribe to weekly digest</a></p>
+</footer>
+
+<script>
+let ALL_ITEMS = [];
+let activeFilter = 'all';
+let activeSort = 'relevance';
+let searchQuery = '';
+
+function timeAgo(isoStr) {
+  const diff = (Date.now() - new Date(isoStr)) / 1000;
+  if (diff < 3600)  return Math.floor(diff/60) + 'm ago';
+  if (diff < 86400) return Math.floor(diff/3600) + 'h ago';
+  return Math.floor(diff/86400) + 'd ago';
+}
+
+function pill(cat) {
+  return `<span class="pill pill-${cat}">${cat}</span>`;
+}
+
+function hotPill(label) {
+  if (label === 'hot')    return `<span class="pill pill-hot">hot</span>`;
+  if (label === 'rising') return `<span class="pill pill-rising">rising</span>`;
+  return '';
+}
+
+function renderCard(item) {
+  const stars = item.stars ? `<span class="stars">★ ${item.stars.toLocaleString()}</span>` : '';
+  const breaking = item.breaking ? `<span class="pill pill-breaking">breaking</span>` : '';
+  const src = item.source.replace(/_/g, ' ');
+  return `
+    <div class="card">
+      <div class="card-top">
+        ${pill(item.category)}
+        ${hotPill(item.hot)}
+        ${breaking}
+        <span class="source-tag">${src}</span>
+        ${stars}
+        <span class="age">${timeAgo(item.scraped_at)}</span>
+      </div>
+      <div class="card-title"><a href="${item.url}" target="_blank" rel="noopener">${item.title}</a></div>
+      <div class="card-summary">${item.summary}</div>
+    </div>`;
+}
+
+function applyFilters() {
+  let items = [...ALL_ITEMS];
+
+  if (activeFilter !== 'all') {
+    items = items.filter(i => i.category === activeFilter);
+  }
+
+  if (searchQuery) {
+    const q = searchQuery.toLowerCase();
+    items = items.filter(i =>
+      i.title.toLowerCase().includes(q) ||
+      i.summary.toLowerCase().includes(q) ||
+      (i.tags || []).some(t => t.toLowerCase().includes(q))
+    );
+  }
+
+  const hotOrder = { hot: 2, rising: 1, stable: 0 };
+  if (activeSort === 'relevance') {
+    items.sort((a, b) => b.relevance - a.relevance);
+  } else if (activeSort === 'hot') {
+    items.sort((a, b) => (hotOrder[b.hot]||0) - (hotOrder[a.hot]||0) || b.relevance - a.relevance);
+  } else if (activeSort === 'stars') {
+    items.sort((a, b) => (b.stars||0) - (a.stars||0));
+  } else if (activeSort === 'newest') {
+    items.sort((a, b) => new Date(b.scraped_at) - new Date(a.scraped_at));
+  }
+
+  const feed = document.getElementById('feed');
+  if (!items.length) {
+    feed.innerHTML = '<div class="empty">No items match your filters.</div>';
+    return;
+  }
+  feed.innerHTML = items.map(renderCard).join('');
+}
+
+function updateStats() {
+  document.getElementById('stat-total').textContent    = ALL_ITEMS.length;
+  document.getElementById('stat-hot').textContent      = ALL_ITEMS.filter(i => i.hot === 'hot').length;
+  document.getElementById('stat-breaking').textContent = ALL_ITEMS.filter(i => i.breaking).length;
+  document.getElementById('stat-models').textContent   = ALL_ITEMS.filter(i => i.category === 'model').length;
+
+  const dates = ALL_ITEMS.map(i => new Date(i.scored_at)).filter(Boolean);
+  if (dates.length) {
+    const latest = new Date(Math.max(...dates));
+    document.getElementById('last-updated').textContent = 'Updated ' + timeAgo(latest.toISOString());
+  }
+}
+
+async function init() {
+  try {
+    const resp = await fetch('./data/feed.json');
+    ALL_ITEMS = await resp.json();
+    updateStats();
+    applyFilters();
+  } catch (e) {
+    document.getElementById('feed').innerHTML =
+      '<div class="empty">Could not load feed.json. Run the pipeline first.</div>';
+  }
+}
+
+document.getElementById('filters').addEventListener('click', e => {
+  const btn = e.target.closest('.filter-btn');
+  if (!btn) return;
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  activeFilter = btn.dataset.filter;
+  applyFilters();
+});
+
+document.getElementById('sort').addEventListener('change', e => {
+  activeSort = e.target.value;
+  applyFilters();
+});
+
+let searchTimer;
+document.getElementById('search').addEventListener('input', e => {
+  clearTimeout(searchTimer);
+  searchTimer = setTimeout(() => {
+    searchQuery = e.target.value.trim();
+    applyFilters();
+  }, 200);
+});
+
+init();
+</script>
+</body>
+</html>

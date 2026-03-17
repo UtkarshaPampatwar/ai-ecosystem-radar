@@ -1,0 +1,43 @@
+name: Scrape & score
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # every 6 hours
+  workflow_dispatch:          # allow manual trigger from GitHub UI
+
+permissions:
+  contents: write             # needed to commit data/feed.json back to repo
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install Poetry
+        run: pip install poetry
+
+      - name: Install dependencies
+        run: poetry install --without dev
+
+      - name: Run pipeline
+        run: poetry run python -m pipeline.run
+
+      - name: Commit data
+        run: |
+          git config user.name  "radar-bot"
+          git config user.email "radar-bot@users.noreply.github.com"
+          git add data/feed.json data/archive/
+          git diff --cached --quiet || git commit -m "chore: update feed $(date -u '+%Y-%m-%d %H:%M') UTC"
+          git push

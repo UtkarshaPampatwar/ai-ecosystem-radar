@@ -1,0 +1,47 @@
+name: Weekly digest
+
+on:
+  schedule:
+    - cron: "0 8 * * 1"     # every Monday at 08:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate digest
+        run: python -m pipeline.digest
+
+      - name: Commit digest
+        run: |
+          git config user.name  "radar-bot"
+          git config user.email "radar-bot@users.noreply.github.com"
+          git add WEEKLY_DIGEST.md
+          git diff --cached --quiet || git commit -m "digest: $(date -u '+%Y-%m-%d') weekly digest"
+          git push
+
+      - name: Cut GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: "digest-${{ github.run_number }}"
+          name: "Weekly Digest — ${{ github.event.repository.updated_at }}"
+          body_path: WEEKLY_DIGEST.md
+          draft: false
+          prerelease: false

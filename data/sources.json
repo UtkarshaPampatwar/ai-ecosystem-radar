@@ -1,0 +1,19 @@
+{
+  "$schema": "./sources.schema.json",
+  "sources": [
+    { "name": "Anthropic",       "type": "rss",     "url": "https://www.anthropic.com/rss.xml" },
+    { "name": "OpenAI",          "type": "rss",     "url": "https://openai.com/blog/rss.xml" },
+    { "name": "Google DeepMind", "type": "rss",     "url": "https://deepmind.google/blog/rss/" },
+    { "name": "Mistral AI",      "type": "rss",     "url": "https://mistral.ai/news/rss" },
+    { "name": "Meta AI",         "type": "rss",     "url": "https://ai.meta.com/blog/rss/" },
+    { "name": "Hugging Face",    "type": "rss",     "url": "https://huggingface.co/blog/feed.xml" },
+    { "name": "LangChain",       "type": "rss",     "url": "https://blog.langchain.dev/rss/" },
+    { "name": "LlamaIndex",      "type": "rss",     "url": "https://www.llamaindex.ai/blog/rss" },
+    { "name": "Cohere",          "type": "rss",     "url": "https://cohere.com/blog/rss" },
+    { "name": "Together AI",     "type": "rss",     "url": "https://www.together.ai/blog/rss" },
+    { "name": "karpathy",        "type": "twitter", "account": "karpathy" },
+    { "name": "ylecun",          "type": "twitter", "account": "ylecun" },
+    { "name": "simonw",          "type": "twitter", "account": "simonw" },
+    { "name": "swyx",            "type": "twitter", "account": "swyx" }
+  ]
+}

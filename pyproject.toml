@@ -1,0 +1,46 @@
+[tool.poetry]
+name = "ai-ecosystem-radar"
+version = "0.1.0"
+description = "Community AI ecosystem radar: scrapers + classifier + trend engine."
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+license = "MIT"
+packages = [
+  { include = "pipeline" },
+  { include = "scrapers" },
+]
+
+[tool.poetry.dependencies]
+python = ">=3.12,<4.0"
+httpx = "^0.27"
+beautifulsoup4 = "^4.12"
+feedparser = "^6.0"
+pydantic = "^2.7"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2"
+pytest-asyncio = "^0.23"
+ruff = "^0.4"
+poethepoet = "^0.29"
+
+[build-system]
+requires = ["poetry-core>=1.4.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+[tool.poe.tasks]
+format   = "ruff format ."
+lint     = "ruff check ."
+fix      = "ruff check --fix ."
+test     = "pytest"
+pipeline = "python -m pipeline.run"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]
