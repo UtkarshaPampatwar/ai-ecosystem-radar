@@ -11,8 +11,17 @@ from datetime import UTC, datetime
 from scrapers.base import Category, HotLabel, RawItem, ScoredItem
 
 # ---------------------------------------------------------------------------
-# Category keyword rules — checked against lowercased title + description.
-# Order matters: first match wins.
+# Source-level category overrides — applied before any keyword matching.
+# ArXiv items are always research papers regardless of title keywords.
+# ---------------------------------------------------------------------------
+
+_SOURCE_CATEGORY_OVERRIDE: dict[str, Category] = {
+    "arxiv": Category.PAPER,
+}
+
+# ---------------------------------------------------------------------------
+# Category keyword rules — scored across all categories; highest count wins.
+# Ties are broken by list order below (MODEL > PAPER > FRAMEWORK > TOOL > REPO > NEWS).
 # ---------------------------------------------------------------------------
 
 _CATEGORY_RULES: list[tuple[Category, list[str]]] = [
@@ -24,7 +33,6 @@ _CATEGORY_RULES: list[tuple[Category, list[str]]] = [
             "model checkpoint",
             "fine-tun",
             "pretrain",
-            "quantiz",
             "llama",
             "mistral",
             "gemini",
@@ -32,7 +40,6 @@ _CATEGORY_RULES: list[tuple[Category, list[str]]] = [
             "phi-",
             "qwen",
             "deepseek",
-            "yi-",
             "falcon",
             "bloom",
             "gguf",
@@ -40,26 +47,19 @@ _CATEGORY_RULES: list[tuple[Category, list[str]]] = [
             "lora",
             "qlora",
             "safetensors",
-            "huggingface model",
+            "quantiz",
         ],
     ),
     (
         Category.PAPER,
         [
-            "arxiv",
-            "arxiv.org",
-            "paper",
-            "preprint",
-            "research paper",
-            "benchmark",
-            "evaluation",
-            "survey",
             "we propose",
             "we present",
             "our method",
             "experiments show",
             "state-of-the-art",
-            "sota",
+            "preprint",
+            "research paper",
         ],
     ),
     (
@@ -73,33 +73,26 @@ _CATEGORY_RULES: list[tuple[Category, list[str]]] = [
             "langgraph",
             "dspy",
             "haystack",
-            "framework",
-            "toolkit",
-            "sdk",
-            "middleware",
             "orchestrat",
         ],
     ),
     (
         Category.TOOL,
         [
-            " tool",
-            "tool ",
-            "cli",
-            "plugin",
-            "extension",
-            "dashboard",
-            " ui ",
-            "interface",
-            "utility",
+            "cli tool",
+            "command-line",
+            "vscode extension",
+            "browser extension",
             "desktop app",
             "web app",
+            "dashboard",
+            "playground",
+            "plugin",
         ],
     ),
     (
         Category.REPO,
         [
-            "github.com",
             "open source",
             "open-source",
             "repository",
@@ -111,17 +104,37 @@ _CATEGORY_RULES: list[tuple[Category, list[str]]] = [
     (
         Category.NEWS,
         [
-            "blog",
+            "blog post",
             "announcement",
-            "article",
             "interview",
             "opinion",
-            "digest",
             "newsletter",
-            "weekly",
-            "update",
+            "weekly digest",
         ],
     ),
+]
+
+# ---------------------------------------------------------------------------
+# Semantic tag extraction — maps content keywords → human-readable tags shown
+# in the UI. Replaces raw scraper tags (language names, academic codes).
+# ---------------------------------------------------------------------------
+
+_SEMANTIC_TAG_RULES: list[tuple[str, list[str]]] = [
+    ("agents", ["agent", "agentic", "multi-agent"]),
+    ("rag", ["rag", "retrieval-augmented", "retrieval augmented"]),
+    ("mcp", ["mcp", "model context protocol"]),
+    ("llm", ["llm", "large language model"]),
+    ("fine-tuning", ["fine-tun", "lora", "qlora", "finetun"]),
+    ("embeddings", ["embedding", "vector database", "vector store"]),
+    ("prompt-engineering", ["prompt engineering", "chain of thought", "few-shot"]),
+    ("inference", ["inference", "gguf", "ggml", "quantiz", "serving"]),
+    ("evaluation", ["benchmark", "leaderboard", "state-of-the-art", "sota"]),
+    ("security", ["security", "attack", "adversar", "jailbreak", "red-team"]),
+    ("multimodal", ["multimodal", "vision-language", "text-to-image", "text-to-video"]),
+    ("code-generation", ["code generation", "coding assistant", "copilot"]),
+    ("robotics", ["robot", "embodied"]),
+    ("reasoning", ["reasoning", "chain of thought", "cot", "o1", "thinking"]),
+    ("memory", ["memory", "context window", "long-context"]),
 ]
 
 # High-signal AI engineering keywords — each occurrence boosts relevance.
@@ -186,13 +199,32 @@ _NEWS_SOURCES = {"hacker_news", "reddit", "rss_blog", "twitter"}
 
 
 def _detect_category(text: str, source: str | None = None) -> Category:
+    # Source-level override takes absolute priority (e.g. arxiv → always PAPER).
+    if source and source in _SOURCE_CATEGORY_OVERRIDE:
+        return _SOURCE_CATEGORY_OVERRIDE[source]
+
     lower = text.lower()
+
+    # Score every category; pick the one with the most keyword hits.
+    scores: dict[Category, int] = {}
     for category, keywords in _CATEGORY_RULES:
-        if any(kw in lower for kw in keywords):
-            return category
+        hits = sum(1 for kw in keywords if kw in lower)
+        if hits:
+            scores[category] = hits
+
+    if scores:
+        # max() is stable on dict insertion order, so list-order breaks ties.
+        return max(scores, key=lambda c: scores[c])
+
     if source in _NEWS_SOURCES:
         return Category.NEWS
     return Category.UNKNOWN
+
+
+def _extract_tags(item: RawItem) -> list[str]:
+    """Return human-readable semantic tags derived from item content."""
+    text = f"{item.title} {item.description}".lower()
+    return [tag for tag, keywords in _SEMANTIC_TAG_RULES if any(kw in text for kw in keywords)]
 
 
 def _score_relevance(item: RawItem, category: Category) -> int:
@@ -262,7 +294,7 @@ async def classify_items(
                 scored_at=now,
                 stars=raw.stars,
                 author=raw.author,
-                tags=raw.tags,
+                tags=_extract_tags(raw),
                 extra=raw.extra,
             )
         )

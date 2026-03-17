@@ -288,6 +288,134 @@ class TestClassifier:
 
         assert result[0].is_breaking_change is True
 
+    @pytest.mark.asyncio
+    async def test_arxiv_source_always_produces_paper_category_regardless_of_title(self, make_item):
+        """ArXiv items must always be PAPER even if the title contains 'framework' or 'model'.
+        Without this override, 'MCP-in-SoS: Risk assessment framework...' was classified as
+        FRAMEWORK instead of PAPER."""
+        from pipeline.classify import classify_items
+
+        items = [
+            make_item(
+                title="MCP-in-SoS: Risk assessment framework for open-source MCP servers",
+                description="We propose a new agentic framework for LLM orchestration.",
+                source=Source.ARXIV,
+            )
+        ]
+        result = await classify_items(items, {})
+
+        assert result[0].category == Category.PAPER
+
+    @pytest.mark.asyncio
+    async def test_score_based_category_selects_highest_keyword_hit_count(self, make_item):
+        """When a text matches multiple categories, the one with more keyword hits wins.
+        Previously first-match-wins caused single incidental keyword matches to hijack category."""
+        from pipeline.classify import classify_items
+
+        # Title strongly signals MODEL (llama, lora, gguf = 3 hits) not FRAMEWORK (0 hits)
+        items = [
+            make_item(
+                title="LLaMA fine-tuning with LoRA and GGUF export",
+                description="Step-by-step guide to quantizing and exporting your model.",
+                source=Source.GITHUB_TRENDING,
+            )
+        ]
+        result = await classify_items(items, {})
+
+        assert result[0].category == Category.MODEL
+
+    @pytest.mark.asyncio
+    async def test_classify_items_produces_semantic_tags_not_raw_scraper_tags(self, make_item):
+        """Tags in feed.json must be human-readable semantic labels, not programming languages
+        or academic codes like 'TypeScript' or 'cs.AI'."""
+        from pipeline.classify import classify_items
+
+        items = [
+            make_item(
+                title="Building RAG pipelines with LLM agents",
+                description="A guide to retrieval-augmented generation using agentic workflows.",
+            )
+        ]
+        result = await classify_items(items, {})
+
+        assert "rag" in result[0].tags
+        assert "agents" in result[0].tags
+        assert "llm" in result[0].tags
+
+    @pytest.mark.asyncio
+    async def test_classify_items_returns_empty_tags_when_no_keywords_match(self, make_item):
+        """Items with no recognisable AI keywords must produce an empty tag list, not crash."""
+        from pipeline.classify import classify_items
+
+        items = [make_item(title="Hello world", description="A simple hello world program.")]
+        result = await classify_items(items, {})
+
+        assert isinstance(result[0].tags, list)
+
+    @pytest.mark.asyncio
+    async def test_news_source_with_no_keyword_match_falls_back_to_news_category(self, make_item):
+        """Items from news-type sources (HN, Reddit, RSS) with no category keywords
+        should default to NEWS rather than UNKNOWN."""
+        from pipeline.classify import classify_items
+
+        items = [
+            make_item(
+                title="Weekly roundup of interesting links",
+                description="Some links from around the web this week.",
+                source=Source.HACKER_NEWS,
+            )
+        ]
+        result = await classify_items(items, {})
+
+        assert result[0].category == Category.NEWS
+
+
+# ─── Tag extraction unit tests ─────────────────────────────────────────────────
+
+
+class TestExtractTags:
+    def test_rag_keyword_in_title_produces_rag_tag(self, make_item):
+        """'rag' in title must produce the 'rag' semantic tag."""
+        from pipeline.classify import _extract_tags
+
+        item = make_item(title="RAG pipeline with vector search", description="")
+        assert "rag" in _extract_tags(item)
+
+    def test_agent_keyword_produces_agents_tag(self, make_item):
+        """'agent' anywhere in title or description must produce the 'agents' tag."""
+        from pipeline.classify import _extract_tags
+
+        item = make_item(title="Multi-agent LLM system", description="")
+        assert "agents" in _extract_tags(item)
+
+    def test_mcp_keyword_produces_mcp_tag(self, make_item):
+        """'mcp' in content must produce the 'mcp' tag."""
+        from pipeline.classify import _extract_tags
+
+        item = make_item(title="Model Context Protocol server", description="Uses MCP.")
+        assert "mcp" in _extract_tags(item)
+
+    def test_unrelated_content_produces_no_tags(self, make_item):
+        """Content with no AI keywords must produce an empty tag list."""
+        from pipeline.classify import _extract_tags
+
+        item = make_item(title="Hello world", description="A simple program.")
+        assert _extract_tags(item) == []
+
+    def test_multiple_keywords_produce_multiple_tags(self, make_item):
+        """A rich item touching several topics must produce one tag per matched category."""
+        from pipeline.classify import _extract_tags
+
+        item = make_item(
+            title="Fine-tuning LLaMA with LoRA for RAG",
+            description="Embedding-based retrieval with quantized inference.",
+        )
+        tags = _extract_tags(item)
+        assert "fine-tuning" in tags
+        assert "rag" in tags
+        assert "embeddings" in tags
+        assert "inference" in tags
+
 
 if __name__ == "__main__":
     pytest.main([__file__, "-v"])
