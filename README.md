@@ -2,7 +2,7 @@
 
 > Live signal for engineers building with AI. Tracks repos, tools, models, papers, and news — automatically, every 6 hours.
 
-**[View the radar →](https://ai-radar-hq.github.io/ai-ecosystem-radar)**  |  **[Subscribe to weekly digest →](https://github.com/ai-radar-hq/ai-ecosystem-radar/releases)**
+**[View the radar →](https://UtkarshaPampatwar.github.io/ai-ecosystem-radar)**  |  **[Subscribe to weekly digest →](https://github.com/UtkarshaPampatwar/ai-ecosystem-radar/releases)**
 
 ---
 
@@ -47,7 +47,7 @@ This repo is the fix: a fully automated, community-owned radar that watches six 
 ## Quickstart
 
 ```bash
-git clone https://github.com/ai-radar-hq/ai-ecosystem-radar
+git clone https://github.com/UtkarshaPampatwar/ai-ecosystem-radar
 cd ai-ecosystem-radar
 poetry install
 poetry run python -m pipeline.run
@@ -127,7 +127,7 @@ ai-ecosystem-radar/
 The live feed is plain JSON — consume it directly:
 
 ```bash
-curl https://raw.githubusercontent.com/ai-radar-hq/ai-ecosystem-radar/main/data/feed.json
+curl https://raw.githubusercontent.com/UtkarshaPampatwar/ai-ecosystem-radar/main/data/feed.json
 ```
 
 Each item:
