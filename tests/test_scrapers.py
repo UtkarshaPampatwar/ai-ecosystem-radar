@@ -108,8 +108,8 @@ class TestDedup:
 
     def test_different_urls_kept(self):
         items = [
-            make_item(url="https://github.com/org/repo-a"),
-            make_item(url="https://github.com/org/repo-b"),
+            make_item(url="https://github.com/org/repo-a", title="LangChain agent framework"),
+            make_item(url="https://github.com/org/repo-b", title="FastAPI web server toolkit"),
         ]
         result = deduplicate(items)
         assert len(result) == 2
