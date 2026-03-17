@@ -308,15 +308,14 @@ class TestClassifier:
 
     @pytest.mark.asyncio
     async def test_score_based_category_selects_highest_keyword_hit_count(self, make_item):
-        """When a text matches multiple categories, the one with more keyword hits wins.
-        Previously first-match-wins caused single incidental keyword matches to hijack category."""
+        """When a text matches multiple categories, the one with more keyword hits wins."""
         from pipeline.classify import classify_items
 
-        # Title strongly signals MODEL (llama, lora, gguf = 3 hits) not FRAMEWORK (0 hits)
+        # LLaMA + Mistral = 2 MODEL hits; no TOOL signals → MODEL
         items = [
             make_item(
-                title="LLaMA fine-tuning with LoRA and GGUF export",
-                description="Step-by-step guide to quantizing and exporting your model.",
+                title="LLaMA and Mistral weights released",
+                description="New open weights from Meta and Mistral AI.",
                 source=Source.GITHUB_TRENDING,
             )
         ]
@@ -368,6 +367,165 @@ class TestClassifier:
         result = await classify_items(items, {})
 
         assert result[0].category == Category.NEWS
+
+    @pytest.mark.asyncio
+    async def test_github_trending_item_with_no_keyword_match_is_repo_not_unknown(self, make_item):
+        """A GitHub trending repo with no model/tool/framework keywords must be REPO, not UNKNOWN.
+        Every github_trending item is a GitHub repo; REPO is the correct fallback category."""
+        from pipeline.classify import classify_items
+
+        items = [
+            make_item(
+                url="https://github.com/example/generic-project",
+                title="example / generic-project",
+                description="A collection of useful scripts.",
+                source=Source.GITHUB_TRENDING,
+            )
+        ]
+        result = await classify_items(items, {})
+
+        assert result[0].category == Category.REPO
+
+    @pytest.mark.asyncio
+    async def test_non_github_item_with_open_source_keywords_is_not_classified_as_repo(
+        self, make_item
+    ):
+        """A blog post or HN story that mentions 'open source' must NOT become REPO.
+        REPO is reserved for actual GitHub repositories."""
+        from pipeline.classify import classify_items
+
+        items = [
+            make_item(
+                url="https://news.ycombinator.com/item?id=99999",
+                title="Open source AI is changing everything",
+                description="This open-source implementation is remarkable.",
+                source=Source.HACKER_NEWS,
+            )
+        ]
+        result = await classify_items(items, {})
+
+        assert result[0].category != Category.REPO
+
+    @pytest.mark.asyncio
+    async def test_github_url_from_non_trending_source_is_classified_as_repo(self, make_item):
+        """A GitHub URL shared on HN or Reddit (not in github_trending) should still be REPO
+        when no stronger keyword signal exists."""
+        from pipeline.classify import classify_items
+
+        items = [
+            make_item(
+                url="https://github.com/someone/cool-project",
+                title="someone / cool-project",
+                description="A small utility project.",
+                source=Source.HACKER_NEWS,
+            )
+        ]
+        result = await classify_items(items, {})
+
+        assert result[0].category == Category.REPO
+
+    @pytest.mark.asyncio
+    async def test_framework_category_requires_named_framework_not_generic_word(self, make_item):
+        """Items containing the word 'framework' generically must NOT be classified as FRAMEWORK.
+        Only items mentioning a named AI framework (LangChain, LangGraph, etc.) qualify."""
+        from pipeline.classify import classify_items
+
+        items = [
+            make_item(
+                url="https://github.com/example/my-project",
+                title="A new software framework for building things",
+                description="This framework helps you build applications faster.",
+                source=Source.GITHUB_TRENDING,
+            )
+        ]
+        result = await classify_items(items, {})
+
+        assert result[0].category != Category.FRAMEWORK
+
+    @pytest.mark.asyncio
+    async def test_named_framework_in_description_produces_framework_category(self, make_item):
+        """Items that explicitly use or extend a named AI framework must be FRAMEWORK."""
+        from pipeline.classify import classify_items
+
+        items = [
+            make_item(
+                url="https://github.com/example/agent-kit",
+                title="Agent toolkit built on LangGraph and LangChain",
+                description="Extends LangGraph with memory and tool use.",
+                source=Source.GITHUB_TRENDING,
+            )
+        ]
+        result = await classify_items(items, {})
+
+        assert result[0].category == Category.FRAMEWORK
+
+    @pytest.mark.asyncio
+    async def test_proxy_service_mentioning_model_names_is_tool_not_model(self, make_item):
+        """A relay/proxy that supports multiple models must be TOOL, not MODEL.
+        Previously 'gemini' in the description hijacked the category to MODEL."""
+        from pipeline.classify import classify_items
+
+        items = [
+            make_item(
+                url="https://github.com/example/ai-relay",
+                title="example / ai-relay",
+                description="Self-hosted relay proxy supporting Claude, GPT-4, and Gemini.",
+                source=Source.GITHUB_TRENDING,
+            )
+        ]
+        result = await classify_items(items, {})
+
+        assert result[0].category == Category.TOOL
+
+    @pytest.mark.asyncio
+    async def test_training_ui_is_tool_not_model(self, make_item):
+        """A web UI or studio for fine-tuning must be TOOL, not MODEL.
+        Previously fine-tuning technique keywords (lora, gguf) caused these to be MODEL."""
+        from pipeline.classify import classify_items
+
+        items = [
+            make_item(
+                title="Unsloth Studio",
+                description="A new open-source web UI to train and run LLMs on your machine.",
+                source=Source.REDDIT,
+            )
+        ]
+        result = await classify_items(items, {})
+
+        assert result[0].category == Category.TOOL
+
+    @pytest.mark.asyncio
+    async def test_model_release_announcement_is_model_not_tool(self, make_item):
+        """A post announcing new model weights must be MODEL, not swallowed by TOOL rules."""
+        from pipeline.classify import classify_items
+
+        items = [
+            make_item(
+                title="Mistral Small 3B — new model weights released",
+                description="Open weights, 3B parameters, available on Hugging Face.",
+                source=Source.RSS_BLOG,
+            )
+        ]
+        result = await classify_items(items, {})
+
+        assert result[0].category == Category.MODEL
+
+    @pytest.mark.asyncio
+    async def test_hardware_news_is_not_classified_as_model(self, make_item):
+        """News about hardware (memory chips, GPUs) must not land in MODEL just because
+        the word 'memory' appears."""
+        from pipeline.classify import classify_items
+
+        items = [
+            make_item(
+                title="Memory Chip Crunch to Persist Until 2030, SK Hynix Chairman Says",
+                description="DRAM and HBM supply constraints affecting data centre buildouts.",
+                source=Source.REDDIT,
+            )
+        ]
+        result = await classify_items(items, {})
+
+        assert result[0].category != Category.MODEL
 
 
 # ─── Tag extraction unit tests ─────────────────────────────────────────────────

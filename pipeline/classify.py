@@ -26,28 +26,78 @@ _SOURCE_CATEGORY_OVERRIDE: dict[str, Category] = {
 
 _CATEGORY_RULES: list[tuple[Category, list[str]]] = [
     (
+        # TOOL is checked before MODEL so that proxy/app/UI items that merely
+        # mention model names in their descriptions don't get misclassified.
+        #
+        # A TOOL is software you use to work with AI models:
+        #   apps, UIs, proxies, runners, trainers, plugins, CLIs, gateways.
+        Category.TOOL,
+        [
+            # Interfaces & apps
+            "web ui",
+            "desktop app",
+            "web app",
+            "chat interface",
+            "chat ui",
+            "dashboard",
+            "playground",
+            "studio",  # e.g. Unsloth Studio, LM Studio
+            "gui",
+            # Dev tools
+            "cli tool",
+            "command-line tool",
+            "vscode extension",
+            "browser extension",
+            "chrome extension",
+            "plugin",
+            # Infra / services
+            "proxy",
+            "relay",
+            "gateway",
+            "api server",
+            "inference server",
+            "model server",
+            # Local runners
+            "run locally",
+            "run llms locally",
+            "run models locally",
+            "local llm",
+            "ollama",
+            "lmstudio",
+            # Training & fine-tuning applications (the software, not the technique)
+            "fine-tuning tool",
+            "training tool",
+            "train on your",
+            "fine-tune on your",
+        ],
+    ),
+    (
+        # MODEL means the item *is* a model being released or announced.
+        # Keywords here describe release language and specific named model families.
+        # Technique keywords (lora, gguf, fine-tun) are intentionally excluded —
+        # they appear in tool descriptions and would cause false positives.
         Category.MODEL,
         [
-            "model release",
+            # Explicit release language
             "model weights",
             "model checkpoint",
-            "fine-tun",
-            "pretrain",
+            "open weights",
+            "weights released",
+            "new model",
+            "model release",
+            "releasing model",
+            "billion parameter",
+            # Named model families (the model itself, not tools that use it)
             "llama",
             "mistral",
-            "gemini",
-            "gpt-",
             "phi-",
             "qwen",
             "deepseek",
             "falcon",
             "bloom",
-            "gguf",
-            "ggml",
-            "lora",
-            "qlora",
-            "safetensors",
-            "quantiz",
+            "nemotron",
+            "grok",
+            "gemma",
         ],
     ),
     (
@@ -65,6 +115,7 @@ _CATEGORY_RULES: list[tuple[Category, list[str]]] = [
     (
         Category.FRAMEWORK,
         [
+            # Named AI development frameworks only.
             "langchain",
             "llamaindex",
             "llama_index",
@@ -73,34 +124,16 @@ _CATEGORY_RULES: list[tuple[Category, list[str]]] = [
             "langgraph",
             "dspy",
             "haystack",
-            "orchestrat",
+            "pydantic-ai",
+            "smolagents",
+            "semantic kernel",
+            "agno",
+            "openai agents sdk",
+            "swarm",
         ],
     ),
-    (
-        Category.TOOL,
-        [
-            "cli tool",
-            "command-line",
-            "vscode extension",
-            "browser extension",
-            "desktop app",
-            "web app",
-            "dashboard",
-            "playground",
-            "plugin",
-        ],
-    ),
-    (
-        Category.REPO,
-        [
-            "open source",
-            "open-source",
-            "repository",
-            "codebase",
-            "implementation",
-            "released code",
-        ],
-    ),
+    # REPO is not scored here — it is used as a fallback for GitHub items only.
+    # See _detect_category for the fallback logic.
     (
         Category.NEWS,
         [
@@ -134,7 +167,7 @@ _SEMANTIC_TAG_RULES: list[tuple[str, list[str]]] = [
     ("code-generation", ["code generation", "coding assistant", "copilot"]),
     ("robotics", ["robot", "embodied"]),
     ("reasoning", ["reasoning", "chain of thought", "cot", "o1", "thinking"]),
-    ("memory", ["memory", "context window", "long-context"]),
+    ("memory", ["context window", "long-context", "kv cache", "memory augmented"]),
 ]
 
 # High-signal AI engineering keywords — each occurrence boosts relevance.
@@ -198,14 +231,16 @@ _HTML_TAG_RE = re.compile(r"<[^>]+>")
 _NEWS_SOURCES = {"hacker_news", "reddit", "rss_blog", "twitter"}
 
 
-def _detect_category(text: str, source: str | None = None) -> Category:
+def _detect_category(text: str, source: str | None = None, url: str = "") -> Category:
     # Source-level override takes absolute priority (e.g. arxiv → always PAPER).
     if source and source in _SOURCE_CATEGORY_OVERRIDE:
         return _SOURCE_CATEGORY_OVERRIDE[source]
 
     lower = text.lower()
+    is_github_item = source == "github_trending" or "github.com" in url
 
     # Score every category; pick the one with the most keyword hits.
+    # REPO is excluded from scoring — it is only valid as a GitHub fallback (below).
     scores: dict[Category, int] = {}
     for category, keywords in _CATEGORY_RULES:
         hits = sum(1 for kw in keywords if kw in lower)
@@ -213,9 +248,12 @@ def _detect_category(text: str, source: str | None = None) -> Category:
             scores[category] = hits
 
     if scores:
-        # max() is stable on dict insertion order, so list-order breaks ties.
         return max(scores, key=lambda c: scores[c])
 
+    # No keyword matched — fall back based on source type.
+    # GitHub items without a stronger signal are repos, not unknowns.
+    if is_github_item:
+        return Category.REPO
     if source in _NEWS_SOURCES:
         return Category.NEWS
     return Category.UNKNOWN
@@ -273,7 +311,7 @@ async def classify_items(
 
     for raw in items:
         text = f"{raw.title} {raw.description}"
-        category = _detect_category(text, source=raw.source.value)
+        category = _detect_category(text, source=raw.source.value, url=raw.url)
         relevance = _score_relevance(raw, category)
         velocity, hot = velocity_map.get(raw.url_hash, (0.0, HotLabel.STABLE))
 
