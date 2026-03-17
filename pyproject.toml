@@ -30,9 +30,10 @@ build-backend = "poetry.core.masonry.api"
 [tool.pytest.ini_options]
 asyncio_mode = "auto"
 testpaths = ["tests"]
+pythonpath = ["."]
 
 [tool.poe.tasks]
-format   = "ruff format ."
+format   = [{cmd = "ruff check --select I --fix ."}, {cmd = "ruff format ."}]
 lint     = "ruff check ."
 fix      = "ruff check --fix ."
 test     = "pytest"
