@@ -1,11 +1,19 @@
 name: Deploy to GitHub Pages
 
 on:
+  # Fires when a human pushes UI changes or feed data directly
   push:
     branches: [main]
     paths:
-      - "data/feed.json"      # re-deploy whenever data updates
-      - "site/**"             # or when the UI changes
+      - "data/feed.json"
+      - "site/**"
+  # Fires after the scrape cron commits feed.json via GITHUB_TOKEN.
+  # Pushes from GITHUB_TOKEN do not trigger `push` events, so this
+  # workflow_run trigger is required for the 6-hourly auto-deploy.
+  workflow_run:
+    workflows: ["Scrape & score"]
+    types: [completed]
+    branches: [main]
   workflow_dispatch:
 
 permissions:
