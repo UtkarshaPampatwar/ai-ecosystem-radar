@@ -1,36 +1,173 @@
 [
   {
-    "url": "https://github.com/asgeirtj/system_prompts_leaks",
-    "hash": "716cf9e2237ac9db",
-    "title": "asgeirtj / system_prompts_leaks",
-    "summary": "Extracted system prompts from ChatGPT (GPT-5.4, GPT-5.3, Codex), Claude (Opus 4.6, Sonnet 4.6, Claude Code), Gemini (3.1",
+    "url": "https://github.com/songquanpeng/one-api",
+    "hash": "61942c203cc6d9d7",
+    "title": "songquanpeng / one-api",
+    "summary": "LLM API \u7ba1\u7406 & \u5206\u53d1\u7cfb\u7edf\uff0c\u652f\u6301 OpenAI\u3001Azure\u3001Anthropic Claude\u3001Google Gemini\u3001DeepSeek\u3001\u5b57\u8282\u8c46\u5305\u3001ChatGLM\u3001\u6587\u5fc3\u4e00\u8a00\u3001\u8baf\u98de\u661f\u706b\u3001\u901a\u4e49\u5343\u95ee\u3001360 \u667a\u8111\u3001\u817e\u8baf\u6df7\u5143\u7b49\u4e3b\u6d41\u6a21\u578b\uff0c\u7edf",
     "source": "github_trending",
     "category": "model",
-    "relevance": 95,
+    "relevance": 99,
     "hot": "rising",
     "breaking": false,
-    "stars": 36753,
-    "tags": [],
-    "scraped_at": "2026-04-03T07:01:05.191682+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "stars": 31393,
+    "tags": [
+      "llm"
+    ],
+    "scraped_at": "2026-04-03T12:49:37.703640+00:00",
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
-    "url": "https://github.com/affaan-m/everything-claude-code",
-    "hash": "257ed09536576a04",
-    "title": "affaan-m / everything-claude-code",
-    "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development f",
+    "url": "https://github.com/oumi-ai/oumi",
+    "hash": "192c45da14babcf2",
+    "title": "oumi-ai / oumi",
+    "summary": "Easily fine-tune, evaluate and deploy gpt-oss, Qwen3, DeepSeek-R1, or any open source LLM / VLM!",
+    "source": "github_trending",
+    "category": "model",
+    "relevance": 98,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 9117,
+    "tags": [
+      "llm",
+      "fine-tuning"
+    ],
+    "scraped_at": "2026-04-03T12:49:36.758467+00:00",
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
+  },
+  {
+    "url": "https://github.com/onyx-dot-app/onyx",
+    "hash": "de3e2955aed3e931",
+    "title": "onyx-dot-app / onyx",
+    "summary": "Open Source AI Platform - AI Chat with advanced features that works with every LLM",
+    "source": "github_trending",
+    "category": "repo",
+    "relevance": 88,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 22598,
+    "tags": [
+      "llm"
+    ],
+    "scraped_at": "2026-04-03T12:49:36.753739+00:00",
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
+  },
+  {
+    "url": "https://github.com/microsoft/BitNet",
+    "hash": "07e9e3f996905c5d",
+    "title": "microsoft / BitNet",
+    "summary": "Official inference framework for 1-bit LLMs",
+    "source": "github_trending",
+    "category": "repo",
+    "relevance": 88,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 37074,
+    "tags": [
+      "llm",
+      "inference"
+    ],
+    "scraped_at": "2026-04-03T12:49:36.757320+00:00",
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
+  },
+  {
+    "url": "https://github.com/simstudioai/sim",
+    "hash": "c0344b99cf813034",
+    "title": "simstudioai / sim",
+    "summary": "Build, deploy, and orchestrate AI agents. Sim is the central intelligence layer for your AI workforce.",
+    "source": "github_trending",
+    "category": "tool",
+    "relevance": 85,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 27482,
+    "tags": [
+      "agents"
+    ],
+    "scraped_at": "2026-04-03T12:49:38.506832+00:00",
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
+  },
+  {
+    "url": "https://github.com/hsliuping/TradingAgents-CN",
+    "hash": "21a608210f053b14",
+    "title": "hsliuping / TradingAgents-CN",
+    "summary": "\u57fa\u4e8e\u591a\u667a\u80fd\u4f53LLM\u7684\u4e2d\u6587\u91d1\u878d\u4ea4\u6613\u6846\u67b6 - TradingAgents\u4e2d\u6587\u589e\u5f3a\u7248",
+    "source": "github_trending",
+    "category": "repo",
+    "relevance": 84,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 23214,
+    "tags": [
+      "agents",
+      "llm"
+    ],
+    "scraped_at": "2026-04-03T12:49:36.754624+00:00",
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
+  },
+  {
+    "url": "https://github.com/Mintplex-Labs/anything-llm",
+    "hash": "85b23a6c94bb0832",
+    "title": "Mintplex-Labs / anything-llm",
+    "summary": "The all-in-one AI productivity accelerator. On device and privacy first with no annoying setup or configuration.",
+    "source": "github_trending",
+    "category": "repo",
+    "relevance": 84,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 57525,
+    "tags": [
+      "llm"
+    ],
+    "scraped_at": "2026-04-03T12:49:37.703120+00:00",
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
+  },
+  {
+    "url": "https://github.com/f/prompts.chat",
+    "hash": "1643157b768c76e7",
+    "title": "f / prompts.chat",
+    "summary": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source \u2014 self-hos",
+    "source": "github_trending",
+    "category": "repo",
+    "relevance": 84,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 156899,
+    "tags": [],
+    "scraped_at": "2026-04-03T12:49:39.449081+00:00",
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
+  },
+  {
+    "url": "https://github.com/LearningCircuit/local-deep-research",
+    "hash": "01c580dcfe10f39b",
+    "title": "LearningCircuit / local-deep-research",
+    "summary": "Local Deep Research achieves ~95% on SimpleQA benchmark (tested with GPT-4.1-mini). Supports local and cloud LLMs (Ollam",
+    "source": "github_trending",
+    "category": "tool",
+    "relevance": 84,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 4233,
+    "tags": [
+      "llm",
+      "evaluation"
+    ],
+    "scraped_at": "2026-04-03T12:49:36.758131+00:00",
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
+  },
+  {
+    "url": "https://github.com/PostHog/posthog",
+    "hash": "fbfdec28cfffc04c",
+    "title": "PostHog / posthog",
+    "summary": "\ud83e\udd94 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytic",
     "source": "github_trending",
     "category": "repo",
     "relevance": 80,
     "hot": "rising",
     "breaking": false,
-    "stars": 134331,
-    "tags": [
-      "agents",
-      "security"
-    ],
-    "scraped_at": "2026-04-03T07:01:03.742297+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "stars": 32356,
+    "tags": [],
+    "scraped_at": "2026-04-03T12:49:36.756151+00:00",
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://github.com/Yeachan-Heo/oh-my-codex",
@@ -42,12 +179,47 @@
     "relevance": 80,
     "hot": "rising",
     "breaking": false,
-    "stars": 12504,
+    "stars": 13186,
     "tags": [
       "agents"
     ],
-    "scraped_at": "2026-04-03T07:01:04.391966+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scraped_at": "2026-04-03T12:49:38.505728+00:00",
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
+  },
+  {
+    "url": "https://github.com/code-yeongyu/oh-my-openagent",
+    "hash": "a90e1fa2514daead",
+    "title": "code-yeongyu / oh-my-openagent",
+    "summary": "omo; the best agent harness - previously oh-my-opencode",
+    "source": "github_trending",
+    "category": "repo",
+    "relevance": 80,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 47561,
+    "tags": [
+      "agents"
+    ],
+    "scraped_at": "2026-04-03T12:49:38.507280+00:00",
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
+  },
+  {
+    "url": "https://github.com/Blaizzy/mlx-vlm",
+    "hash": "a833997fb1804960",
+    "title": "Blaizzy / mlx-vlm",
+    "summary": "MLX-VLM is a package for inference and fine-tuning of Vision Language Models (VLMs) on your Mac using MLX.",
+    "source": "github_trending",
+    "category": "repo",
+    "relevance": 79,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 3043,
+    "tags": [
+      "fine-tuning",
+      "inference"
+    ],
+    "scraped_at": "2026-04-03T12:49:36.756974+00:00",
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://github.com/google-research/timesfm",
@@ -59,10 +231,89 @@
     "relevance": 80,
     "hot": "rising",
     "breaking": false,
-    "stars": 13579,
+    "stars": 13735,
     "tags": [],
-    "scraped_at": "2026-04-03T07:01:02.714700+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scraped_at": "2026-04-03T12:49:36.754135+00:00",
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
+  },
+  {
+    "url": "https://github.com/vectorize-io/hindsight",
+    "hash": "ef1d62b18b98cdd0",
+    "title": "vectorize-io / hindsight",
+    "summary": "Hindsight: Agent Memory That Learns",
+    "source": "github_trending",
+    "category": "repo",
+    "relevance": 75,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 7074,
+    "tags": [
+      "agents"
+    ],
+    "scraped_at": "2026-04-03T12:49:36.755793+00:00",
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
+  },
+  {
+    "url": "https://github.com/SynkraAI/aiox-core",
+    "hash": "ab1c0d0b463d55a7",
+    "title": "SynkraAI / aiox-core",
+    "summary": "Synkra AIOS: AI-Orchestrated System for Full Stack Development - Core Framework v4.0",
+    "source": "github_trending",
+    "category": "repo",
+    "relevance": 75,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 2567,
+    "tags": [],
+    "scraped_at": "2026-04-03T12:49:37.705153+00:00",
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
+  },
+  {
+    "url": "https://github.com/idinging/freemail",
+    "hash": "bb853fd47e19270e",
+    "title": "idinging / freemail",
+    "summary": "Cloudflare \u57df\u540d\u90ae\u7bb1\u7cfb\u7edf \u4e34\u65f6\u90ae\u7bb1\u7cfb\u7edf domain mail tempmail",
+    "source": "github_trending",
+    "category": "repo",
+    "relevance": 75,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 1278,
+    "tags": [],
+    "scraped_at": "2026-04-03T12:49:37.705951+00:00",
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
+  },
+  {
+    "url": "https://github.com/multica-ai/multica",
+    "hash": "1c299b0df37a055a",
+    "title": "multica-ai / multica",
+    "summary": "Trending GitHub repository: multica-ai / multica",
+    "source": "github_trending",
+    "category": "repo",
+    "relevance": 75,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 1812,
+    "tags": [],
+    "scraped_at": "2026-04-03T12:49:38.506272+00:00",
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
+  },
+  {
+    "url": "https://github.com/dmtrKovalenko/fff.nvim",
+    "hash": "c400683e9a4e097b",
+    "title": "dmtrKovalenko / fff.nvim",
+    "summary": "The fastest and the most accurate file search toolkit for AI agents, Neovim, Rust, C, and NodeJS",
+    "source": "github_trending",
+    "category": "repo",
+    "relevance": 75,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 2988,
+    "tags": [
+      "agents"
+    ],
+    "scraped_at": "2026-04-03T12:49:39.448578+00:00",
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://github.com/yusufkaraaslan/Skill_Seekers",
@@ -74,10 +325,10 @@
     "relevance": 80,
     "hot": "rising",
     "breaking": false,
-    "stars": 12188,
+    "stars": 12221,
     "tags": [],
-    "scraped_at": "2026-04-03T07:01:02.713967+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scraped_at": "2026-04-03T12:49:36.755056+00:00",
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://github.com/MervinPraison/PraisonAI",
@@ -89,14 +340,31 @@
     "relevance": 83,
     "hot": "stable",
     "breaking": false,
-    "stars": 6361,
+    "stars": 6385,
     "tags": [
       "agents",
       "rag",
       "llm"
     ],
-    "scraped_at": "2026-04-03T07:01:02.713539+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scraped_at": "2026-04-03T12:49:36.757686+00:00",
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
+  },
+  {
+    "url": "https://github.com/microsoft/apm",
+    "hash": "4a861aa09de2a8d3",
+    "title": "microsoft / apm",
+    "summary": "Agent Package Manager",
+    "source": "github_trending",
+    "category": "repo",
+    "relevance": 70,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 934,
+    "tags": [
+      "agents"
+    ],
+    "scraped_at": "2026-04-03T12:49:36.755418+00:00",
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://github.com/ComposioHQ/open-claude-cowork",
@@ -108,10 +376,10 @@
     "relevance": 79,
     "hot": "stable",
     "breaking": false,
-    "stars": 3379,
+    "stars": 3432,
     "tags": [],
-    "scraped_at": "2026-04-03T07:01:03.743007+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scraped_at": "2026-04-03T12:49:37.704024+00:00",
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2604.01599v1",
@@ -133,7 +401,7 @@
       "memory"
     ],
     "scraped_at": "2026-04-02T04:15:42+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2604.01437v1",
@@ -152,7 +420,7 @@
       "llm"
     ],
     "scraped_at": "2026-04-01T22:24:08+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2603.28488v1",
@@ -172,7 +440,7 @@
       "reasoning"
     ],
     "scraped_at": "2026-03-30T14:23:15+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2604.00865v1",
@@ -192,7 +460,7 @@
       "reasoning"
     ],
     "scraped_at": "2026-04-01T13:13:27+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2604.02091v1",
@@ -210,7 +478,7 @@
       "llm"
     ],
     "scraped_at": "2026-04-02T14:19:47+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2604.02006v1",
@@ -230,7 +498,7 @@
       "reasoning"
     ],
     "scraped_at": "2026-04-02T13:10:06+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2604.01905v1",
@@ -249,22 +517,7 @@
       "security"
     ],
     "scraped_at": "2026-04-02T11:22:07+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
-  },
-  {
-    "url": "https://github.com/zai-org/GLM-OCR",
-    "hash": "42c77a1f37de15ae",
-    "title": "zai-org / GLM-OCR",
-    "summary": "GLM-OCR: Accurate \u00d7 Fast \u00d7 Comprehensive",
-    "source": "github_trending",
-    "category": "repo",
-    "relevance": 75,
-    "hot": "stable",
-    "breaking": false,
-    "stars": 5284,
-    "tags": [],
-    "scraped_at": "2026-04-03T07:01:02.714329+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2604.01489v1",
@@ -282,7 +535,7 @@
       "llm"
     ],
     "scraped_at": "2026-04-01T23:55:23+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://github.com/Alishahryar1/free-claude-code",
@@ -294,27 +547,27 @@
     "relevance": 80,
     "hot": "stable",
     "breaking": false,
-    "stars": 1439,
+    "stars": 1449,
     "tags": [],
-    "scraped_at": "2026-04-03T07:01:02.715183+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scraped_at": "2026-04-03T12:49:36.756511+00:00",
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://lemonade-server.ai",
     "hash": "cb80e1438146acf2",
     "title": "Lemonade by AMD: a fast and open source local LLM server using GPU and NPU",
-    "summary": "HN story with 493 points and 107 comments.",
+    "summary": "HN story with 526 points and 111 comments.",
     "source": "hacker_news",
     "category": "tool",
     "relevance": 78,
     "hot": "stable",
     "breaking": false,
-    "stars": 493,
+    "stars": 526,
     "tags": [
       "llm"
     ],
     "scraped_at": "2026-04-02T11:04:51+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2604.02259v1",
@@ -331,7 +584,7 @@
       "rag"
     ],
     "scraped_at": "2026-04-02T16:52:48+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2604.01733v1",
@@ -349,7 +602,7 @@
       "evaluation"
     ],
     "scraped_at": "2026-04-02T07:53:40+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2604.01658v1",
@@ -368,7 +621,7 @@
       "fine-tuning"
     ],
     "scraped_at": "2026-04-02T05:59:06+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2604.01647v1",
@@ -387,7 +640,7 @@
       "embeddings"
     ],
     "scraped_at": "2026-04-02T05:46:40+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2603.29085v1",
@@ -406,7 +659,7 @@
       "reasoning"
     ],
     "scraped_at": "2026-03-30T23:52:54+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2604.01452v1",
@@ -425,7 +678,7 @@
       "llm"
     ],
     "scraped_at": "2026-04-01T22:58:42+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2604.01395v1",
@@ -442,7 +695,7 @@
       "rag"
     ],
     "scraped_at": "2026-04-01T20:53:17+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2603.27277v1",
@@ -462,7 +715,7 @@
       "fine-tuning"
     ],
     "scraped_at": "2026-03-28T14:18:12+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2604.00901v1",
@@ -481,7 +734,7 @@
       "reasoning"
     ],
     "scraped_at": "2026-04-01T13:45:52+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2604.00890v1",
@@ -500,7 +753,7 @@
       "reasoning"
     ],
     "scraped_at": "2026-04-01T13:37:06+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2604.00715v1",
@@ -517,7 +770,7 @@
       "rag"
     ],
     "scraped_at": "2026-04-01T10:26:03+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2603.24943v1",
@@ -537,7 +790,7 @@
       "evaluation"
     ],
     "scraped_at": "2026-03-26T02:20:04+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2603.24203v1",
@@ -557,7 +810,7 @@
       "security"
     ],
     "scraped_at": "2026-03-25T11:24:47+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2603.21641v1",
@@ -576,7 +829,7 @@
       "security"
     ],
     "scraped_at": "2026-03-23T07:20:00+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2603.20316v1",
@@ -594,7 +847,7 @@
       "mcp"
     ],
     "scraped_at": "2026-03-19T22:04:42+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2603.20313v1",
@@ -612,7 +865,7 @@
       "llm"
     ],
     "scraped_at": "2026-03-19T18:10:35+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2604.00387v1",
@@ -630,7 +883,7 @@
       "security"
     ],
     "scraped_at": "2026-04-01T02:16:42+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://github.com/AikidoSec/safe-chain",
@@ -642,10 +895,10 @@
     "relevance": 75,
     "hot": "stable",
     "breaking": false,
-    "stars": 1018,
+    "stars": 1031,
     "tags": [],
-    "scraped_at": "2026-04-03T07:01:03.743498+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scraped_at": "2026-04-03T12:49:37.704684+00:00",
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2604.00130v1",
@@ -663,7 +916,7 @@
       "reasoning"
     ],
     "scraped_at": "2026-03-31T18:35:22+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2604.02194v1",
@@ -680,7 +933,7 @@
       "rag"
     ],
     "scraped_at": "2026-04-02T15:49:50+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2604.02145v1",
@@ -698,7 +951,7 @@
       "llm"
     ],
     "scraped_at": "2026-04-02T15:15:57+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2603.29419v1",
@@ -716,7 +969,7 @@
       "robotics"
     ],
     "scraped_at": "2026-03-31T08:25:22+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2603.29232v1",
@@ -735,7 +988,7 @@
       "reasoning"
     ],
     "scraped_at": "2026-03-31T04:03:07+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2604.01608v1",
@@ -753,7 +1006,7 @@
       "rag"
     ],
     "scraped_at": "2026-04-02T04:38:32+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2604.01520v1",
@@ -771,7 +1024,7 @@
       "llm"
     ],
     "scraped_at": "2026-04-02T01:18:56+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2604.01438v1",
@@ -790,7 +1043,7 @@
       "security"
     ],
     "scraped_at": "2026-04-01T22:24:24+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2603.28590v2",
@@ -809,7 +1062,7 @@
       "reasoning"
     ],
     "scraped_at": "2026-03-30T15:37:42+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2603.28444v1",
@@ -826,61 +1079,7 @@
       "rag"
     ],
     "scraped_at": "2026-03-30T13:49:03+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
-  },
-  {
-    "url": "https://arxiv.org/abs/2604.00687v1",
-    "hash": "4f80da4535e31314",
-    "title": "SCPatcher: Automated Smart Contract Code Repair via Retrieval-Augmented Generation and Knowledge Graph",
-    "summary": "Smart contract vulnerabilities can cause substantial financial losses due to the immutability of code after deployment. ",
-    "source": "arxiv",
-    "category": "paper",
-    "relevance": 79,
-    "hot": "stable",
-    "breaking": false,
-    "stars": null,
-    "tags": [
-      "rag"
-    ],
-    "scraped_at": "2026-04-01T09:44:45+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
-  },
-  {
-    "url": "https://arxiv.org/abs/2603.27094v1",
-    "hash": "31b9aa3eb63d83e3",
-    "title": "Sovereign Context Protocol: An Open Attribution Layer for Human-Generated Content in the Age of Large Language Models",
-    "summary": "Large Language Models (LLMs) consume vast quantities of human-generated content for both training and real-time inferenc",
-    "source": "arxiv",
-    "category": "paper",
-    "relevance": 87,
-    "hot": "stable",
-    "breaking": false,
-    "stars": null,
-    "tags": [
-      "llm",
-      "inference"
-    ],
-    "scraped_at": "2026-03-28T02:28:41+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
-  },
-  {
-    "url": "https://arxiv.org/abs/2603.28021v2",
-    "hash": "91fc981d0b566479",
-    "title": "Audio Language Model for Deepfake Detection Grounded in Acoustic Chain-of-Thought",
-    "summary": "Deepfake speech detection systems are often limited to binary classification tasks and struggle to generate interpretabl",
-    "source": "arxiv",
-    "category": "paper",
-    "relevance": 83,
-    "hot": "stable",
-    "breaking": false,
-    "stars": null,
-    "tags": [
-      "rag",
-      "embeddings",
-      "reasoning"
-    ],
-    "scraped_at": "2026-03-30T04:27:59+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2603.25422v1",
@@ -898,7 +1097,7 @@
       "prompt-engineering"
     ],
     "scraped_at": "2026-03-26T13:14:48+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2603.22942v1",
@@ -917,7 +1116,25 @@
       "inference"
     ],
     "scraped_at": "2026-03-24T08:39:06+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2603.27094v1",
+    "hash": "31b9aa3eb63d83e3",
+    "title": "Sovereign Context Protocol: An Open Attribution Layer for Human-Generated Content in the Age of Large Language Models",
+    "summary": "Large Language Models (LLMs) consume vast quantities of human-generated content for both training and real-time inferenc",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 87,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "llm",
+      "inference"
+    ],
+    "scraped_at": "2026-03-28T02:28:41+00:00",
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2603.23802v1",
@@ -936,7 +1153,7 @@
       "llm"
     ],
     "scraped_at": "2026-03-25T00:25:49+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2603.18063v1",
@@ -955,7 +1172,43 @@
       "security"
     ],
     "scraped_at": "2026-03-18T02:22:41+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2604.00687v1",
+    "hash": "4f80da4535e31314",
+    "title": "SCPatcher: Automated Smart Contract Code Repair via Retrieval-Augmented Generation and Knowledge Graph",
+    "summary": "Smart contract vulnerabilities can cause substantial financial losses due to the immutability of code after deployment. ",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 79,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "rag"
+    ],
+    "scraped_at": "2026-04-01T09:44:45+00:00",
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2603.28021v2",
+    "hash": "91fc981d0b566479",
+    "title": "Audio Language Model for Deepfake Detection Grounded in Acoustic Chain-of-Thought",
+    "summary": "Deepfake speech detection systems are often limited to binary classification tasks and struggle to generate interpretabl",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 83,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "rag",
+      "embeddings",
+      "reasoning"
+    ],
+    "scraped_at": "2026-03-30T04:27:59+00:00",
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2603.30036v1",
@@ -973,7 +1226,7 @@
       "reasoning"
     ],
     "scraped_at": "2026-03-31T17:38:39+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2604.02280v1",
@@ -992,7 +1245,7 @@
       "reasoning"
     ],
     "scraped_at": "2026-04-02T17:14:53+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2604.02211v1",
@@ -1009,7 +1262,7 @@
       "agents"
     ],
     "scraped_at": "2026-04-02T16:04:52+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2604.02155v1",
@@ -1027,7 +1280,7 @@
       "reasoning"
     ],
     "scraped_at": "2026-04-02T15:25:13+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2604.01702v1",
@@ -1045,7 +1298,7 @@
       "reasoning"
     ],
     "scraped_at": "2026-04-02T07:00:54+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2604.01605v1",
@@ -1063,7 +1316,7 @@
       "robotics"
     ],
     "scraped_at": "2026-04-02T04:29:44+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2604.01527v1",
@@ -1081,7 +1334,7 @@
       "evaluation"
     ],
     "scraped_at": "2026-04-02T01:52:55+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2603.29067v1",
@@ -1098,7 +1351,7 @@
       "rag"
     ],
     "scraped_at": "2026-03-30T23:10:19+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://huggingface.co/blog/gemma4",
@@ -1115,22 +1368,7 @@
       "multimodal"
     ],
     "scraped_at": "2026-04-02T00:00:00+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
-  },
-  {
-    "url": "https://huggingface.co/blog/tiiuae/falcon-perception",
-    "hash": "ab44cc5f473c6080",
-    "title": "Falcon Perception",
-    "summary": "New post from Hugging Face.",
-    "source": "rss_blog",
-    "category": "model",
-    "relevance": 75,
-    "hot": "stable",
-    "breaking": false,
-    "stars": null,
-    "tags": [],
-    "scraped_at": "2026-04-01T07:13:20+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2603.25960v1",
@@ -1148,7 +1386,7 @@
       "reasoning"
     ],
     "scraped_at": "2026-03-26T23:04:20+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2603.25942v1",
@@ -1167,7 +1405,7 @@
       "reasoning"
     ],
     "scraped_at": "2026-03-26T22:11:14+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2603.24775v1",
@@ -1185,7 +1423,7 @@
       "mcp"
     ],
     "scraped_at": "2026-03-25T19:45:37+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2603.24703v1",
@@ -1203,7 +1441,7 @@
       "inference"
     ],
     "scraped_at": "2026-03-25T18:27:59+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2603.22489v1",
@@ -1221,7 +1459,7 @@
       "security"
     ],
     "scraped_at": "2026-03-23T18:59:04+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2603.20405v1",
@@ -1238,7 +1476,7 @@
       "mcp"
     ],
     "scraped_at": "2026-03-20T18:25:42+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2603.17339v1",
@@ -1256,39 +1494,22 @@
       "llm"
     ],
     "scraped_at": "2026-03-18T04:10:31+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
-    "url": "https://news.ycombinator.com/item?id=47599303",
-    "hash": "06e9886167f47b37",
-    "title": "Ask HN: Client took over development by vibe coding. What to do?",
-    "summary": "I\u2019ve worked on a project for one year now, a marketplace web application for one of my clients. It involves a web shop f",
-    "source": "hacker_news",
-    "category": "tool",
-    "relevance": 74,
-    "hot": "stable",
-    "breaking": false,
-    "stars": 58,
-    "tags": [],
-    "scraped_at": "2026-04-01T11:09:03+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
-  },
-  {
-    "url": "https://twitter.com/ggerganov/status/2039752638384709661#m",
-    "hash": "375c9bb8b1685b08",
-    "title": "@huggingface: RT by @huggingface: Let me demonstrate the true power of llama.cpp:\n\n- Running on Mac Studio M2 Ultra (3 years old)\n- Ge",
-    "summary": "RT by @huggingface: Let me demonstrate the true power of llama.cpp: - Running on Mac Studio M2 Ultra (3 years old) - Gem",
-    "source": "twitter",
+    "url": "https://huggingface.co/blog/tiiuae/falcon-perception",
+    "hash": "ab44cc5f473c6080",
+    "title": "Falcon Perception",
+    "summary": "New post from Hugging Face.",
+    "source": "rss_blog",
     "category": "model",
-    "relevance": 69,
+    "relevance": 75,
     "hot": "stable",
     "breaking": false,
     "stars": null,
-    "tags": [
-      "mcp"
-    ],
-    "scraped_at": "2026-04-02T17:11:40+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "tags": [],
+    "scraped_at": "2026-04-01T07:13:20+00:00",
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://twitter.com/mervenoyann/status/2039739097611215344#m",
@@ -1305,7 +1526,7 @@
       "agents"
     ],
     "scraped_at": "2026-04-02T16:17:52+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://twitter.com/GoogleDeepMind/status/2039735446628925907#m",
@@ -1323,7 +1544,7 @@
       "reasoning"
     ],
     "scraped_at": "2026-04-02T16:03:21+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2603.28116v1",
@@ -1342,7 +1563,7 @@
       "reasoning"
     ],
     "scraped_at": "2026-03-30T07:28:41+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://blog.langchain.com/march-2026-langchain-newsletter/",
@@ -1359,7 +1580,7 @@
       "agents"
     ],
     "scraped_at": "2026-04-01T21:24:29+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://blog.langchain.com/announcing-the-langchain-mongodb-partnership-the-ai-agent-stack-that-runs-on-the-database-you-already-trust/",
@@ -1376,7 +1597,7 @@
       "agents"
     ],
     "scraped_at": "2026-03-31T17:00:21+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://twitter.com/ClementDelangue/status/2039791984827593053#m",
@@ -1391,7 +1612,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-04-02T19:48:01+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://twitter.com/mervenoyann/status/2039788257815261400#m",
@@ -1408,7 +1629,25 @@
       "agents"
     ],
     "scraped_at": "2026-04-02T19:33:12+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
+  },
+  {
+    "url": "https://twitter.com/HuggingPapers/status/2039754171969069501#m",
+    "hash": "56ac980294df07e3",
+    "title": "@huggingface: RT by @huggingface: NVIDIA just released a quantized Gemma 4 31B on Hugging Face\n\nNVFP4 compression delivers 4x smaller",
+    "summary": "RT by @huggingface: NVIDIA just released a quantized Gemma 4 31B on Hugging Face NVFP4 compression delivers 4x smaller w",
+    "source": "twitter",
+    "category": "model",
+    "relevance": 65,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "inference",
+      "memory"
+    ],
+    "scraped_at": "2026-04-02T17:17:46+00:00",
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://twitter.com/GoogleDeepMind/status/2039736203193241623#m",
@@ -1423,7 +1662,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-04-02T16:06:21+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2603.27201v1",
@@ -1441,7 +1680,7 @@
       "reasoning"
     ],
     "scraped_at": "2026-03-28T08:56:19+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://twitter.com/KyleHessling1/status/2039685136221118861#m",
@@ -1459,7 +1698,7 @@
       "reasoning"
     ],
     "scraped_at": "2026-04-02T12:43:26+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2603.26410v1",
@@ -1476,22 +1715,22 @@
       "reasoning"
     ],
     "scraped_at": "2026-03-27T13:39:05+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://engineering.fb.com/2026/03/30/data-center-engineering/ai-for-american-produced-cement-and-concrete/",
     "hash": "c2097731ef655f47",
     "title": "AI for American-produced cement and concrete",
-    "summary": "HN story with 216 points and 116 comments.",
+    "summary": "HN story with 218 points and 117 comments.",
     "source": "hacker_news",
     "category": "news",
     "relevance": 60,
     "hot": "stable",
     "breaking": false,
-    "stars": 216,
+    "stars": 218,
     "tags": [],
     "scraped_at": "2026-04-01T17:17:24+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://www.zdnet.com/article/maybe-open-source-needs-ai/",
@@ -1506,7 +1745,7 @@
     "stars": 54,
     "tags": [],
     "scraped_at": "2026-04-01T14:07:50+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://twitter.com/gkisokay/status/2039505575466373331#m",
@@ -1523,7 +1762,7 @@
       "llm"
     ],
     "scraped_at": "2026-04-02T00:49:56+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://twitter.com/simonw/status/2039775483412566292#m",
@@ -1538,7 +1777,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-04-02T18:42:27+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://blog.langchain.com/open-models-have-crossed-a-threshold/",
@@ -1555,7 +1794,7 @@
       "agents"
     ],
     "scraped_at": "2026-04-02T17:51:54+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://openai.com/index/openai-acquires-tbpn",
@@ -1570,7 +1809,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-04-02T10:30:00+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://openai.com/index/codex-flexible-pricing-for-teams",
@@ -1585,7 +1824,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-04-02T10:00:00+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://twitter.com/simonw/status/2039805803033678099#m",
@@ -1603,7 +1842,7 @@
       "llm"
     ],
     "scraped_at": "2026-04-02T20:42:55+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://huggingface.co/blog/Hcompany/holo3",
@@ -1618,7 +1857,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-04-01T16:36:15+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://twitter.com/AnthropicAI/status/2039749628737019925#m",
@@ -1635,7 +1874,7 @@
       "llm"
     ],
     "scraped_at": "2026-04-02T16:59:42+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://openai.com/index/gradient-labs",
@@ -1652,7 +1891,7 @@
       "agents"
     ],
     "scraped_at": "2026-04-01T02:00:00+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://huggingface.co/blog/ibm-granite/granite-4-vision",
@@ -1669,7 +1908,7 @@
       "multimodal"
     ],
     "scraped_at": "2026-03-31T15:10:41+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://openai.com/index/accelerating-the-next-phase-ai",
@@ -1684,7 +1923,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-03-31T13:00:00+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://twitter.com/AnthropicAI/status/2039749643404300738#m",
@@ -1699,7 +1938,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-04-02T16:59:46+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://huggingface.co/blog/trl-v1",
@@ -1714,7 +1953,24 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-03-31T00:00:00+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
+  },
+  {
+    "url": "https://twitter.com/tom_doerr/status/2039818287664513103#m",
+    "hash": "dc0f1177aea9ac68",
+    "title": "@ylecun: RT by @ylecun: Joint-Embedding Predictive World Models for physical planning\n\nhttps://github.com/facebookresearch/jepa-w",
+    "summary": "RT by @ylecun: Joint-Embedding Predictive World Models for physical planning https://github.com/facebookresearch/jepa-wm",
+    "source": "twitter",
+    "category": "news",
+    "relevance": 49,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "embeddings"
+    ],
+    "scraped_at": "2026-04-02T21:32:32+00:00",
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://twitter.com/karpathy/status/2039808711452246261#m",
@@ -1731,7 +1987,7 @@
       "llm"
     ],
     "scraped_at": "2026-04-02T20:54:29+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://twitter.com/karpathy/status/2039805659525644595#m",
@@ -1748,7 +2004,7 @@
       "llm"
     ],
     "scraped_at": "2026-04-02T20:42:21+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://twitter.com/AnthropicAI/status/2039749660349239532#m",
@@ -1763,7 +2019,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-04-02T16:59:50+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://twitter.com/pypi/status/2039703352649425264#m",
@@ -1781,7 +2037,7 @@
       "security"
     ],
     "scraped_at": "2026-04-02T13:55:49+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://openai.com/index/helping-disaster-response-teams-asia",
@@ -1796,7 +2052,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-03-29T22:15:00+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://twitter.com/DrJimFan/status/2039358115318243352#m",
@@ -1814,7 +2070,7 @@
       "robotics"
     ],
     "scraped_at": "2026-04-01T15:03:58+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://twitter.com/AnthropicAI/status/2039749658654781895#m",
@@ -1829,7 +2085,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-04-02T16:59:49+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://twitter.com/AnthropicAI/status/2039749646008959137#m",
@@ -1844,7 +2100,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-04-02T16:59:46+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://twitter.com/AnthropicAI/status/2039749637285024214#m",
@@ -1859,7 +2115,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-04-02T16:59:44+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://twitter.com/AnthropicAI/status/2039749632238944336#m",
@@ -1874,7 +2130,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-04-02T16:59:43+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://twitter.com/GoogleDeepMind/status/2039735455533453316#m",
@@ -1891,7 +2147,7 @@
       "agents"
     ],
     "scraped_at": "2026-04-02T16:03:23+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://openai.com/index/stadler",
@@ -1906,7 +2162,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-03-27T22:00:00+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://blog.langchain.com/agent-evaluation-readiness-checklist/",
@@ -1923,7 +2179,7 @@
       "agents"
     ],
     "scraped_at": "2026-03-27T14:00:00+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://twitter.com/simonw/status/2039575135703994429#m",
@@ -1938,7 +2194,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-04-02T05:26:20+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://twitter.com/NYUDataScience/status/2039424806592934135#m",
@@ -1955,7 +2211,7 @@
       "multimodal"
     ],
     "scraped_at": "2026-04-01T19:28:59+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://twitter.com/swyx/status/2039398936423850017#m",
@@ -1970,7 +2226,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-04-01T17:46:11+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://twitter.com/DrJimFan/status/2039360925606760690#m",
@@ -1985,7 +2241,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-04-01T15:15:08+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   },
   {
     "url": "https://twitter.com/TalbertSwan/status/2039341887589318905#m",
@@ -2000,21 +2256,6 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-04-01T13:59:29+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
-  },
-  {
-    "url": "https://twitter.com/Microinteracti1/status/2039269186136941043#m",
-    "hash": "555533ebd728b9a6",
-    "title": "@ylecun: RT by @ylecun: Every year, U.S. News ranks the world\u2019s countries by quality of life. Not by GDP. By the actual, lived ex",
-    "summary": "RT by @ylecun: Every year, U.S. News ranks the world\u2019s countries by quality of life. Not by GDP. By the actual, lived ex",
-    "source": "twitter",
-    "category": "news",
-    "relevance": 45,
-    "hot": "stable",
-    "breaking": false,
-    "stars": null,
-    "tags": [],
-    "scraped_at": "2026-04-01T09:10:36+00:00",
-    "scored_at": "2026-04-03T07:01:06.974545+00:00"
+    "scored_at": "2026-04-03T12:49:39.699097+00:00"
   }
 ]
