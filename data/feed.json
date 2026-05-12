@@ -1,206 +1,5 @@
 [
   {
-    "url": "https://github.com/songquanpeng/one-api",
-    "hash": "61942c203cc6d9d7",
-    "title": "songquanpeng / one-api",
-    "summary": "LLM API \u7ba1\u7406 & \u5206\u53d1\u7cfb\u7edf\uff0c\u652f\u6301 OpenAI\u3001Azure\u3001Anthropic Claude\u3001Google Gemini\u3001DeepSeek\u3001\u5b57\u8282\u8c46\u5305\u3001ChatGLM\u3001\u6587\u5fc3\u4e00\u8a00\u3001\u8baf\u98de\u661f\u706b\u3001\u901a\u4e49\u5343\u95ee\u3001360 \u667a\u8111\u3001\u817e\u8baf\u6df7\u5143\u7b49\u4e3b\u6d41\u6a21\u578b\uff0c\u7edf",
-    "source": "github_trending",
-    "category": "model",
-    "relevance": 99,
-    "hot": "rising",
-    "breaking": false,
-    "stars": 33553,
-    "tags": [
-      "llm"
-    ],
-    "scraped_at": "2026-05-12T14:05:45.021237+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
-  },
-  {
-    "url": "https://github.com/BerriAI/litellm",
-    "hash": "dab892839df45099",
-    "title": "BerriAI / litellm",
-    "summary": "Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails",
-    "source": "github_trending",
-    "category": "tool",
-    "relevance": 89,
-    "hot": "rising",
-    "breaking": false,
-    "stars": 46683,
-    "tags": [
-      "llm"
-    ],
-    "scraped_at": "2026-05-12T14:05:43.860439+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
-  },
-  {
-    "url": "https://github.com/huggingface/transformers",
-    "hash": "53d940334a2a5afd",
-    "title": "huggingface / transformers",
-    "summary": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and ",
-    "source": "github_trending",
-    "category": "paper",
-    "relevance": 88,
-    "hot": "rising",
-    "breaking": false,
-    "stars": 160518,
-    "tags": [
-      "inference",
-      "evaluation",
-      "multimodal"
-    ],
-    "scraped_at": "2026-05-12T14:05:43.862194+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
-  },
-  {
-    "url": "https://github.com/labring/FastGPT",
-    "hash": "7ba64475a424de00",
-    "title": "labring / FastGPT",
-    "summary": "FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of out-of-the-box capabilities suc",
-    "source": "github_trending",
-    "category": "repo",
-    "relevance": 88,
-    "hot": "rising",
-    "breaking": false,
-    "stars": 28010,
-    "tags": [
-      "rag",
-      "llm"
-    ],
-    "scraped_at": "2026-05-12T14:05:46.472195+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
-  },
-  {
-    "url": "https://github.com/WordPress/gutenberg",
-    "hash": "a2baca23bffe909e",
-    "title": "WordPress / gutenberg",
-    "summary": "The Block Editor project for WordPress and beyond. Plugin is available from the official repository.",
-    "source": "github_trending",
-    "category": "tool",
-    "relevance": 85,
-    "hot": "rising",
-    "breaking": false,
-    "stars": 11636,
-    "tags": [],
-    "scraped_at": "2026-05-12T14:05:45.019993+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
-  },
-  {
-    "url": "https://github.com/EveryInc/compound-engineering-plugin",
-    "hash": "47dca59f5e85d3b9",
-    "title": "EveryInc / compound-engineering-plugin",
-    "summary": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
-    "source": "github_trending",
-    "category": "tool",
-    "relevance": 85,
-    "hot": "rising",
-    "breaking": false,
-    "stars": 16594,
-    "tags": [],
-    "scraped_at": "2026-05-12T14:05:46.471238+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
-  },
-  {
-    "url": "https://github.com/FoundationAgents/MetaGPT",
-    "hash": "509faa7f213e33c0",
-    "title": "FoundationAgents / MetaGPT",
-    "summary": "\ud83c\udf1f The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming",
-    "source": "github_trending",
-    "category": "repo",
-    "relevance": 84,
-    "hot": "rising",
-    "breaking": false,
-    "stars": 67913,
-    "tags": [
-      "agents"
-    ],
-    "scraped_at": "2026-05-12T14:05:43.860932+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
-  },
-  {
-    "url": "https://github.com/danielmiessler/Personal_AI_Infrastructure",
-    "hash": "bc1be22764a168b9",
-    "title": "danielmiessler / Personal_AI_Infrastructure",
-    "summary": "Agentic AI Infrastructure for magnifying HUMAN capabilities.",
-    "source": "github_trending",
-    "category": "repo",
-    "relevance": 84,
-    "hot": "rising",
-    "breaking": false,
-    "stars": 12689,
-    "tags": [
-      "agents"
-    ],
-    "scraped_at": "2026-05-12T14:05:46.468679+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
-  },
-  {
-    "url": "https://github.com/NousResearch/hermes-agent",
-    "hash": "ec2b8bd43eefd65f",
-    "title": "NousResearch / hermes-agent",
-    "summary": "The agent that grows with you",
-    "source": "github_trending",
-    "category": "repo",
-    "relevance": 80,
-    "hot": "rising",
-    "breaking": false,
-    "stars": 146291,
-    "tags": [
-      "agents"
-    ],
-    "scraped_at": "2026-05-12T14:05:43.859673+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
-  },
-  {
-    "url": "https://github.com/iOfficeAI/AionUi",
-    "hash": "1d33fcd888f9f40f",
-    "title": "iOfficeAI / AionUi",
-    "summary": "Free, local, open-source 24/7 Cowork app for OpenClaw, Hermes Agent, Claude Code, Codex, OpenCode, Gemini CLI and 20+ mo",
-    "source": "github_trending",
-    "category": "repo",
-    "relevance": 80,
-    "hot": "rising",
-    "breaking": false,
-    "stars": 24821,
-    "tags": [
-      "agents"
-    ],
-    "scraped_at": "2026-05-12T14:05:46.469459+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
-  },
-  {
-    "url": "https://github.com/google-gemini/gemini-cli",
-    "hash": "24684c1ecca249c0",
-    "title": "google-gemini / gemini-cli",
-    "summary": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
-    "source": "github_trending",
-    "category": "repo",
-    "relevance": 80,
-    "hot": "rising",
-    "breaking": false,
-    "stars": 103771,
-    "tags": [
-      "agents"
-    ],
-    "scraped_at": "2026-05-12T14:05:46.471641+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
-  },
-  {
-    "url": "https://github.com/microsoft/data-formulator",
-    "hash": "0ccd2a4da2ef4334",
-    "title": "microsoft / data-formulator",
-    "summary": "\ud83e\ude84 Create rich visualizations with AI",
-    "source": "github_trending",
-    "category": "repo",
-    "relevance": 80,
-    "hot": "rising",
-    "breaking": false,
-    "stars": 15518,
-    "tags": [],
-    "scraped_at": "2026-05-12T14:05:46.472733+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
-  },
-  {
     "url": "https://github.com/mattpocock/skills",
     "hash": "637c99109af31ed2",
     "title": "mattpocock / skills",
@@ -210,10 +9,10 @@
     "relevance": 80,
     "hot": "rising",
     "breaking": false,
-    "stars": 74875,
+    "stars": 75639,
     "tags": [],
-    "scraped_at": "2026-05-12T14:05:48.161706+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "scraped_at": "2026-05-12T19:41:40.538172+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   },
   {
     "url": "https://github.com/jundot/omlx",
@@ -225,30 +24,47 @@
     "relevance": 93,
     "hot": "rising",
     "breaking": false,
-    "stars": 13733,
+    "stars": 13772,
     "tags": [
       "llm",
       "inference"
     ],
-    "scraped_at": "2026-05-12T14:05:43.861695+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "scraped_at": "2026-05-12T19:41:36.844756+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   },
   {
-    "url": "https://github.com/VoltAgent/voltagent",
-    "hash": "4aa06da78b19a293",
-    "title": "VoltAgent / voltagent",
-    "summary": "AI Agent Engineering Platform built on an Open Source TypeScript AI Agent Framework",
+    "url": "https://github.com/songquanpeng/one-api",
+    "hash": "61942c203cc6d9d7",
+    "title": "songquanpeng / one-api",
+    "summary": "LLM API \u7ba1\u7406 & \u5206\u53d1\u7cfb\u7edf\uff0c\u652f\u6301 OpenAI\u3001Azure\u3001Anthropic Claude\u3001Google Gemini\u3001DeepSeek\u3001\u5b57\u8282\u8c46\u5305\u3001ChatGLM\u3001\u6587\u5fc3\u4e00\u8a00\u3001\u8baf\u98de\u661f\u706b\u3001\u901a\u4e49\u5343\u95ee\u3001360 \u667a\u8111\u3001\u817e\u8baf\u6df7\u5143\u7b49\u4e3b\u6d41\u6a21\u578b\uff0c\u7edf",
+    "source": "github_trending",
+    "category": "model",
+    "relevance": 99,
+    "hot": "stable",
+    "breaking": false,
+    "stars": 33564,
+    "tags": [
+      "llm"
+    ],
+    "scraped_at": "2026-05-12T19:41:38.289875+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
+  },
+  {
+    "url": "https://github.com/danielmiessler/Personal_AI_Infrastructure",
+    "hash": "bc1be22764a168b9",
+    "title": "danielmiessler / Personal_AI_Infrastructure",
+    "summary": "Agentic AI Infrastructure for magnifying HUMAN capabilities.",
     "source": "github_trending",
     "category": "repo",
-    "relevance": 83,
+    "relevance": 84,
     "hot": "rising",
     "breaking": false,
-    "stars": 8808,
+    "stars": 12855,
     "tags": [
       "agents"
     ],
-    "scraped_at": "2026-05-12T14:05:46.470874+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "scraped_at": "2026-05-12T19:41:39.367274+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   },
   {
     "url": "https://github.com/rasbt/LLMs-from-scratch",
@@ -260,12 +76,12 @@
     "relevance": 84,
     "hot": "rising",
     "breaking": false,
-    "stars": 93443,
+    "stars": 93641,
     "tags": [
       "llm"
     ],
-    "scraped_at": "2026-05-12T14:05:48.162265+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "scraped_at": "2026-05-12T19:41:40.538754+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   },
   {
     "url": "https://github.com/datawhalechina/hello-agents",
@@ -277,12 +93,12 @@
     "relevance": 80,
     "hot": "rising",
     "breaking": false,
-    "stars": 48002,
+    "stars": 48148,
     "tags": [
       "agents"
     ],
-    "scraped_at": "2026-05-12T14:05:43.858801+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "scraped_at": "2026-05-12T19:41:36.841907+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   },
   {
     "url": "https://github.com/HKUDS/AI-Trader",
@@ -294,12 +110,29 @@
     "relevance": 80,
     "hot": "rising",
     "breaking": false,
-    "stars": 16305,
+    "stars": 16483,
     "tags": [
       "agents"
     ],
-    "scraped_at": "2026-05-12T14:05:43.859265+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "scraped_at": "2026-05-12T19:41:36.842340+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
+  },
+  {
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "hash": "ec2b8bd43eefd65f",
+    "title": "NousResearch / hermes-agent",
+    "summary": "The agent that grows with you",
+    "source": "github_trending",
+    "category": "repo",
+    "relevance": 80,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 146667,
+    "tags": [
+      "agents"
+    ],
+    "scraped_at": "2026-05-12T19:41:36.842704+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   },
   {
     "url": "https://github.com/yikart/AiToEarn",
@@ -311,28 +144,27 @@
     "relevance": 80,
     "hot": "rising",
     "breaking": false,
-    "stars": 11559,
+    "stars": 11743,
     "tags": [],
-    "scraped_at": "2026-05-12T14:05:46.468173+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "scraped_at": "2026-05-12T19:41:39.366804+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   },
   {
-    "url": "https://github.com/bytedance/UI-TARS-desktop",
-    "hash": "76a435bcb8eeb8bd",
-    "title": "bytedance / UI-TARS-desktop",
-    "summary": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+    "url": "https://github.com/BerriAI/litellm",
+    "hash": "dab892839df45099",
+    "title": "BerriAI / litellm",
+    "summary": "Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails",
     "source": "github_trending",
-    "category": "repo",
-    "relevance": 80,
-    "hot": "rising",
+    "category": "tool",
+    "relevance": 89,
+    "hot": "stable",
     "breaking": false,
-    "stars": 33436,
+    "stars": 46700,
     "tags": [
-      "agents",
-      "multimodal"
+      "llm"
     ],
-    "scraped_at": "2026-05-12T14:05:46.470192+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "scraped_at": "2026-05-12T19:41:36.843468+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   },
   {
     "url": "https://github.com/garrytan/gstack",
@@ -344,10 +176,47 @@
     "relevance": 75,
     "hot": "rising",
     "breaking": false,
-    "stars": 94353,
+    "stars": 94572,
     "tags": [],
-    "scraped_at": "2026-05-12T14:05:46.469829+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "scraped_at": "2026-05-12T19:41:39.368352+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
+  },
+  {
+    "url": "https://github.com/huggingface/transformers",
+    "hash": "53d940334a2a5afd",
+    "title": "huggingface / transformers",
+    "summary": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and ",
+    "source": "github_trending",
+    "category": "paper",
+    "relevance": 88,
+    "hot": "stable",
+    "breaking": false,
+    "stars": 160530,
+    "tags": [
+      "inference",
+      "evaluation",
+      "multimodal"
+    ],
+    "scraped_at": "2026-05-12T19:41:36.845273+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
+  },
+  {
+    "url": "https://github.com/labring/FastGPT",
+    "hash": "7ba64475a424de00",
+    "title": "labring / FastGPT",
+    "summary": "FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of out-of-the-box capabilities suc",
+    "source": "github_trending",
+    "category": "repo",
+    "relevance": 88,
+    "hot": "stable",
+    "breaking": false,
+    "stars": 28011,
+    "tags": [
+      "rag",
+      "llm"
+    ],
+    "scraped_at": "2026-05-12T19:41:39.370616+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   },
   {
     "url": "https://github.com/justlovemaki/AIClient2API",
@@ -359,27 +228,62 @@
     "relevance": 90,
     "hot": "stable",
     "breaking": false,
-    "stars": 7751,
+    "stars": 7757,
     "tags": [],
-    "scraped_at": "2026-05-12T14:05:45.021746+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "scraped_at": "2026-05-12T19:41:38.290384+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   },
   {
-    "url": "https://github.com/THU-MAIC/OpenMAIC",
-    "hash": "ceaf2f7365569375",
-    "title": "THU-MAIC / OpenMAIC",
-    "summary": "Open Multi-Agent Interactive Classroom \u2014 Get an immersive, multi-agent learning experience in just one click",
+    "url": "https://github.com/iOfficeAI/AionUi",
+    "hash": "1d33fcd888f9f40f",
+    "title": "iOfficeAI / AionUi",
+    "summary": "Free, local, open-source 24/7 Cowork app for OpenClaw, Hermes Agent, Claude Code, Codex, OpenCode, Gemini CLI and 20+ mo",
     "source": "github_trending",
     "category": "repo",
     "relevance": 80,
     "hot": "rising",
     "breaking": false,
-    "stars": 17427,
+    "stars": 24867,
     "tags": [
       "agents"
     ],
-    "scraped_at": "2026-05-12T14:05:46.469055+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "scraped_at": "2026-05-12T19:41:39.367981+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
+  },
+  {
+    "url": "https://github.com/bytedance/UI-TARS-desktop",
+    "hash": "76a435bcb8eeb8bd",
+    "title": "bytedance / UI-TARS-desktop",
+    "summary": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+    "source": "github_trending",
+    "category": "repo",
+    "relevance": 80,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 33493,
+    "tags": [
+      "agents",
+      "multimodal"
+    ],
+    "scraped_at": "2026-05-12T19:41:39.368701+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
+  },
+  {
+    "url": "https://github.com/google-gemini/gemini-cli",
+    "hash": "24684c1ecca249c0",
+    "title": "google-gemini / gemini-cli",
+    "summary": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+    "source": "github_trending",
+    "category": "repo",
+    "relevance": 80,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 103794,
+    "tags": [
+      "agents"
+    ],
+    "scraped_at": "2026-05-12T19:41:39.370069+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   },
   {
     "url": "https://github.com/decolua/9router",
@@ -391,12 +295,27 @@
     "relevance": 75,
     "hot": "rising",
     "breaking": false,
-    "stars": 9085,
+    "stars": 9269,
     "tags": [
       "code-generation"
     ],
-    "scraped_at": "2026-05-12T14:05:45.019589+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "scraped_at": "2026-05-12T19:41:38.288303+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
+  },
+  {
+    "url": "https://github.com/WordPress/gutenberg",
+    "hash": "a2baca23bffe909e",
+    "title": "WordPress / gutenberg",
+    "summary": "The Block Editor project for WordPress and beyond. Plugin is available from the official repository.",
+    "source": "github_trending",
+    "category": "tool",
+    "relevance": 85,
+    "hot": "stable",
+    "breaking": false,
+    "stars": 11638,
+    "tags": [],
+    "scraped_at": "2026-05-12T19:41:38.288689+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   },
   {
     "url": "https://github.com/rohitg00/agentmemory",
@@ -408,13 +327,13 @@
     "relevance": 75,
     "hot": "rising",
     "breaking": false,
-    "stars": 5394,
+    "stars": 5683,
     "tags": [
       "agents",
       "evaluation"
     ],
-    "scraped_at": "2026-05-12T14:05:46.467350+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "scraped_at": "2026-05-12T19:41:39.366018+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   },
   {
     "url": "https://github.com/millionco/react-doctor",
@@ -426,12 +345,27 @@
     "relevance": 75,
     "hot": "rising",
     "breaking": false,
-    "stars": 8503,
+    "stars": 8663,
     "tags": [
       "agents"
     ],
-    "scraped_at": "2026-05-12T14:05:46.467784+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "scraped_at": "2026-05-12T19:41:39.366447+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
+  },
+  {
+    "url": "https://github.com/EveryInc/compound-engineering-plugin",
+    "hash": "47dca59f5e85d3b9",
+    "title": "EveryInc / compound-engineering-plugin",
+    "summary": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
+    "source": "github_trending",
+    "category": "tool",
+    "relevance": 85,
+    "hot": "stable",
+    "breaking": false,
+    "stars": 16612,
+    "tags": [],
+    "scraped_at": "2026-05-12T19:41:39.369715+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   },
   {
     "url": "https://github.com/tinyhumansai/openhuman",
@@ -443,10 +377,59 @@
     "relevance": 75,
     "hot": "rising",
     "breaking": false,
-    "stars": 2129,
+    "stars": 2474,
     "tags": [],
-    "scraped_at": "2026-05-12T14:05:48.160878+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "scraped_at": "2026-05-12T19:41:40.537385+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
+  },
+  {
+    "url": "https://github.com/FoundationAgents/MetaGPT",
+    "hash": "509faa7f213e33c0",
+    "title": "FoundationAgents / MetaGPT",
+    "summary": "\ud83c\udf1f The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming",
+    "source": "github_trending",
+    "category": "repo",
+    "relevance": 84,
+    "hot": "stable",
+    "breaking": false,
+    "stars": 67918,
+    "tags": [
+      "agents"
+    ],
+    "scraped_at": "2026-05-12T19:41:36.844006+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
+  },
+  {
+    "url": "https://github.com/THU-MAIC/OpenMAIC",
+    "hash": "ceaf2f7365569375",
+    "title": "THU-MAIC / OpenMAIC",
+    "summary": "Open Multi-Agent Interactive Classroom \u2014 Get an immersive, multi-agent learning experience in just one click",
+    "source": "github_trending",
+    "category": "repo",
+    "relevance": 80,
+    "hot": "stable",
+    "breaking": false,
+    "stars": 17441,
+    "tags": [
+      "agents"
+    ],
+    "scraped_at": "2026-05-12T19:41:39.367634+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
+  },
+  {
+    "url": "https://github.com/microsoft/data-formulator",
+    "hash": "0ccd2a4da2ef4334",
+    "title": "microsoft / data-formulator",
+    "summary": "\ud83e\ude84 Create rich visualizations with AI",
+    "source": "github_trending",
+    "category": "repo",
+    "relevance": 80,
+    "hot": "stable",
+    "breaking": false,
+    "stars": 15528,
+    "tags": [],
+    "scraped_at": "2026-05-12T19:41:39.371092+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   },
   {
     "url": "https://github.com/poloclub/transformer-explainer",
@@ -458,12 +441,29 @@
     "relevance": 83,
     "hot": "stable",
     "breaking": false,
-    "stars": 7365,
+    "stars": 7369,
     "tags": [
       "llm"
     ],
-    "scraped_at": "2026-05-12T14:05:45.020621+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "scraped_at": "2026-05-12T19:41:38.289254+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
+  },
+  {
+    "url": "https://github.com/VoltAgent/voltagent",
+    "hash": "4aa06da78b19a293",
+    "title": "VoltAgent / voltagent",
+    "summary": "AI Agent Engineering Platform built on an Open Source TypeScript AI Agent Framework",
+    "source": "github_trending",
+    "category": "repo",
+    "relevance": 83,
+    "hot": "stable",
+    "breaking": false,
+    "stars": 8819,
+    "tags": [
+      "agents"
+    ],
+    "scraped_at": "2026-05-12T19:41:39.369349+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   },
   {
     "url": "https://github.com/jo-inc/camofox-browser",
@@ -475,12 +475,63 @@
     "relevance": 75,
     "hot": "stable",
     "breaking": false,
-    "stars": 4789,
+    "stars": 4814,
     "tags": [
       "agents"
     ],
-    "scraped_at": "2026-05-12T14:05:45.022226+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "scraped_at": "2026-05-12T19:41:38.290872+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
+  },
+  {
+    "url": "https://github.com/cactus-compute/needle",
+    "hash": "e1739cedc6f9ead7",
+    "title": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
+    "summary": "Hey HN, Henry here from Cactus. We open-sourced Needle, a 26M parameter function-calling (tool use) model. It runs at 60",
+    "source": "hacker_news",
+    "category": "repo",
+    "relevance": 69,
+    "hot": "stable",
+    "breaking": false,
+    "stars": 38,
+    "tags": [
+      "agents"
+    ],
+    "scraped_at": "2026-05-12T18:03:11+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
+  },
+  {
+    "url": "https://github.com/statewright/statewright",
+    "hash": "94c156c88bd48431",
+    "title": "Show HN: Statewright \u2013 Visual state machines that make AI agents reliable",
+    "summary": "Agentic problem solving in its current state is very brittle. I fell in love with it, but it creates as many problems as",
+    "source": "hacker_news",
+    "category": "repo",
+    "relevance": 69,
+    "hot": "stable",
+    "breaking": false,
+    "stars": 22,
+    "tags": [
+      "agents"
+    ],
+    "scraped_at": "2026-05-12T14:24:55+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
+  },
+  {
+    "url": "https://www.hypercubic.ai/hopper",
+    "hash": "ad59a2fba63e96c1",
+    "title": "Show HN: Agentic interface for mainframes and COBOL",
+    "summary": "Hi HN, we\u2019re Sai and Aayush, and we\u2019re building Hypercubic (https:&#x2F;&#x2F;www.hypercubic.ai&#x2F;), bringing AI tool",
+    "source": "hacker_news",
+    "category": "news",
+    "relevance": 64,
+    "hot": "stable",
+    "breaking": false,
+    "stars": 27,
+    "tags": [
+      "agents"
+    ],
+    "scraped_at": "2026-05-12T17:10:22+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   },
   {
     "url": "https://github.com/Mnexa-AI/e2a",
@@ -497,7 +548,39 @@
       "agents"
     ],
     "scraped_at": "2026-05-11T20:26:17+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
+  },
+  {
+    "url": "https://news.ycombinator.com/item?id=48110593",
+    "hash": "aedb58826dc08f0a",
+    "title": "Show HN: Gigacatalyst \u2013 Extend your SaaS with an embedded AI builder",
+    "summary": "Hi HN, I\u2019m Namanyay from Gigacatalyst (link: https:&#x2F;&#x2F;gigacatalyst.com&#x2F;). Gigacatalyst allows sales, CS, a",
+    "source": "hacker_news",
+    "category": "news",
+    "relevance": 60,
+    "hot": "stable",
+    "breaking": false,
+    "stars": 22,
+    "tags": [],
+    "scraped_at": "2026-05-12T16:32:54+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
+  },
+  {
+    "url": "https://voker.ai",
+    "hash": "64dd88d6edd72f79",
+    "title": "Launch HN: Voker (YC S24) \u2013 Analytics for AI Agents",
+    "summary": "Hey HN, we&#x27;re Alex and Tyler, co-founders of Voker.ai (https:&#x2F;&#x2F;voker.ai&#x2F;), an agent analytics platfo",
+    "source": "hacker_news",
+    "category": "news",
+    "relevance": 60,
+    "hot": "stable",
+    "breaking": false,
+    "stars": 29,
+    "tags": [
+      "agents"
+    ],
+    "scraped_at": "2026-05-12T15:45:20+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   },
   {
     "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
@@ -512,7 +595,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-05-07T10:00:00+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   },
   {
     "url": "https://github.com/ab-613/opengravity",
@@ -524,113 +607,48 @@
     "relevance": 65,
     "hot": "stable",
     "breaking": false,
-    "stars": 91,
+    "stars": 99,
     "tags": [
       "agents"
     ],
     "scraped_at": "2026-05-11T20:23:25+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
-  },
-  {
-    "url": "https://twitter.com/akseljoonas/status/2053871889517248711#m",
-    "hash": "b538ee897ff7fa93",
-    "title": "@huggingface: RT by @huggingface: 3 weeks since ml-intern launched and we just hit 1M messages exchanged.\n\nthat's 3.3 agent-years of M",
-    "summary": "RT by @huggingface: 3 weeks since ml-intern launched and we just hit 1M messages exchanged. that's 3.3 agent-years of ML",
-    "source": "twitter",
-    "category": "model",
-    "relevance": 65,
-    "hot": "stable",
-    "breaking": false,
-    "stars": null,
-    "tags": [
-      "agents"
-    ],
-    "scraped_at": "2026-05-11T16:16:32+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
-  },
-  {
-    "url": "https://twitter.com/sudoingX/status/2053847267900277024#m",
-    "hash": "61d08b577afab41c",
-    "title": "@huggingface: RT by @huggingface: update: qwen 3.6 27b dense q4 just one shotted octopus invaders game on a single 3090. hermes agent",
-    "summary": "RT by @huggingface: update: qwen 3.6 27b dense q4 just one shotted octopus invaders game on a single 3090. hermes agent ",
-    "source": "twitter",
-    "category": "model",
-    "relevance": 65,
-    "hot": "stable",
-    "breaking": false,
-    "stars": null,
-    "tags": [
-      "agents",
-      "evaluation",
-      "reasoning"
-    ],
-    "scraped_at": "2026-05-11T14:38:41+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
-  },
-  {
-    "url": "https://twitter.com/ClementDelangue/status/2053825719587815711#m",
-    "hash": "7180592094214844",
-    "title": "@huggingface: RT by @huggingface: Local open-weight AI on a laptop has been improving more than twice as fast as Moore's Law!\n\nBetween",
-    "summary": "RT by @huggingface: Local open-weight AI on a laptop has been improving more than twice as fast as Moore's Law! Between ",
-    "source": "twitter",
-    "category": "model",
-    "relevance": 65,
-    "hot": "stable",
-    "breaking": false,
-    "stars": null,
-    "tags": [],
-    "scraped_at": "2026-05-11T13:13:04+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
-  },
-  {
-    "url": "https://twitter.com/nathanhabib1011/status/2053786853929824385#m",
-    "hash": "678f29ac4762d9c1",
-    "title": "@huggingface: RT by @huggingface: \ud83e\udd9e Claw-Eval \ud83e\udd9e\n\n\ud83e\udd47 @XiaomiMiMo's MiMo-V2.5-Pro at 1T\n\ud83e\udd48 @Zai_org GLM5.1 at 754B\n\ud83e\udd49 @XiaomiMiMo MiMo-V2.5",
-    "summary": "RT by @huggingface: \ud83e\udd9e Claw-Eval \ud83e\udd9e \ud83e\udd47 @XiaomiMiMo's MiMo-V2.5-Pro at 1T \ud83e\udd48 @Zai_org GLM5.1 at 754B \ud83e\udd49 @XiaomiMiMo MiMo-V2.5 ",
-    "source": "twitter",
-    "category": "model",
-    "relevance": 65,
-    "hot": "stable",
-    "breaking": false,
-    "stars": null,
-    "tags": [],
-    "scraped_at": "2026-05-11T10:38:38+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
-  },
-  {
-    "url": "https://twitter.com/AdinaYakup/status/2053740608439607634#m",
-    "hash": "b564fd0487ab06f4",
-    "title": "@huggingface: RT by @huggingface: Qwen released WebWorld \ud83c\udf0d an open world model series for web agents\n\n\u2728 8B/14B/32B+Dataset \n\u2728Apache2.0",
-    "summary": "RT by @huggingface: Qwen released WebWorld \ud83c\udf0d an open world model series for web agents \u2728 8B/14B/32B+Dataset \u2728Apache2.0 \u2728",
-    "source": "twitter",
-    "category": "model",
-    "relevance": 65,
-    "hot": "stable",
-    "breaking": false,
-    "stars": null,
-    "tags": [
-      "agents"
-    ],
-    "scraped_at": "2026-05-11T07:34:52+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   },
   {
     "url": "https://novaberg.de/papers/clipboard-pattern.html",
     "hash": "12d68532f9d9f47d",
     "title": "Natural-language messages between LLM agents are an architectural anti-pattern",
-    "summary": "HN story with 20 points and 4 comments.",
+    "summary": "HN story with 21 points and 5 comments.",
     "source": "hacker_news",
     "category": "news",
     "relevance": 64,
     "hot": "stable",
     "breaking": false,
-    "stars": 20,
+    "stars": 21,
     "tags": [
       "agents",
       "llm"
     ],
     "scraped_at": "2026-05-11T18:56:54+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
+  },
+  {
+    "url": "https://twitter.com/adithya_s_k/status/2054202145914905009#m",
+    "hash": "71398f924a6d40fc",
+    "title": "@huggingface: RT by @huggingface: We just hit #1 trending on @huggingface Spaces \ud83c\udf89\n\n\u201cThe Ultimate Guide to RL Environments\u201d dives into",
+    "summary": "RT by @huggingface: We just hit #1 trending on @huggingface Spaces \ud83c\udf89 \u201cThe Ultimate Guide to RL Environments\u201d dives into ",
+    "source": "twitter",
+    "category": "tool",
+    "relevance": 59,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "agents",
+      "llm"
+    ],
+    "scraped_at": "2026-05-12T14:08:51+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   },
   {
     "url": "https://huggingface.co/blog/amazon/foundation-model-building-blocks",
@@ -647,7 +665,7 @@
       "inference"
     ],
     "scraped_at": "2026-05-11T23:18:26+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   },
   {
     "url": "https://twitter.com/simonw/status/2053914709720764770#m",
@@ -664,15 +682,15 @@
       "llm"
     ],
     "scraped_at": "2026-05-11T19:06:41+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   },
   {
-    "url": "https://twitter.com/mervenoyann/status/2053857347429151163#m",
-    "hash": "414b7e7d8dc06b4f",
-    "title": "@huggingface: RT by @huggingface: \ud83c\udd95 Hugging Face \ud83e\udd1d Hermes Agent \ud83d\udd25\n\n> we added Hermes Agent to local apps: run it locally with any comp",
-    "summary": "RT by @huggingface: \ud83c\udd95 Hugging Face \ud83e\udd1d Hermes Agent \ud83d\udd25 > we added Hermes Agent to local apps: run it locally with any compa",
-    "source": "twitter",
-    "category": "tool",
+    "url": "https://openai.com/index/what-parameter-golf-taught-us",
+    "hash": "fd797e93058cd1d0",
+    "title": "What Parameter Golf taught us about AI-assisted research",
+    "summary": "Parameter Golf brought together 1,000+ participants and 2,000+ submissions to explore AI-assisted machine learning resea",
+    "source": "rss_blog",
+    "category": "news",
     "relevance": 55,
     "hot": "stable",
     "breaking": false,
@@ -681,8 +699,8 @@
       "agents",
       "inference"
     ],
-    "scraped_at": "2026-05-11T15:18:45+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "scraped_at": "2026-05-12T00:00:00+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   },
   {
     "url": "https://openai.com/signals/research/2026q1-update",
@@ -697,22 +715,26 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-05-11T15:00:00+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   },
   {
-    "url": "https://openai.com/index/openai-campus-network-student-club-interest-form",
-    "hash": "5d49356f591b1f7d",
-    "title": "OpenAI Campus Network: Student club interest form",
-    "summary": "Join the OpenAI Campus Network\u2014connect student clubs worldwide, access AI tools, host events, and build an AI-powered ca",
-    "source": "rss_blog",
+    "url": "https://twitter.com/dlouapre/status/2054217281895309480#m",
+    "hash": "0b74dbb9327922ce",
+    "title": "@huggingface: RT by @huggingface: Meet physics-intern\ud83e\uddd1\u200d\ud83c\udf93, our agentic framework for theoretical physics.\n \nIt takes Gemini 3.1 Pro fro",
+    "summary": "RT by @huggingface: Meet physics-intern\ud83e\uddd1\u200d\ud83c\udf93, our agentic framework for theoretical physics. It takes Gemini 3.1 Pro from ",
+    "source": "twitter",
     "category": "news",
-    "relevance": 55,
+    "relevance": 53,
     "hot": "stable",
     "breaking": false,
     "stars": null,
-    "tags": [],
-    "scraped_at": "2026-05-11T10:00:00+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "tags": [
+      "agents",
+      "llm",
+      "evaluation"
+    ],
+    "scraped_at": "2026-05-12T15:09:00+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   },
   {
     "url": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
@@ -727,7 +749,22 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-05-11T10:00:00+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
+  },
+  {
+    "url": "https://openai.com/index/openai-campus-network-student-club-interest-form",
+    "hash": "5d49356f591b1f7d",
+    "title": "OpenAI Campus Network: Student club interest form",
+    "summary": "Join the OpenAI Campus Network\u2014connect student clubs worldwide, access AI tools, host events, and build an AI-powered ca",
+    "source": "rss_blog",
+    "category": "news",
+    "relevance": 55,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [],
+    "scraped_at": "2026-05-11T10:00:00+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   },
   {
     "url": "https://openai.com/index/openai-launches-the-deployment-company",
@@ -742,7 +779,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-05-11T06:00:00+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   },
   {
     "url": "https://openai.com/index/parloa",
@@ -760,7 +797,24 @@
       "rag"
     ],
     "scraped_at": "2026-05-07T11:00:00+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
+  },
+  {
+    "url": "https://twitter.com/RemiFabreRobot/status/2054227313856806937#m",
+    "hash": "2e23f14a752ef739",
+    "title": "@huggingface: RT by @huggingface: Today we're releasing Marionette: create robot motion with your hands (Reachy Mini).\n\nBrowser-based,",
+    "summary": "RT by @huggingface: Today we're releasing Marionette: create robot motion with your hands (Reachy Mini). Browser-based, ",
+    "source": "twitter",
+    "category": "news",
+    "relevance": 49,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "robotics"
+    ],
+    "scraped_at": "2026-05-12T15:48:51+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   },
   {
     "url": "https://twitter.com/MaziyarPanahi/status/2054169723403972715#m",
@@ -778,7 +832,7 @@
       "mcp"
     ],
     "scraped_at": "2026-05-12T12:00:01+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   },
   {
     "url": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
@@ -795,7 +849,7 @@
       "llm"
     ],
     "scraped_at": "2026-05-06T19:06:55+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   },
   {
     "url": "https://huggingface.co/blog/allenai/emo",
@@ -810,7 +864,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-05-08T16:03:50+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   },
   {
     "url": "https://twitter.com/simonw/status/2053914743761711373#m",
@@ -827,41 +881,7 @@
       "llm"
     ],
     "scraped_at": "2026-05-11T19:06:49+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
-  },
-  {
-    "url": "https://twitter.com/karpathy/status/2053872850101285137#m",
-    "hash": "f7dfb41504938153",
-    "title": "@karpathy: This works really well btw, at the end of your query ask your LLM to \"structure your response as HTML\", then view the ge",
-    "summary": "This works really well btw, at the end of your query ask your LLM to \"structure your response as HTML\", then view the ge",
-    "source": "twitter",
-    "category": "news",
-    "relevance": 49,
-    "hot": "stable",
-    "breaking": false,
-    "stars": null,
-    "tags": [
-      "llm"
-    ],
-    "scraped_at": "2026-05-11T16:20:21+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
-  },
-  {
-    "url": "https://openai.com/index/running-codex-safely",
-    "hash": "66be1220771465af",
-    "title": "Running Codex safely at OpenAI",
-    "summary": "How OpenAI runs Codex securely with sandboxing, approvals, network policies, and agent-native telemetry to support safe ",
-    "source": "rss_blog",
-    "category": "news",
-    "relevance": 55,
-    "hot": "stable",
-    "breaking": false,
-    "stars": null,
-    "tags": [
-      "agents"
-    ],
-    "scraped_at": "2026-05-08T12:30:00+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   },
   {
     "url": "https://openai.com/index/introducing-b2b-signals",
@@ -878,7 +898,58 @@
       "agents"
     ],
     "scraped_at": "2026-05-06T00:00:00+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
+  },
+  {
+    "url": "https://twitter.com/ash_csx/status/2053886668017447148#m",
+    "hash": "b5ad262fa32a95e1",
+    "title": "@huggingface: RT by @huggingface: We\u2019re dropping two open source SLMs this week.\n\n1. One of them matches SOTA accuracy at up to 93x sm",
+    "summary": "RT by @huggingface: We\u2019re dropping two open source SLMs this week. 1. One of them matches SOTA accuracy at up to 93x sma",
+    "source": "twitter",
+    "category": "news",
+    "relevance": 49,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "evaluation"
+    ],
+    "scraped_at": "2026-05-11T17:15:15+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
+  },
+  {
+    "url": "https://twitter.com/karpathy/status/2053872850101285137#m",
+    "hash": "f7dfb41504938153",
+    "title": "@karpathy: This works really well btw, at the end of your query ask your LLM to \"structure your response as HTML\", then view the ge",
+    "summary": "This works really well btw, at the end of your query ask your LLM to \"structure your response as HTML\", then view the ge",
+    "source": "twitter",
+    "category": "news",
+    "relevance": 49,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "llm"
+    ],
+    "scraped_at": "2026-05-11T16:20:21+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
+  },
+  {
+    "url": "https://openai.com/index/running-codex-safely",
+    "hash": "66be1220771465af",
+    "title": "Running Codex safely at OpenAI",
+    "summary": "How OpenAI runs Codex securely with sandboxing, approvals, network policies, and agent-native telemetry to support safe ",
+    "source": "rss_blog",
+    "category": "news",
+    "relevance": 55,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "agents"
+    ],
+    "scraped_at": "2026-05-08T12:30:00+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   },
   {
     "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
@@ -893,7 +964,89 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-05-07T13:00:00+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
+  },
+  {
+    "url": "https://twitter.com/GoogleDeepMind/status/2054246125524095027#m",
+    "hash": "6f931bd3526b7a1f",
+    "title": "@GoogleDeepMind: Current models require precise instructions, but our AI-enabled pointer removes that burden. \ud83d\udca1\n\nBy \"seeing\" what\u2019s under",
+    "summary": "Current models require precise instructions, but our AI-enabled pointer removes that burden. \ud83d\udca1 By \"seeing\" what\u2019s under ",
+    "source": "twitter",
+    "category": "news",
+    "relevance": 45,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [],
+    "scraped_at": "2026-05-12T17:03:37+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
+  },
+  {
+    "url": "https://twitter.com/huggingface/status/2054221604729553210#m",
+    "hash": "7b332d31efac9ac5",
+    "title": "@huggingface: RT by @huggingface: We've just hit 1M open datasets on the Hugging Face Hub \ud83c\udf89\n\nOpen models need open data. Today we hit",
+    "summary": "RT by @huggingface: We've just hit 1M open datasets on the Hugging Face Hub \ud83c\udf89 Open models need open data. Today we hit t",
+    "source": "twitter",
+    "category": "news",
+    "relevance": 45,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [],
+    "scraped_at": "2026-05-12T15:26:10+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
+  },
+  {
+    "url": "https://twitter.com/ClementDelangue/status/2054219141653921794#m",
+    "hash": "82f184a71712aef4",
+    "title": "@huggingface: RT by @huggingface: We just crossed 1,000,000 public datasets on Hugging Face! That's petabytes of data available that m",
+    "summary": "RT by @huggingface: We just crossed 1,000,000 public datasets on Hugging Face! That's petabytes of data available that m",
+    "source": "twitter",
+    "category": "news",
+    "relevance": 45,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "agents"
+    ],
+    "scraped_at": "2026-05-12T15:16:23+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
+  },
+  {
+    "url": "https://twitter.com/antoine_chaffin/status/2054203603141669221#m",
+    "hash": "c74d7215dddac14a",
+    "title": "@huggingface: RT by @huggingface: Reason-ModernColBERT nearly solved BrowseComp-Plus, smashing SOTA and outperforming models models 54",
+    "summary": "RT by @huggingface: Reason-ModernColBERT nearly solved BrowseComp-Plus, smashing SOTA and outperforming models models 54",
+    "source": "twitter",
+    "category": "news",
+    "relevance": 45,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "agents",
+      "evaluation"
+    ],
+    "scraped_at": "2026-05-12T14:14:38+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
+  },
+  {
+    "url": "https://twitter.com/mervenoyann/status/2054187884417102319#m",
+    "hash": "63949b3ffca85e8e",
+    "title": "@huggingface: RT by @huggingface: Meta silently dropped Sapiens2 last week \ud83d\udd25\n\na family of high-res models trained on 1B human images",
+    "summary": "RT by @huggingface: Meta silently dropped Sapiens2 last week \ud83d\udd25 a family of high-res models trained on 1B human images > ",
+    "source": "twitter",
+    "category": "news",
+    "relevance": 45,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "evaluation"
+    ],
+    "scraped_at": "2026-05-12T13:12:11+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   },
   {
     "url": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
@@ -908,7 +1061,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-05-07T00:00:00+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   },
   {
     "url": "https://openai.com/index/testing-ads-in-chatgpt",
@@ -923,7 +1076,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-05-07T00:00:00+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   },
   {
     "url": "https://openai.com/index/simplex",
@@ -938,7 +1091,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-05-07T00:00:00+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   },
   {
     "url": "https://twitter.com/sama/status/2053971387308745046#m",
@@ -953,7 +1106,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-05-11T22:51:54+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   },
   {
     "url": "https://twitter.com/swyx/status/2053958016719020223#m",
@@ -968,7 +1121,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-05-11T21:58:46+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   },
   {
     "url": "https://twitter.com/sama/status/2053951874408276193#m",
@@ -985,7 +1138,7 @@
       "security"
     ],
     "scraped_at": "2026-05-11T21:34:22+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   },
   {
     "url": "https://twitter.com/OpenAI/status/2053939702110269822#m",
@@ -1002,101 +1155,7 @@
       "security"
     ],
     "scraped_at": "2026-05-11T20:45:59+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
-  },
-  {
-    "url": "https://twitter.com/bfl_ml/status/2053890744796979462#m",
-    "hash": "8707217aaede8f12",
-    "title": "@swyx: RT by @swyx: The next generation of models won't just generate images - they'll understand worlds, motion, interaction,",
-    "summary": "RT by @swyx: The next generation of models won't just generate images - they'll understand worlds, motion, interaction, ",
-    "source": "twitter",
-    "category": "news",
-    "relevance": 45,
-    "hot": "stable",
-    "breaking": false,
-    "stars": null,
-    "tags": [],
-    "scraped_at": "2026-05-11T17:31:27+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
-  },
-  {
-    "url": "https://twitter.com/AnthropicAI/status/2053881827396653207#m",
-    "hash": "adf21fcd26046ac7",
-    "title": "@AnthropicAI: Claude's Constitution is now an audiobook, read by two of its authors, Amanda Askell and Joe Carlsmith.\n\nIt includes a Q",
-    "summary": "Claude's Constitution is now an audiobook, read by two of its authors, Amanda Askell and Joe Carlsmith. It includes a Q&",
-    "source": "twitter",
-    "category": "news",
-    "relevance": 45,
-    "hot": "stable",
-    "breaking": false,
-    "stars": null,
-    "tags": [],
-    "scraped_at": "2026-05-11T16:56:01+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
-  },
-  {
-    "url": "https://twitter.com/ConsensusNLP/status/2053863836613005543#m",
-    "hash": "32962daf6305afe8",
-    "title": "@swyx: RT by @swyx: Today, we're announcing $30M in new funding to build the AI OS for Research. \n\n2.5M researchers start their",
-    "summary": "RT by @swyx: Today, we're announcing $30M in new funding to build the AI OS for Research. 2.5M researchers start their w",
-    "source": "twitter",
-    "category": "news",
-    "relevance": 45,
-    "hot": "stable",
-    "breaking": false,
-    "stars": null,
-    "tags": [],
-    "scraped_at": "2026-05-11T15:44:32+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
-  },
-  {
-    "url": "https://twitter.com/adithya_s_k/status/2053855634593063017#m",
-    "hash": "1e9e56073e3eba1a",
-    "title": "@huggingface: RT by @huggingface: Introducing RL Environment Creator Skill\nNow any one can create RL environments \n\n$ npx skills add a",
-    "summary": "RT by @huggingface: Introducing RL Environment Creator Skill Now any one can create RL environments $ npx skills add adi",
-    "source": "twitter",
-    "category": "news",
-    "relevance": 45,
-    "hot": "stable",
-    "breaking": false,
-    "stars": null,
-    "tags": [
-      "agents"
-    ],
-    "scraped_at": "2026-05-11T15:11:56+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
-  },
-  {
-    "url": "https://twitter.com/ivanfioravanti/status/2053845737562153132#m",
-    "hash": "ad6fc4900f858348",
-    "title": "@huggingface: RT by @huggingface: Reachy Mini ready to go! Audio on \ud83d\udd09\nCleary I'll connect it to Local AI services and to my Hermes Age",
-    "summary": "RT by @huggingface: Reachy Mini ready to go! Audio on \ud83d\udd09 Cleary I'll connect it to Local AI services and to my Hermes Age",
-    "source": "twitter",
-    "category": "news",
-    "relevance": 45,
-    "hot": "stable",
-    "breaking": false,
-    "stars": null,
-    "tags": [
-      "agents"
-    ],
-    "scraped_at": "2026-05-11T14:32:37+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
-  },
-  {
-    "url": "https://twitter.com/SherryYanJiang/status/2053841685088743878#m",
-    "hash": "fee8762dc51aa1e6",
-    "title": "@swyx: RT by @swyx: \u201cwe gonna yolo our way into running the biggest conf in town.\u201d and somehow\u2026 we actually did it with @aiDotE",
-    "summary": "RT by @swyx: \u201cwe gonna yolo our way into running the biggest conf in town.\u201d and somehow\u2026 we actually did it with @aiDotE",
-    "source": "twitter",
-    "category": "news",
-    "relevance": 45,
-    "hot": "stable",
-    "breaking": false,
-    "stars": null,
-    "tags": [],
-    "scraped_at": "2026-05-11T14:16:30+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   },
   {
     "url": "https://openai.com/index/how-chatgpt-protects-privacy",
@@ -1111,37 +1170,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-05-06T08:00:00+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
-  },
-  {
-    "url": "https://twitter.com/OpenAI/status/2053824997777457651#m",
-    "hash": "21c6836722ad90cf",
-    "title": "@OpenAI: Pinned: Today we\u2019re launching the OpenAI Deployment Company to help businesses build and deploy AI.\n\nIt's majority-owned",
-    "summary": "Pinned: Today we\u2019re launching the OpenAI Deployment Company to help businesses build and deploy AI. It's majority-owned ",
-    "source": "twitter",
-    "category": "news",
-    "relevance": 45,
-    "hot": "stable",
-    "breaking": false,
-    "stars": null,
-    "tags": [],
-    "scraped_at": "2026-05-11T13:10:12+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
-  },
-  {
-    "url": "https://openai.com/index/uber",
-    "hash": "0ef58dbb67f9059c",
-    "title": "Uber uses OpenAI to help people earn smarter and book faster",
-    "summary": "Uber uses OpenAI to power AI assistants and voice features that help drivers earn smarter and riders book faster across ",
-    "source": "rss_blog",
-    "category": "news",
-    "relevance": 55,
-    "hot": "stable",
-    "breaking": false,
-    "stars": null,
-    "tags": [],
-    "scraped_at": "2026-05-06T00:00:00+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   },
   {
     "url": "https://openai.com/index/singular-bank",
@@ -1156,7 +1185,22 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-05-06T00:00:00+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
+  },
+  {
+    "url": "https://openai.com/index/uber",
+    "hash": "0ef58dbb67f9059c",
+    "title": "Uber uses OpenAI to help people earn smarter and book faster",
+    "summary": "Uber uses OpenAI to power AI assistants and voice features that help drivers earn smarter and riders book faster across ",
+    "source": "rss_blog",
+    "category": "news",
+    "relevance": 55,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [],
+    "scraped_at": "2026-05-06T00:00:00+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   },
   {
     "url": "https://openai.com/index/introducing-chatgpt-futures-class-of-2026",
@@ -1171,7 +1215,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-05-06T00:00:00+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   },
   {
     "url": "https://huggingface.co/blog/open-asr-leaderboard-private-data",
@@ -1188,24 +1232,82 @@
       "evaluation"
     ],
     "scraped_at": "2026-05-06T00:00:00+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   },
   {
-    "url": "https://twitter.com/onusoz/status/2053812410730037256#m",
-    "hash": "6f8889eeed768ea2",
-    "title": "@huggingface: RT by @huggingface: I have a new job!\n\nExcited to announce that I will be working with Hugging Face to make local models",
-    "summary": "RT by @huggingface: I have a new job! Excited to announce that I will be working with Hugging Face to make local models ",
+    "url": "https://twitter.com/bfl_ml/status/2053890744796979462#m",
+    "hash": "8707217aaede8f12",
+    "title": "@swyx: RT by @swyx: The next generation of models won't just generate images - they'll understand worlds, motion, interaction,",
+    "summary": "RT by @swyx: The next generation of models won't just generate images - they'll understand worlds, motion, interaction, ",
     "source": "twitter",
     "category": "news",
     "relevance": 45,
     "hot": "stable",
     "breaking": false,
     "stars": null,
-    "tags": [
-      "agents"
-    ],
-    "scraped_at": "2026-05-11T12:20:11+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "tags": [],
+    "scraped_at": "2026-05-11T17:31:27+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
+  },
+  {
+    "url": "https://twitter.com/AnthropicAI/status/2053881827396653207#m",
+    "hash": "adf21fcd26046ac7",
+    "title": "@AnthropicAI: Claude's Constitution is now an audiobook, read by two of its authors, Amanda Askell and Joe Carlsmith.\n\nIt includes a Q",
+    "summary": "Claude's Constitution is now an audiobook, read by two of its authors, Amanda Askell and Joe Carlsmith. It includes a Q&",
+    "source": "twitter",
+    "category": "news",
+    "relevance": 45,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [],
+    "scraped_at": "2026-05-11T16:56:01+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
+  },
+  {
+    "url": "https://twitter.com/ConsensusNLP/status/2053863836613005543#m",
+    "hash": "32962daf6305afe8",
+    "title": "@swyx: RT by @swyx: Today, we're announcing $30M in new funding to build the AI OS for Research. \n\n2.5M researchers start their",
+    "summary": "RT by @swyx: Today, we're announcing $30M in new funding to build the AI OS for Research. 2.5M researchers start their w",
+    "source": "twitter",
+    "category": "news",
+    "relevance": 45,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [],
+    "scraped_at": "2026-05-11T15:44:32+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
+  },
+  {
+    "url": "https://twitter.com/SherryYanJiang/status/2053841685088743878#m",
+    "hash": "fee8762dc51aa1e6",
+    "title": "@swyx: RT by @swyx: \u201cwe gonna yolo our way into running the biggest conf in town.\u201d and somehow\u2026 we actually did it with @aiDotE",
+    "summary": "RT by @swyx: \u201cwe gonna yolo our way into running the biggest conf in town.\u201d and somehow\u2026 we actually did it with @aiDotE",
+    "source": "twitter",
+    "category": "news",
+    "relevance": 45,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [],
+    "scraped_at": "2026-05-11T14:16:30+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
+  },
+  {
+    "url": "https://twitter.com/OpenAI/status/2053824997777457651#m",
+    "hash": "21c6836722ad90cf",
+    "title": "@OpenAI: Today we\u2019re launching the OpenAI Deployment Company to help businesses build and deploy AI.\n\nIt's majority-owned and con",
+    "summary": "Today we\u2019re launching the OpenAI Deployment Company to help businesses build and deploy AI. It's majority-owned and cont",
+    "source": "twitter",
+    "category": "news",
+    "relevance": 45,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [],
+    "scraped_at": "2026-05-11T13:10:12+00:00",
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   },
   {
     "url": "https://twitter.com/ALupsasca/status/2053800033535893961#m",
@@ -1220,7 +1322,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-05-11T11:31:00+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   },
   {
     "url": "https://twitter.com/sama/status/2053572868936761350#m",
@@ -1235,38 +1337,6 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-05-10T20:28:20+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
-  },
-  {
-    "url": "https://twitter.com/simonw/status/2053529689122328947#m",
-    "hash": "108c06e15578a217",
-    "title": "@simonw: Shopify's River agent system lives in Slack and can only be used in public so that other employees can learn from what y",
-    "summary": "Shopify's River agent system lives in Slack and can only be used in public so that other employees can learn from what y",
-    "source": "twitter",
-    "category": "news",
-    "relevance": 45,
-    "hot": "stable",
-    "breaking": false,
-    "stars": null,
-    "tags": [
-      "agents"
-    ],
-    "scraped_at": "2026-05-10T17:36:45+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
-  },
-  {
-    "url": "https://twitter.com/pentagoniac/status/2053512744037454173#m",
-    "hash": "d59d9e7605efc0f4",
-    "title": "@ylecun: RT by @ylecun: Project Tapestry by @thealliance_ai: gathering some of the best minds in the world in Paris, to help solv",
-    "summary": "RT by @ylecun: Project Tapestry by @thealliance_ai: gathering some of the best minds in the world in Paris, to help solv",
-    "source": "twitter",
-    "category": "news",
-    "relevance": 45,
-    "hot": "stable",
-    "breaking": false,
-    "stars": null,
-    "tags": [],
-    "scraped_at": "2026-05-10T16:29:25+00:00",
-    "scored_at": "2026-05-12T14:06:44.325988+00:00"
+    "scored_at": "2026-05-12T19:43:06.514642+00:00"
   }
 ]
