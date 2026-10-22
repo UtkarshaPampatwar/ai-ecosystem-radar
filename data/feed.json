@@ -1,25 +1,5 @@
 [
   {
-    "url": "https://github.com/headroomlabs-ai/headroom",
-    "hash": "668711a6e1072822",
-    "title": "headroomlabs-ai / headroom",
-    "summary": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95%",
-    "source": "github_trending",
-    "category": "tool",
-    "relevance": 97,
-    "hot": "rising",
-    "breaking": false,
-    "stars": 77308,
-    "tags": [
-      "agents",
-      "rag",
-      "mcp",
-      "llm"
-    ],
-    "scraped_at": "2026-10-22T02:50:00.070372+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
-  },
-  {
     "url": "https://github.com/stablyai/orca",
     "hash": "0a8884baa5f55aa6",
     "title": "stablyai / orca",
@@ -29,12 +9,81 @@
     "relevance": 95,
     "hot": "rising",
     "breaking": false,
-    "stars": 101465,
+    "stars": 102096,
     "tags": [
       "agents"
     ],
-    "scraped_at": "2026-10-22T02:50:02.940935+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scraped_at": "2026-10-22T10:57:40.037094+00:00",
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
+  },
+  {
+    "url": "https://github.com/headroomlabs-ai/headroom",
+    "hash": "668711a6e1072822",
+    "title": "headroomlabs-ai / headroom",
+    "summary": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95%",
+    "source": "github_trending",
+    "category": "tool",
+    "relevance": 97,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 77487,
+    "tags": [
+      "agents",
+      "rag",
+      "mcp",
+      "llm"
+    ],
+    "scraped_at": "2026-10-22T10:57:37.466502+00:00",
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
+  },
+  {
+    "url": "https://github.com/BerriAI/litellm",
+    "hash": "dab892839df45099",
+    "title": "BerriAI / litellm",
+    "summary": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tra",
+    "source": "github_trending",
+    "category": "tool",
+    "relevance": 89,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 61798,
+    "tags": [
+      "llm"
+    ],
+    "scraped_at": "2026-10-22T10:57:37.466950+00:00",
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
+  },
+  {
+    "url": "https://github.com/onyx-dot-app/onyx",
+    "hash": "de3e2955aed3e931",
+    "title": "onyx-dot-app / onyx",
+    "summary": "Open Source AI Platform - AI Chat with advanced features that works with every LLM",
+    "source": "github_trending",
+    "category": "repo",
+    "relevance": 88,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 32819,
+    "tags": [
+      "llm"
+    ],
+    "scraped_at": "2026-10-22T10:57:37.467458+00:00",
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
+  },
+  {
+    "url": "https://github.com/EveryInc/compound-engineering-plugin",
+    "hash": "47dca59f5e85d3b9",
+    "title": "EveryInc / compound-engineering-plugin",
+    "summary": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
+    "source": "github_trending",
+    "category": "tool",
+    "relevance": 85,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 25648,
+    "tags": [],
+    "scraped_at": "2026-10-22T10:57:40.036691+00:00",
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://github.com/Comfy-Org/ComfyUI",
@@ -46,12 +95,12 @@
     "relevance": 89,
     "hot": "rising",
     "breaking": false,
-    "stars": 141588,
+    "stars": 141848,
     "tags": [
       "inference"
     ],
-    "scraped_at": "2026-10-22T02:50:00.070873+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scraped_at": "2026-10-22T10:57:37.467292+00:00",
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://github.com/vllm-project/vllm",
@@ -63,115 +112,45 @@
     "relevance": 88,
     "hot": "rising",
     "breaking": false,
-    "stars": 94923,
+    "stars": 95094,
     "tags": [
       "llm",
       "inference"
     ],
-    "scraped_at": "2026-10-22T02:50:00.069941+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scraped_at": "2026-10-22T10:57:37.466338+00:00",
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
-    "url": "https://github.com/ruvnet/ruflo",
-    "hash": "c60b77ce50fb8910",
-    "title": "ruvnet / ruflo",
-    "summary": "\ud83c\udf0a The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build convers",
-    "source": "github_trending",
-    "category": "framework",
-    "relevance": 94,
-    "hot": "rising",
-    "breaking": false,
-    "stars": 78236,
-    "tags": [
-      "agents",
-      "rag"
-    ],
-    "scraped_at": "2026-10-22T02:50:02.942144+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
-  },
-  {
-    "url": "https://github.com/cloudflare/security-audit-skill",
-    "hash": "9c15e014464735eb",
-    "title": "cloudflare / security-audit-skill",
-    "summary": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+    "url": "https://github.com/hugohe3/ppt-master",
+    "hash": "5ce899049fafd6b3",
+    "title": "hugohe3 / ppt-master",
+    "summary": "AI turns documents or topics into real, native PowerPoint decks\u2014with native shapes, transitions and animations, data-bac",
     "source": "github_trending",
     "category": "repo",
     "relevance": 80,
     "hot": "rising",
     "breaking": false,
-    "stars": 36746,
-    "tags": [
-      "agents",
-      "security"
-    ],
-    "scraped_at": "2026-10-22T02:50:01.110593+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "stars": 65691,
+    "tags": [],
+    "scraped_at": "2026-10-22T10:57:37.467123+00:00",
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
-    "url": "https://github.com/anomalyco/opencode",
-    "hash": "ffccace0ba14fd15",
-    "title": "anomalyco / opencode",
-    "summary": "The open source coding agent.",
+    "url": "https://github.com/HKUDS/Vibe-Trading",
+    "hash": "1b56cc9447a6475c",
+    "title": "HKUDS / Vibe-Trading",
+    "summary": "\"Vibe-Trading: Your Personal Trading Agent\"",
     "source": "github_trending",
     "category": "repo",
-    "relevance": 84,
+    "relevance": 80,
     "hot": "rising",
     "breaking": false,
-    "stars": 219744,
+    "stars": 36270,
     "tags": [
       "agents"
     ],
-    "scraped_at": "2026-10-22T02:50:02.942899+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
-  },
-  {
-    "url": "https://github.com/tashfeenahmed/freellmapi",
-    "hash": "f9d54d6e051498a6",
-    "title": "tashfeenahmed / freellmapi",
-    "summary": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any cus",
-    "source": "github_trending",
-    "category": "repo",
-    "relevance": 84,
-    "hot": "rising",
-    "breaking": false,
-    "stars": 39011,
-    "tags": [
-      "llm"
-    ],
-    "scraped_at": "2026-10-22T02:50:02.944519+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
-  },
-  {
-    "url": "https://github.com/anthropics/knowledge-work-plugins",
-    "hash": "2d6ba8fc0269fd52",
-    "title": "anthropics / knowledge-work-plugins",
-    "summary": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
-    "source": "github_trending",
-    "category": "tool",
-    "relevance": 89,
-    "hot": "rising",
-    "breaking": false,
-    "stars": 31197,
-    "tags": [],
-    "scraped_at": "2026-10-22T02:50:00.072390+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
-  },
-  {
-    "url": "https://github.com/Graphify-Labs/graphify",
-    "hash": "c290a2acf859c75b",
-    "title": "Graphify-Labs / graphify",
-    "summary": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill fo",
-    "source": "github_trending",
-    "category": "repo",
-    "relevance": 80,
-    "hot": "rising",
-    "breaking": false,
-    "stars": 131772,
-    "tags": [
-      "embeddings"
-    ],
-    "scraped_at": "2026-10-22T02:50:00.071388+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scraped_at": "2026-10-22T10:57:37.467619+00:00",
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://github.com/DietrichGebert/ponytail",
@@ -183,140 +162,128 @@
     "relevance": 80,
     "hot": "rising",
     "breaking": false,
-    "stars": 171834,
+    "stars": 172495,
     "tags": [
       "agents"
     ],
-    "scraped_at": "2026-10-22T02:50:01.111082+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scraped_at": "2026-10-22T10:57:38.426453+00:00",
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
-    "url": "https://github.com/tt-a1i/archify",
-    "hash": "26de699d3e5c651e",
-    "title": "tt-a1i / archify",
-    "summary": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
+    "url": "https://github.com/cloudflare/security-audit-skill",
+    "hash": "9c15e014464735eb",
+    "title": "cloudflare / security-audit-skill",
+    "summary": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
     "source": "github_trending",
     "category": "repo",
     "relevance": 80,
     "hot": "rising",
     "breaking": false,
-    "stars": 87132,
+    "stars": 37945,
     "tags": [
-      "agents"
+      "agents",
+      "security"
     ],
-    "scraped_at": "2026-10-22T02:50:01.112326+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scraped_at": "2026-10-22T10:57:38.426657+00:00",
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
-    "url": "https://github.com/supabase/supabase",
-    "hash": "2b5226bf08105545",
-    "title": "supabase / supabase",
-    "summary": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI ap",
+    "url": "https://github.com/Open-Dev-Society/OpenStock",
+    "hash": "dbb1206fab0dec85",
+    "title": "Open-Dev-Society / OpenStock",
+    "summary": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, ",
     "source": "github_trending",
     "category": "repo",
     "relevance": 80,
     "hot": "rising",
     "breaking": false,
-    "stars": 113065,
+    "stars": 20766,
     "tags": [],
-    "scraped_at": "2026-10-22T02:50:02.941412+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scraped_at": "2026-10-22T10:57:40.035336+00:00",
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
-    "url": "https://github.com/twentyhq/twenty",
-    "hash": "a20220596b25af30",
-    "title": "twentyhq / twenty",
-    "summary": "The open alternative to Salesforce, designed for AI.",
+    "url": "https://github.com/genspark-ai/genoffice",
+    "hash": "9a2b1071758d4286",
+    "title": "genspark-ai / genoffice",
+    "summary": "Free, open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML editors with a built-in AI agent, plus a",
     "source": "github_trending",
     "category": "repo",
     "relevance": 80,
     "hot": "rising",
     "breaking": false,
-    "stars": 59235,
-    "tags": [],
-    "scraped_at": "2026-10-22T02:50:02.941782+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
-  },
-  {
-    "url": "https://github.com/akitaonrails/ai-memory",
-    "hash": "4138778ebbc75ba6",
-    "title": "akitaonrails / ai-memory",
-    "summary": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
-    "source": "github_trending",
-    "category": "repo",
-    "relevance": 80,
-    "hot": "rising",
-    "breaking": false,
-    "stars": 12396,
+    "stars": 10436,
     "tags": [
       "agents"
     ],
-    "scraped_at": "2026-10-22T02:50:04.935228+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scraped_at": "2026-10-22T10:57:40.035851+00:00",
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
-    "url": "https://github.com/luongnv89/claude-howto",
-    "hash": "98a99d0df7599b35",
-    "title": "luongnv89 / claude-howto",
-    "summary": "A visual, example-driven guide to Claude Code \u2014 from basic concepts to advanced agents, with copy-paste templates that b",
+    "url": "https://github.com/firecrawl/firecrawl",
+    "hash": "e9dbf459bd01dca3",
+    "title": "firecrawl / firecrawl",
+    "summary": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. \ud83d\udd25",
+    "source": "github_trending",
+    "category": "repo",
+    "relevance": 80,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 194068,
+    "tags": [
+      "agents"
+    ],
+    "scraped_at": "2026-10-22T10:57:40.036436+00:00",
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
+  },
+  {
+    "url": "https://github.com/tashfeenahmed/freellmapi",
+    "hash": "f9d54d6e051498a6",
+    "title": "tashfeenahmed / freellmapi",
+    "summary": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any cus",
+    "source": "github_trending",
+    "category": "repo",
+    "relevance": 84,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 39219,
+    "tags": [
+      "llm"
+    ],
+    "scraped_at": "2026-10-22T10:57:40.035684+00:00",
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
+  },
+  {
+    "url": "https://github.com/anthropics/knowledge-work-plugins",
+    "hash": "2d6ba8fc0269fd52",
+    "title": "anthropics / knowledge-work-plugins",
+    "summary": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
     "source": "github_trending",
     "category": "tool",
-    "relevance": 85,
+    "relevance": 89,
     "hot": "rising",
     "breaking": false,
-    "stars": 42511,
-    "tags": [
-      "agents"
-    ],
-    "scraped_at": "2026-10-22T02:50:00.072016+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
-  },
-  {
-    "url": "https://github.com/koala73/worldmonitor",
-    "hash": "5fce3c914fe93bcc",
-    "title": "koala73 / worldmonitor",
-    "summary": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracki",
-    "source": "github_trending",
-    "category": "tool",
-    "relevance": 85,
-    "hot": "rising",
-    "breaking": false,
-    "stars": 89115,
+    "stars": 31264,
     "tags": [],
-    "scraped_at": "2026-10-22T02:50:02.945575+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scraped_at": "2026-10-22T10:57:37.465596+00:00",
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
-    "url": "https://github.com/usestrix/strix",
-    "hash": "c7c9684abfb72529",
-    "title": "usestrix / strix",
-    "summary": "Open-source AI penetration testing tool to find and fix your app\u2019s vulnerabilities.",
+    "url": "https://github.com/Graphify-Labs/graphify",
+    "hash": "c290a2acf859c75b",
+    "title": "Graphify-Labs / graphify",
+    "summary": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill fo",
     "source": "github_trending",
     "category": "repo",
     "relevance": 80,
     "hot": "rising",
     "breaking": false,
-    "stars": 70840,
-    "tags": [],
-    "scraped_at": "2026-10-22T02:50:00.073266+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
-  },
-  {
-    "url": "https://github.com/Panniantong/Agent-Reach",
-    "hash": "b6bb9341088f0954",
-    "title": "Panniantong / Agent-Reach",
-    "summary": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongSh",
-    "source": "github_trending",
-    "category": "repo",
-    "relevance": 80,
-    "hot": "rising",
-    "breaking": false,
-    "stars": 100692,
+    "stars": 132220,
     "tags": [
-      "agents"
+      "embeddings"
     ],
-    "scraped_at": "2026-10-22T02:50:00.073647+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scraped_at": "2026-10-22T10:57:37.465819+00:00",
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://github.com/citrolabs/ego-lite",
@@ -328,42 +295,107 @@
     "relevance": 80,
     "hot": "rising",
     "breaking": false,
-    "stars": 18568,
+    "stars": 18702,
     "tags": [
       "agents"
     ],
-    "scraped_at": "2026-10-22T02:50:01.111600+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scraped_at": "2026-10-22T10:57:38.426926+00:00",
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
-    "url": "https://github.com/iptv-org/iptv",
-    "hash": "7cee059b5393d0da",
-    "title": "iptv-org / iptv",
-    "summary": "Collection of publicly available IPTV channels from all over the world",
+    "url": "https://github.com/supabase/supabase",
+    "hash": "2b5226bf08105545",
+    "title": "supabase / supabase",
+    "summary": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI ap",
     "source": "github_trending",
     "category": "repo",
     "relevance": 80,
     "hot": "rising",
     "breaking": false,
-    "stars": 141889,
+    "stars": 113253,
     "tags": [],
-    "scraped_at": "2026-10-22T02:50:02.943243+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scraped_at": "2026-10-22T10:57:40.035122+00:00",
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
-    "url": "https://github.com/openclaw/openclaw",
-    "hash": "0b5c4741d1c147be",
-    "title": "openclaw / openclaw",
-    "summary": "The AI that really does things. Any OS. Any Platform. The lobster way. \ud83e\udd9e",
+    "url": "https://github.com/twentyhq/twenty",
+    "hash": "a20220596b25af30",
+    "title": "twentyhq / twenty",
+    "summary": "The open alternative to Salesforce, designed for AI.",
     "source": "github_trending",
     "category": "repo",
     "relevance": 80,
     "hot": "rising",
     "breaking": false,
-    "stars": 392711,
+    "stars": 59480,
     "tags": [],
-    "scraped_at": "2026-10-22T02:50:02.943824+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scraped_at": "2026-10-22T10:57:40.035512+00:00",
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
+  },
+  {
+    "url": "https://github.com/luongnv89/claude-howto",
+    "hash": "98a99d0df7599b35",
+    "title": "luongnv89 / claude-howto",
+    "summary": "A visual, example-driven guide to Claude Code \u2014 from basic concepts to advanced agents, with copy-paste templates that b",
+    "source": "github_trending",
+    "category": "tool",
+    "relevance": 85,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 42586,
+    "tags": [
+      "agents"
+    ],
+    "scraped_at": "2026-10-22T10:57:37.466121+00:00",
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
+  },
+  {
+    "url": "https://github.com/koala73/worldmonitor",
+    "hash": "5fce3c914fe93bcc",
+    "title": "koala73 / worldmonitor",
+    "summary": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracki",
+    "source": "github_trending",
+    "category": "tool",
+    "relevance": 85,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 89165,
+    "tags": [],
+    "scraped_at": "2026-10-22T10:57:40.036023+00:00",
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
+  },
+  {
+    "url": "https://github.com/CopilotKit/OpenBot",
+    "hash": "229b322ed982d40b",
+    "title": "CopilotKit / OpenBot",
+    "summary": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided be",
+    "source": "github_trending",
+    "category": "repo",
+    "relevance": 75,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 6883,
+    "tags": [
+      "agents",
+      "code-generation"
+    ],
+    "scraped_at": "2026-10-22T10:57:40.036922+00:00",
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
+  },
+  {
+    "url": "https://github.com/Meloong-Git/PCL",
+    "hash": "b9db1f32781a15fa",
+    "title": "Meloong-Git / PCL",
+    "summary": "Minecraft \u542f\u52a8\u5668 Plain Craft Launcher\uff08PCL\uff09\u3002",
+    "source": "github_trending",
+    "category": "repo",
+    "relevance": 75,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 8515,
+    "tags": [],
+    "scraped_at": "2026-10-22T10:57:40.182640+00:00",
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.27816v1",
@@ -383,7 +415,7 @@
       "evaluation"
     ],
     "scraped_at": "2026-10-20T08:08:08+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.29792v1",
@@ -403,7 +435,7 @@
       "reasoning"
     ],
     "scraped_at": "2026-10-21T14:19:17+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.29722v1",
@@ -423,39 +455,7 @@
       "embeddings"
     ],
     "scraped_at": "2026-10-21T13:30:29+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
-  },
-  {
-    "url": "https://github.com/cline/cline",
-    "hash": "533d51d9d3dea76f",
-    "title": "cline / cline",
-    "summary": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
-    "source": "github_trending",
-    "category": "repo",
-    "relevance": 80,
-    "hot": "stable",
-    "breaking": false,
-    "stars": 70734,
-    "tags": [
-      "agents"
-    ],
-    "scraped_at": "2026-10-22T02:50:02.944886+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
-  },
-  {
-    "url": "https://github.com/ItzCrazyKns/Vane",
-    "hash": "3e0cd32857014e64",
-    "title": "ItzCrazyKns / Vane",
-    "summary": "Vane is an AI-powered answering engine.",
-    "source": "github_trending",
-    "category": "repo",
-    "relevance": 80,
-    "hot": "stable",
-    "breaking": false,
-    "stars": 37609,
-    "tags": [],
-    "scraped_at": "2026-10-22T02:50:02.945229+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.29850v1",
@@ -473,7 +473,7 @@
       "llm"
     ],
     "scraped_at": "2026-10-21T15:09:33+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.29751v1",
@@ -492,7 +492,7 @@
       "evaluation"
     ],
     "scraped_at": "2026-10-21T13:50:43+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.28785v1",
@@ -511,7 +511,24 @@
       "inference"
     ],
     "scraped_at": "2026-10-20T18:15:52+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
+  },
+  {
+    "url": "https://github.com/adobe/skills",
+    "hash": "0e9e77523e227561",
+    "title": "adobe / skills",
+    "summary": "Adobe Skills for Agents",
+    "source": "github_trending",
+    "category": "repo",
+    "relevance": 70,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 292,
+    "tags": [
+      "agents"
+    ],
+    "scraped_at": "2026-10-22T10:57:38.427094+00:00",
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.26730v1",
@@ -529,7 +546,7 @@
       "llm"
     ],
     "scraped_at": "2026-10-19T16:58:53+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.26624v1",
@@ -548,7 +565,7 @@
       "security"
     ],
     "scraped_at": "2026-10-19T15:55:55+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.30113v1",
@@ -567,7 +584,7 @@
       "evaluation"
     ],
     "scraped_at": "2026-10-21T17:54:01+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.29934v1",
@@ -586,7 +603,7 @@
       "reasoning"
     ],
     "scraped_at": "2026-10-21T16:05:54+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.29933v1",
@@ -605,7 +622,7 @@
       "reasoning"
     ],
     "scraped_at": "2026-10-21T16:05:44+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.29518v1",
@@ -623,7 +640,7 @@
       "reasoning"
     ],
     "scraped_at": "2026-10-21T10:05:25+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.29346v1",
@@ -642,7 +659,7 @@
       "evaluation"
     ],
     "scraped_at": "2026-10-21T07:38:29+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.29234v1",
@@ -660,7 +677,7 @@
       "evaluation"
     ],
     "scraped_at": "2026-10-21T05:44:09+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.29223v1",
@@ -677,7 +694,7 @@
       "rag"
     ],
     "scraped_at": "2026-10-21T05:30:06+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.29073v1",
@@ -695,7 +712,7 @@
       "reasoning"
     ],
     "scraped_at": "2026-10-21T01:53:34+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.28364v1",
@@ -712,7 +729,7 @@
       "rag"
     ],
     "scraped_at": "2026-10-20T15:26:15+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.28340v1",
@@ -730,7 +747,7 @@
       "evaluation"
     ],
     "scraped_at": "2026-10-20T15:07:19+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.04378v2",
@@ -751,7 +768,7 @@
       "security"
     ],
     "scraped_at": "2026-10-03T08:44:20+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2609.33731v1",
@@ -770,7 +787,7 @@
       "inference"
     ],
     "scraped_at": "2026-09-27T16:32:54+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.28686v1",
@@ -788,39 +805,7 @@
       "fine-tuning"
     ],
     "scraped_at": "2026-10-19T22:33:41+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
-  },
-  {
-    "url": "https://github.com/Emily2040/seedance-2.0",
-    "hash": "1a74e304805983b0",
-    "title": "Emily2040 / seedance-2.0",
-    "summary": "Comprehensive production pipeline for quad-modal AI filmmaking with Seedance 2.0",
-    "source": "github_trending",
-    "category": "repo",
-    "relevance": 75,
-    "hot": "stable",
-    "breaking": false,
-    "stars": 7884,
-    "tags": [],
-    "scraped_at": "2026-10-22T02:50:00.072766+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
-  },
-  {
-    "url": "https://github.com/croffasia/itsaplan",
-    "hash": "22e35e70d0da9462",
-    "title": "croffasia / itsaplan",
-    "summary": "\u2b50\ufe0f\u2b50\ufe0f\u2b50\ufe0f Open-source, self-hosted alternative to Linear and Plane. Project management and issue tracking where teams and A",
-    "source": "github_trending",
-    "category": "repo",
-    "relevance": 75,
-    "hot": "stable",
-    "breaking": false,
-    "stars": 1752,
-    "tags": [
-      "agents"
-    ],
-    "scraped_at": "2026-10-22T02:50:02.944179+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.30103v1",
@@ -840,7 +825,7 @@
       "security"
     ],
     "scraped_at": "2026-10-21T17:50:19+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.26339v1",
@@ -857,7 +842,7 @@
       "rag"
     ],
     "scraped_at": "2026-10-19T13:08:38+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.29741v1",
@@ -874,7 +859,7 @@
       "agents"
     ],
     "scraped_at": "2026-10-21T13:39:20+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.29734v1",
@@ -892,7 +877,7 @@
       "reasoning"
     ],
     "scraped_at": "2026-10-21T13:35:57+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.29590v1",
@@ -911,7 +896,7 @@
       "reasoning"
     ],
     "scraped_at": "2026-10-21T11:30:09+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.29456v1",
@@ -928,7 +913,7 @@
       "agents"
     ],
     "scraped_at": "2026-10-21T09:14:12+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.28957v1",
@@ -945,7 +930,7 @@
       "rag"
     ],
     "scraped_at": "2026-10-20T22:11:07+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.25212v1",
@@ -963,7 +948,7 @@
       "reasoning"
     ],
     "scraped_at": "2026-10-18T12:10:19+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.23082v1",
@@ -981,7 +966,7 @@
       "prompt-engineering"
     ],
     "scraped_at": "2026-10-16T07:52:18+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.14956v1",
@@ -999,7 +984,7 @@
       "mcp"
     ],
     "scraped_at": "2026-10-10T14:29:23+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.14334v1",
@@ -1017,7 +1002,7 @@
       "llm"
     ],
     "scraped_at": "2026-10-09T21:21:16+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2609.30341v1",
@@ -1036,7 +1021,7 @@
       "llm"
     ],
     "scraped_at": "2026-09-24T11:42:36+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2609.27340v1",
@@ -1056,7 +1041,7 @@
       "reasoning"
     ],
     "scraped_at": "2026-09-23T04:29:01+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.27114v1",
@@ -1073,7 +1058,7 @@
       "rag"
     ],
     "scraped_at": "2026-10-19T18:12:48+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.26831v1",
@@ -1091,7 +1076,7 @@
       "inference"
     ],
     "scraped_at": "2026-10-19T17:56:04+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.30074v1",
@@ -1108,7 +1093,7 @@
       "agents"
     ],
     "scraped_at": "2026-10-21T17:27:17+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.30047v1",
@@ -1126,7 +1111,7 @@
       "evaluation"
     ],
     "scraped_at": "2026-10-21T17:06:34+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.26432v1",
@@ -1143,7 +1128,7 @@
       "rag"
     ],
     "scraped_at": "2026-10-19T13:56:48+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.29822v1",
@@ -1161,22 +1146,7 @@
       "evaluation"
     ],
     "scraped_at": "2026-10-21T14:46:22+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
-  },
-  {
-    "url": "https://github.com/NomaDamas/CozyClay",
-    "hash": "a65ac459b944b48e",
-    "title": "NomaDamas / CozyClay",
-    "summary": "Open source previs software in the browser: block a scene, pose characters, author camera moves and cuts, then take the ",
-    "source": "github_trending",
-    "category": "repo",
-    "relevance": 74,
-    "hot": "stable",
-    "breaking": false,
-    "stars": 893,
-    "tags": [],
-    "scraped_at": "2026-10-22T02:50:01.111982+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering/",
@@ -1191,7 +1161,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-10-21T12:00:20+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.29577v1",
@@ -1208,7 +1178,7 @@
       "agents"
     ],
     "scraped_at": "2026-10-21T11:20:29+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.25998v1",
@@ -1225,7 +1195,7 @@
       "reasoning"
     ],
     "scraped_at": "2026-10-19T08:22:11+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.29408v1",
@@ -1243,7 +1213,7 @@
       "robotics"
     ],
     "scraped_at": "2026-10-21T08:34:03+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.29357v1",
@@ -1260,7 +1230,7 @@
       "agents"
     ],
     "scraped_at": "2026-10-21T07:49:42+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.25760v1",
@@ -1279,7 +1249,7 @@
       "reasoning"
     ],
     "scraped_at": "2026-10-19T04:18:24+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.23449v1",
@@ -1298,7 +1268,7 @@
       "security"
     ],
     "scraped_at": "2026-10-16T13:31:09+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.23311v1",
@@ -1316,7 +1286,7 @@
       "reasoning"
     ],
     "scraped_at": "2026-10-16T11:14:52+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.28303v1",
@@ -1333,7 +1303,7 @@
       "reasoning"
     ],
     "scraped_at": "2026-10-20T14:45:29+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://mistral.ai/news/voxtral-3/",
@@ -1350,7 +1320,7 @@
       "agents"
     ],
     "scraped_at": "2026-10-20T12:00:22+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.22964v1",
@@ -1370,7 +1340,7 @@
       "reasoning"
     ],
     "scraped_at": "2026-10-16T05:38:11+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.22869v1",
@@ -1390,24 +1360,7 @@
       "evaluation"
     ],
     "scraped_at": "2026-10-16T03:13:30+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
-  },
-  {
-    "url": "https://news.ycombinator.com/item?id=50167583",
-    "hash": "c1e7afb972e1d402",
-    "title": "Launch HN: Respan (YC W24) \u2013 Open-source Rust AI gateway built around plugins",
-    "summary": "Hey HN, this is Andy from Respan (https:&#x2F;&#x2F;www.respan.ai). We are building an open-source Rust AI gateway. It i",
-    "source": "hacker_news",
-    "category": "tool",
-    "relevance": 74,
-    "hot": "stable",
-    "breaking": false,
-    "stars": 52,
-    "tags": [
-      "mcp"
-    ],
-    "scraped_at": "2026-10-20T15:09:29+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.22301v1",
@@ -1425,7 +1378,7 @@
       "mcp"
     ],
     "scraped_at": "2026-10-15T17:48:10+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.05319v2",
@@ -1443,7 +1396,7 @@
       "mcp"
     ],
     "scraped_at": "2026-10-04T15:39:33+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2609.35381v2",
@@ -1461,7 +1414,7 @@
       "mcp"
     ],
     "scraped_at": "2026-09-28T15:14:46+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2609.31358v1",
@@ -1480,7 +1433,7 @@
       "reasoning"
     ],
     "scraped_at": "2026-09-25T14:54:21+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2609.26761v1",
@@ -1499,24 +1452,59 @@
       "security"
     ],
     "scraped_at": "2026-09-22T17:41:34+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
+  },
+  {
+    "url": "https://news.ycombinator.com/item?id=50167583",
+    "hash": "c1e7afb972e1d402",
+    "title": "Launch HN: Respan (YC W24) \u2013 Open-source Rust AI gateway built around plugins",
+    "summary": "Hey HN, this is Andy from Respan (https:&#x2F;&#x2F;www.respan.ai). We are building an open-source Rust AI gateway. It i",
+    "source": "hacker_news",
+    "category": "tool",
+    "relevance": 74,
+    "hot": "stable",
+    "breaking": false,
+    "stars": 52,
+    "tags": [
+      "mcp"
+    ],
+    "scraped_at": "2026-10-20T15:09:29+00:00",
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://github.com/omnara-ai/omnara",
     "hash": "a1ee33a52509d445",
-    "title": "Show HN: Omnara \u2013 Open-Source Alternative to Claude Managed Agents",
+    "title": "Show HN: Omnara \u2013 Open-source alternative to Claude Managed Agents",
     "summary": "Hey all, Kartik from Omnara (https:&#x2F;&#x2F;omnara.com) here. We&#x27;re building an open-source API for running dura",
     "source": "hacker_news",
     "category": "repo",
     "relevance": 65,
     "hot": "stable",
     "breaking": false,
-    "stars": 27,
+    "stars": 82,
     "tags": [
       "agents"
     ],
     "scraped_at": "2026-10-21T16:44:53+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
+  },
+  {
+    "url": "https://olivergrabner.com/research/pokemon/",
+    "hash": "c8ee1866031b1320",
+    "title": "LLM agents play Pokemon showdown",
+    "summary": "HN story with 29 points and 15 comments.",
+    "source": "hacker_news",
+    "category": "news",
+    "relevance": 64,
+    "hot": "stable",
+    "breaking": false,
+    "stars": 29,
+    "tags": [
+      "agents",
+      "llm"
+    ],
+    "scraped_at": "2026-10-22T02:13:48+00:00",
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.22841v1",
@@ -1534,7 +1522,7 @@
       "reasoning"
     ],
     "scraped_at": "2026-10-16T02:33:51+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.22717v1",
@@ -1552,7 +1540,7 @@
       "reasoning"
     ],
     "scraped_at": "2026-10-15T22:39:54+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://github.com/KatrielMoses/voidaccess",
@@ -1569,24 +1557,7 @@
       "security"
     ],
     "scraped_at": "2026-10-20T14:49:33+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
-  },
-  {
-    "url": "https://alterauth.com/",
-    "hash": "de8f10da3ca73d67",
-    "title": "Launch HN: Alter (YC S25) \u2013 Access control for multi-user agents",
-    "summary": "Hi HN! We\u2019re Srikar and Kevan, founders of Alter \u2013 https:&#x2F;&#x2F;alterauth.com&#x2F;. We\u2019re building access control ",
-    "source": "hacker_news",
-    "category": "news",
-    "relevance": 60,
-    "hot": "stable",
-    "breaking": false,
-    "stars": 54,
-    "tags": [
-      "agents"
-    ],
-    "scraped_at": "2026-10-21T06:42:12+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.23670v2",
@@ -1603,7 +1574,7 @@
       "reasoning"
     ],
     "scraped_at": "2026-10-16T16:01:49+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.23275v1",
@@ -1620,7 +1591,7 @@
       "reasoning"
     ],
     "scraped_at": "2026-10-16T10:44:23+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.23257v1",
@@ -1637,7 +1608,24 @@
       "reasoning"
     ],
     "scraped_at": "2026-10-16T10:31:27+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
+  },
+  {
+    "url": "https://alterauth.com/",
+    "hash": "de8f10da3ca73d67",
+    "title": "Launch HN: Alter (YC S25) \u2013 Access control for multi-user agents",
+    "summary": "Hi HN! We\u2019re Srikar and Kevan, founders of Alter \u2013 https:&#x2F;&#x2F;alterauth.com&#x2F;. We\u2019re building access control ",
+    "source": "hacker_news",
+    "category": "news",
+    "relevance": 60,
+    "hot": "stable",
+    "breaking": false,
+    "stars": 63,
+    "tags": [
+      "agents"
+    ],
+    "scraped_at": "2026-10-21T06:42:12+00:00",
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
@@ -1654,7 +1642,7 @@
       "inference"
     ],
     "scraped_at": "2026-10-21T17:35:36+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
@@ -1672,7 +1660,7 @@
       "security"
     ],
     "scraped_at": "2026-10-21T07:00:00+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://openai.com/index/building-chatgpt-ad-stack",
@@ -1689,7 +1677,7 @@
       "llm"
     ],
     "scraped_at": "2026-10-21T07:00:00+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://huggingface.co/blog/allenai/fairstress",
@@ -1706,7 +1694,22 @@
       "llm"
     ],
     "scraped_at": "2026-10-20T16:09:19+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
+  },
+  {
+    "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+    "hash": "0e5fad3ca5f8a881",
+    "title": "Ensemble forecasting with IBM Granite time-series models",
+    "summary": "New post from Hugging Face.",
+    "source": "rss_blog",
+    "category": "news",
+    "relevance": 55,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [],
+    "scraped_at": "2026-10-22T07:51:31+00:00",
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://openai.com/index/broad-access-through-consistent-standards",
@@ -1721,7 +1724,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-10-21T21:00:00+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://huggingface.co/blog/nvidia/kumo-relational",
@@ -1736,7 +1739,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-10-21T18:26:30+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://openai.com/index/att-legal",
@@ -1753,7 +1756,7 @@
       "reasoning"
     ],
     "scraped_at": "2026-10-21T17:00:00+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
@@ -1768,7 +1771,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-10-21T16:04:43+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
@@ -1783,7 +1786,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-10-21T14:58:18+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
@@ -1798,7 +1801,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-10-21T13:00:00+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://openai.com/index/openai-models-google-cloud",
@@ -1813,7 +1816,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-10-21T12:00:00+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
@@ -1830,7 +1833,7 @@
       "agents"
     ],
     "scraped_at": "2026-10-16T00:00:00+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
@@ -1847,7 +1850,7 @@
       "agents"
     ],
     "scraped_at": "2026-10-21T04:50:00+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://openai.com/index/cloudflare-cyber",
@@ -1862,7 +1865,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-10-21T00:00:00+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://openai.com/index/empowering-cyber-defenders",
@@ -1879,24 +1882,7 @@
       "security"
     ],
     "scraped_at": "2026-10-21T00:00:00+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
-  },
-  {
-    "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
-    "hash": "536f23cd94f13984",
-    "title": "ALTK-Evolve: How learned memory tops the \u03c4\u00b2-bench leaderboard on customer service tasks without a frontier model",
-    "summary": "New post from Hugging Face.",
-    "source": "rss_blog",
-    "category": "news",
-    "relevance": 55,
-    "hot": "stable",
-    "breaking": false,
-    "stars": null,
-    "tags": [
-      "evaluation"
-    ],
-    "scraped_at": "2026-10-20T15:19:48+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://openai.com/index/ted-taylor-restaurant",
@@ -1911,7 +1897,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-10-20T10:00:00+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://openai.com/index/terminal-x",
@@ -1928,7 +1914,7 @@
       "agents"
     ],
     "scraped_at": "2026-10-20T07:00:00+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
@@ -1943,7 +1929,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-10-20T00:00:00+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://huggingface.co/blog/hf-torchtpu",
@@ -1958,7 +1944,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-10-20T00:00:00+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://huggingface.co/blog/anylanguagemodel-1-0",
@@ -1973,7 +1959,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-10-20T00:00:00+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://huggingface.co/blog/mps-pytorch-2-15",
@@ -1988,7 +1974,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-10-20T00:00:00+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://openai.com/index/low-resource-programming-languages",
@@ -2003,7 +1989,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-10-19T12:00:00+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://huggingface.co/blog/hf-torchneuron",
@@ -2018,7 +2004,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-10-19T00:00:00+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://mistral.ai/news/timestral/",
@@ -2035,7 +2021,7 @@
       "evaluation"
     ],
     "scraped_at": "2026-10-15T12:00:00+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://openai.com/index/itau-generative-ai",
@@ -2050,7 +2036,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-10-16T19:00:00+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://openai.com/index/benefit-street-partners",
@@ -2065,22 +2051,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-10-16T00:00:00+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
-  },
-  {
-    "url": "https://huggingface.co/blog/reflection-beam",
-    "hash": "c9a6184923cc1a58",
-    "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
-    "summary": "New post from Hugging Face.",
-    "source": "rss_blog",
-    "category": "news",
-    "relevance": 55,
-    "hot": "stable",
-    "breaking": false,
-    "stars": null,
-    "tags": [],
-    "scraped_at": "2026-10-16T00:00:00+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
@@ -2095,7 +2066,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-10-15T19:00:00+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
     "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
@@ -2110,12 +2081,12 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-10-15T13:00:00+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   },
   {
-    "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
-    "hash": "39052ad94a8a76cc",
-    "title": "Apertus 1.5 Release Notes",
+    "url": "https://huggingface.co/blog/reflection-beam",
+    "hash": "c9a6184923cc1a58",
+    "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
     "summary": "New post from Hugging Face.",
     "source": "rss_blog",
     "category": "news",
@@ -2124,7 +2095,7 @@
     "breaking": false,
     "stars": null,
     "tags": [],
-    "scraped_at": "2026-10-15T09:08:45+00:00",
-    "scored_at": "2026-10-22T02:50:05.041324+00:00"
+    "scraped_at": "2026-10-16T00:00:00+00:00",
+    "scored_at": "2026-10-22T10:57:40.239891+00:00"
   }
 ]
