@@ -1,21 +1,90 @@
 [
   {
-    "url": "https://github.com/ggml-org/llama.cpp",
-    "hash": "8f4d2163b5e697a7",
-    "title": "ggml-org / llama.cpp",
-    "summary": "LLM inference in C/C++",
+    "url": "https://github.com/lidge-jun/opencodex",
+    "hash": "c47cbc7eb3e22410",
+    "title": "lidge-jun / opencodex",
+    "summary": "Universal provider proxy for OpenAI Codex & Claude Code \u2014 use any LLM (Claude, Gemini, Grok, DeepSeek, Ollama\u2026) with Cod",
     "source": "github_trending",
     "category": "model",
-    "relevance": 100,
+    "relevance": 99,
     "hot": "rising",
     "breaking": false,
-    "stars": 134638,
+    "stars": 18474,
     "tags": [
-      "llm",
-      "inference"
+      "llm"
     ],
-    "scraped_at": "2026-11-13T04:33:14.572005+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scraped_at": "2026-11-13T13:44:56.807726+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://github.com/headroomlabs-ai/headroom",
+    "hash": "668711a6e1072822",
+    "title": "headroomlabs-ai / headroom",
+    "summary": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95%",
+    "source": "github_trending",
+    "category": "tool",
+    "relevance": 97,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 79540,
+    "tags": [
+      "agents",
+      "rag",
+      "mcp",
+      "llm"
+    ],
+    "scraped_at": "2026-11-13T13:44:52.516424+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://github.com/asgeirtj/system_prompts_leaks",
+    "hash": "716cf9e2237ac9db",
+    "title": "asgeirtj / system_prompts_leaks",
+    "summary": "Leaked system prompts of ChatGPT, Claude, Gemini and more. The hidden system prompt of every popular chatbot, in full, e",
+    "source": "github_trending",
+    "category": "model",
+    "relevance": 95,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 71325,
+    "tags": [],
+    "scraped_at": "2026-11-13T13:44:52.515666+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://github.com/ahujasid/mcp-for-blender",
+    "hash": "587c68a1307478c2",
+    "title": "ahujasid / mcp-for-blender",
+    "summary": "Community plugin to control Blender 3D with any LLM of your choice. Not affiliated with the official Blender Foundation.",
+    "source": "github_trending",
+    "category": "tool",
+    "relevance": 93,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 34281,
+    "tags": [
+      "mcp",
+      "llm"
+    ],
+    "scraped_at": "2026-11-13T13:44:52.517272+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://github.com/langchain-ai/langgraph",
+    "hash": "642743ad9061795a",
+    "title": "langchain-ai / langgraph",
+    "summary": "Build resilient agents.",
+    "source": "github_trending",
+    "category": "framework",
+    "relevance": 90,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 44899,
+    "tags": [
+      "agents"
+    ],
+    "scraped_at": "2026-11-13T13:44:52.518528+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
     "url": "https://github.com/QwenLM/qwen-code",
@@ -27,46 +96,96 @@
     "relevance": 95,
     "hot": "rising",
     "breaking": false,
-    "stars": 29918,
+    "stars": 30085,
     "tags": [
       "agents"
     ],
-    "scraped_at": "2026-11-13T04:33:13.325864+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scraped_at": "2026-11-13T13:44:56.804965+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
-    "url": "https://github.com/meta/astryx",
-    "hash": "5e8027802f61d7f2",
-    "title": "meta / astryx",
-    "summary": "An open source design system that's fully customizable and agent ready",
+    "url": "https://github.com/anthropics/claude-plugins-official",
+    "hash": "02eab667df448997",
+    "title": "anthropics / claude-plugins-official",
+    "summary": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+    "source": "github_trending",
+    "category": "tool",
+    "relevance": 85,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 47113,
+    "tags": [],
+    "scraped_at": "2026-11-13T13:44:52.516042+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://github.com/EveryInc/compound-engineering-plugin",
+    "hash": "47dca59f5e85d3b9",
+    "title": "EveryInc / compound-engineering-plugin",
+    "summary": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
+    "source": "github_trending",
+    "category": "tool",
+    "relevance": 85,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 26061,
+    "tags": [],
+    "scraped_at": "2026-11-13T13:44:56.804429+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://github.com/callstack/agent-device",
+    "hash": "05f748dbdda77060",
+    "title": "callstack / agent-device",
+    "summary": "Open source device layer for AI coding agents: a CLI, MCP server, and typed Node.js API to control mobile, web, TV, and ",
+    "source": "github_trending",
+    "category": "tool",
+    "relevance": 88,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 5370,
+    "tags": [
+      "agents",
+      "mcp"
+    ],
+    "scraped_at": "2026-11-13T13:44:56.807122+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://github.com/volcengine/OpenViking",
+    "hash": "876fe6c1edb8596c",
+    "title": "volcengine / OpenViking",
+    "summary": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
     "source": "github_trending",
     "category": "repo",
     "relevance": 84,
     "hot": "rising",
     "breaking": false,
-    "stars": 26764,
+    "stars": 42173,
     "tags": [
-      "agents"
+      "agents",
+      "rag"
     ],
-    "scraped_at": "2026-11-13T04:33:13.326082+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scraped_at": "2026-11-13T13:44:52.518133+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
-    "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
-    "hash": "301f2d14985e5303",
-    "title": "GoogleChrome / modern-web-guidance-src",
-    "summary": "Keep your coding agent up to date with the latest web best practices",
+    "url": "https://github.com/alibaba/open-code-review",
+    "hash": "c489e6fb5febf2ab",
+    "title": "alibaba / open-code-review",
+    "summary": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines",
     "source": "github_trending",
-    "category": "tool",
-    "relevance": 80,
+    "category": "repo",
+    "relevance": 84,
     "hot": "rising",
     "breaking": false,
-    "stars": 3381,
+    "stars": 50231,
     "tags": [
-      "agents"
+      "agents",
+      "llm"
     ],
-    "scraped_at": "2026-11-13T04:33:13.325375+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scraped_at": "2026-11-13T13:44:57.903682+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
     "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
@@ -78,12 +197,166 @@
     "relevance": 89,
     "hot": "rising",
     "breaking": false,
-    "stars": 71120,
+    "stars": 71292,
     "tags": [
       "llm"
     ],
-    "scraped_at": "2026-11-13T04:33:10.322051+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scraped_at": "2026-11-13T13:44:52.513696+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://github.com/Leonxlnx/taste-skill",
+    "hash": "291d5eb46511b79f",
+    "title": "Leonxlnx / taste-skill",
+    "summary": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pa",
+    "source": "github_trending",
+    "category": "repo",
+    "relevance": 80,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 114719,
+    "tags": [
+      "agents"
+    ],
+    "scraped_at": "2026-11-13T13:44:55.524363+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://github.com/affaan-m/ECC",
+    "hash": "edb3a626875732de",
+    "title": "affaan-m / ECC",
+    "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development f",
+    "source": "github_trending",
+    "category": "repo",
+    "relevance": 80,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 302261,
+    "tags": [
+      "agents",
+      "security"
+    ],
+    "scraped_at": "2026-11-13T13:44:55.524862+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://github.com/DietrichGebert/ponytail",
+    "hash": "38c3408d933af173",
+    "title": "DietrichGebert / ponytail",
+    "summary": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+    "source": "github_trending",
+    "category": "repo",
+    "relevance": 80,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 190107,
+    "tags": [
+      "agents"
+    ],
+    "scraped_at": "2026-11-13T13:44:55.527116+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://github.com/backnotprop/plannotator",
+    "hash": "e6357f1e7e944cc8",
+    "title": "backnotprop / plannotator",
+    "summary": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, an",
+    "source": "github_trending",
+    "category": "repo",
+    "relevance": 80,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 10286,
+    "tags": [
+      "agents"
+    ],
+    "scraped_at": "2026-11-13T13:44:56.801346+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://github.com/a2ui-project/a2ui",
+    "hash": "79a9fc50a0fa02aa",
+    "title": "a2ui-project / a2ui",
+    "summary": "Open-source generative UI framework: agents stream layout data, and apps render it with native components in React, Angu",
+    "source": "github_trending",
+    "category": "repo",
+    "relevance": 80,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 17277,
+    "tags": [
+      "agents"
+    ],
+    "scraped_at": "2026-11-13T13:44:56.802534+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://github.com/realiti4/claude-swap",
+    "hash": "c7baebed99738941",
+    "title": "realiti4 / claude-swap",
+    "summary": "Switch between multiple Claude Code accounts, with automatic rate-limit rotation, usage dashboard, and parallel sessions",
+    "source": "github_trending",
+    "category": "tool",
+    "relevance": 80,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 4681,
+    "tags": [],
+    "scraped_at": "2026-11-13T13:44:52.517775+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://github.com/microsoft/power-platform-skills",
+    "hash": "a3f2914aef616229",
+    "title": "microsoft / power-platform-skills",
+    "summary": "A plugin marketplace for GitHub Copilot and other AI agents that provides Power Platform development plugins, including ",
+    "source": "github_trending",
+    "category": "tool",
+    "relevance": 80,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 1145,
+    "tags": [
+      "agents",
+      "code-generation"
+    ],
+    "scraped_at": "2026-11-13T13:44:55.525225+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+    "hash": "301f2d14985e5303",
+    "title": "GoogleChrome / modern-web-guidance-src",
+    "summary": "Keep your coding agent up to date with the latest web best practices",
+    "source": "github_trending",
+    "category": "tool",
+    "relevance": 80,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 4252,
+    "tags": [
+      "agents"
+    ],
+    "scraped_at": "2026-11-13T13:44:56.800480+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://github.com/kajisho5/ffmpeg-skill",
+    "hash": "bd036b2924d3b3d2",
+    "title": "kajisho5 / ffmpeg-skill",
+    "summary": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Cod",
+    "source": "github_trending",
+    "category": "repo",
+    "relevance": 79,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 5375,
+    "tags": [
+      "agents",
+      "mcp"
+    ],
+    "scraped_at": "2026-11-13T13:44:52.519005+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
     "url": "https://github.com/Alishahryar1/free-claude-code",
@@ -95,10 +368,10 @@
     "relevance": 80,
     "hot": "rising",
     "breaking": false,
-    "stars": 69449,
+    "stars": 69724,
     "tags": [],
-    "scraped_at": "2026-11-13T04:33:10.321541+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scraped_at": "2026-11-13T13:44:52.516792+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
     "url": "https://github.com/addyosmani/agent-skills",
@@ -110,12 +383,12 @@
     "relevance": 80,
     "hot": "rising",
     "breaking": false,
-    "stars": 116783,
+    "stars": 117005,
     "tags": [
       "agents"
     ],
-    "scraped_at": "2026-11-13T04:33:11.707901+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scraped_at": "2026-11-13T13:44:55.523839+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
     "url": "https://github.com/openai/codex-security",
@@ -127,12 +400,12 @@
     "relevance": 80,
     "hot": "rising",
     "breaking": false,
-    "stars": 12576,
+    "stars": 12843,
     "tags": [
       "security"
     ],
-    "scraped_at": "2026-11-13T04:33:13.325636+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scraped_at": "2026-11-13T13:44:56.800938+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
     "url": "https://github.com/CopilotKit/OpenBot",
@@ -144,13 +417,76 @@
     "relevance": 80,
     "hot": "rising",
     "breaking": false,
-    "stars": 11747,
+    "stars": 11998,
     "tags": [
       "agents",
       "code-generation"
     ],
-    "scraped_at": "2026-11-13T04:33:13.326295+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scraped_at": "2026-11-13T13:44:56.802085+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://github.com/tradermonty/claude-trading-skills",
+    "hash": "f9da1acd54ca3864",
+    "title": "tradermonty / claude-trading-skills",
+    "summary": "Claude Code skills for equity investors and traders \u2014 market analysis, technical charting, economic calendars, screeners",
+    "source": "github_trending",
+    "category": "repo",
+    "relevance": 75,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 3916,
+    "tags": [],
+    "scraped_at": "2026-11-13T13:44:52.514125+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://github.com/tailscale/tailcat",
+    "hash": "e2f800cf55605b30",
+    "title": "tailscale / tailcat",
+    "summary": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+    "source": "github_trending",
+    "category": "repo",
+    "relevance": 75,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 9230,
+    "tags": [],
+    "scraped_at": "2026-11-13T13:44:57.904840+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://github.com/Likely7/Veyra-NRVideo",
+    "hash": "79a5275f168e3497",
+    "title": "Likely7 / Veyra-NRVideo",
+    "summary": "Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time ",
+    "source": "github_trending",
+    "category": "repo",
+    "relevance": 75,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 1443,
+    "tags": [],
+    "scraped_at": "2026-11-13T13:44:57.905214+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://github.com/davila7/claude-code-templates",
+    "hash": "25bff0b4a0ece6bc",
+    "title": "davila7 / claude-code-templates",
+    "summary": "Open-source registry and CLI for Claude Code components: agents, commands, skills, hooks, MCPs, settings and mods",
+    "source": "github_trending",
+    "category": "repo",
+    "relevance": 84,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 33462,
+    "tags": [
+      "agents",
+      "mcp"
+    ],
+    "scraped_at": "2026-11-13T13:44:52.514821+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
     "url": "https://github.com/NVIDIA/SkillSpector",
@@ -162,33 +498,32 @@
     "relevance": 84,
     "hot": "rising",
     "breaking": false,
-    "stars": 25730,
+    "stars": 25792,
     "tags": [
       "agents",
       "mcp",
       "security"
     ],
-    "scraped_at": "2026-11-13T04:33:10.323096+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scraped_at": "2026-11-13T13:44:52.519389+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
-    "url": "https://github.com/huggingface/transformers",
-    "hash": "53d940334a2a5afd",
-    "title": "huggingface / transformers",
-    "summary": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and ",
+    "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+    "hash": "379642deb53f3714",
+    "title": "ChromeDevTools / chrome-devtools-mcp",
+    "summary": "Chrome DevTools for coding agents",
     "source": "github_trending",
-    "category": "paper",
-    "relevance": 88,
-    "hot": "stable",
+    "category": "repo",
+    "relevance": 84,
+    "hot": "rising",
     "breaking": false,
-    "stars": 168937,
+    "stars": 55249,
     "tags": [
-      "inference",
-      "evaluation",
-      "multimodal"
+      "agents",
+      "mcp"
     ],
-    "scraped_at": "2026-11-13T04:33:10.323510+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scraped_at": "2026-11-13T13:44:56.801722+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
     "url": "https://github.com/PurpleDoubleD/locally-uncensored",
@@ -200,12 +535,29 @@
     "relevance": 84,
     "hot": "stable",
     "breaking": false,
-    "stars": 4108,
+    "stars": 4146,
     "tags": [
       "agents"
     ],
-    "scraped_at": "2026-11-13T04:33:13.327351+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scraped_at": "2026-11-13T13:44:56.803327+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://github.com/mvanhorn/last30days-skill",
+    "hash": "b88590c43555a909",
+    "title": "mvanhorn / last30days-skill",
+    "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a gro",
+    "source": "github_trending",
+    "category": "repo",
+    "relevance": 80,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 67505,
+    "tags": [
+      "agents"
+    ],
+    "scraped_at": "2026-11-13T13:44:52.519756+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
     "url": "https://github.com/coreyhaines31/marketingskills",
@@ -217,30 +569,27 @@
     "relevance": 80,
     "hot": "rising",
     "breaking": false,
-    "stars": 59998,
+    "stars": 60077,
     "tags": [
       "agents"
     ],
-    "scraped_at": "2026-11-13T04:33:11.708396+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scraped_at": "2026-11-13T13:44:55.526159+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
-    "url": "https://github.com/ashhart/TensorFold",
-    "hash": "8c3204e0095f8429",
-    "title": "ashhart / TensorFold",
-    "summary": "LLM Inference Engine for Metal, CUDA and Vulkan.",
+    "url": "https://github.com/OpenWhispr/openwhispr",
+    "hash": "e46cce35e10205c2",
+    "title": "OpenWhispr / openwhispr",
+    "summary": "Voice-to-text dictation app with local (Nvidia Parakeet/Whisper) and cloud models (BYOK). Privacy-first and available cr",
     "source": "github_trending",
     "category": "repo",
-    "relevance": 83,
-    "hot": "stable",
+    "relevance": 80,
+    "hot": "rising",
     "breaking": false,
-    "stars": 1992,
-    "tags": [
-      "llm",
-      "inference"
-    ],
-    "scraped_at": "2026-11-13T04:33:14.571523+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "stars": 11484,
+    "tags": [],
+    "scraped_at": "2026-11-13T13:44:55.526536+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
     "url": "https://github.com/mksglu/context-mode",
@@ -252,194 +601,35 @@
     "relevance": 85,
     "hot": "stable",
     "breaking": false,
-    "stars": 34005,
+    "stars": 34021,
     "tags": [
       "agents",
       "code-generation",
       "memory"
     ],
-    "scraped_at": "2026-11-13T04:33:11.709379+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scraped_at": "2026-11-13T13:44:55.525707+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
-    "url": "https://github.com/davila7/claude-code-templates",
-    "hash": "25bff0b4a0ece6bc",
-    "title": "davila7 / claude-code-templates",
-    "summary": "Open-source registry and CLI for Claude Code components: agents, commands, skills, hooks, MCPs, settings and mods",
-    "source": "github_trending",
-    "category": "repo",
-    "relevance": 84,
+    "url": "https://arxiv.org/abs/2611.15680v1",
+    "hash": "a64b0f6e891cf091",
+    "title": "SpaceMCP: Vision Language Model Spatial Reasoning via Model Context Protocol",
+    "summary": "Despite impressive advances in large language models (LLM), vision-language models (VLM) still exhibit limited spatial r",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 95,
     "hot": "stable",
     "breaking": false,
-    "stars": 33438,
+    "stars": null,
     "tags": [
-      "agents",
-      "mcp"
+      "rag",
+      "mcp",
+      "llm",
+      "multimodal",
+      "reasoning"
     ],
-    "scraped_at": "2026-11-13T04:33:10.324057+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
-  },
-  {
-    "url": "https://github.com/appwrite/appwrite",
-    "hash": "6968183a54d90120",
-    "title": "appwrite / appwrite",
-    "summary": "The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WA",
-    "source": "github_trending",
-    "category": "repo",
-    "relevance": 84,
-    "hot": "stable",
-    "breaking": false,
-    "stars": 58071,
-    "tags": [
-      "agents",
-      "rag"
-    ],
-    "scraped_at": "2026-11-13T04:33:13.327975+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
-  },
-  {
-    "url": "https://github.com/gitroomhq/postiz-app",
-    "hash": "63daa2753f23acef",
-    "title": "gitroomhq / postiz-app",
-    "summary": "\ud83d\udce8 The ultimate agentic social media scheduling tool \ud83e\udd16",
-    "source": "github_trending",
-    "category": "repo",
-    "relevance": 84,
-    "hot": "stable",
-    "breaking": false,
-    "stars": 41481,
-    "tags": [
-      "agents"
-    ],
-    "scraped_at": "2026-11-13T04:33:13.328630+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
-  },
-  {
-    "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-    "hash": "379642deb53f3714",
-    "title": "ChromeDevTools / chrome-devtools-mcp",
-    "summary": "Chrome DevTools for coding agents",
-    "source": "github_trending",
-    "category": "repo",
-    "relevance": 84,
-    "hot": "stable",
-    "breaking": false,
-    "stars": 55184,
-    "tags": [
-      "agents",
-      "mcp"
-    ],
-    "scraped_at": "2026-11-13T04:33:13.328843+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
-  },
-  {
-    "url": "https://github.com/figma/mcp-server-guide",
-    "hash": "4a806a43d64a4f84",
-    "title": "figma / mcp-server-guide",
-    "summary": "A guide on how to use the Figma MCP server",
-    "source": "github_trending",
-    "category": "tool",
-    "relevance": 84,
-    "hot": "stable",
-    "breaking": false,
-    "stars": 2182,
-    "tags": [
-      "mcp"
-    ],
-    "scraped_at": "2026-11-13T04:33:10.323710+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
-  },
-  {
-    "url": "https://github.com/openai/whisper",
-    "hash": "24d2ebb24ff35b75",
-    "title": "openai / whisper",
-    "summary": "Robust Speech Recognition via Large-Scale Weak Supervision",
-    "source": "github_trending",
-    "category": "repo",
-    "relevance": 80,
-    "hot": "stable",
-    "breaking": false,
-    "stars": 112616,
-    "tags": [],
-    "scraped_at": "2026-11-13T04:33:10.321826+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
-  },
-  {
-    "url": "https://github.com/mvanhorn/last30days-skill",
-    "hash": "b88590c43555a909",
-    "title": "mvanhorn / last30days-skill",
-    "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a gro",
-    "source": "github_trending",
-    "category": "repo",
-    "relevance": 80,
-    "hot": "stable",
-    "breaking": false,
-    "stars": 67454,
-    "tags": [
-      "agents"
-    ],
-    "scraped_at": "2026-11-13T04:33:10.323308+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
-  },
-  {
-    "url": "https://github.com/OpenWhispr/openwhispr",
-    "hash": "e46cce35e10205c2",
-    "title": "OpenWhispr / openwhispr",
-    "summary": "Voice-to-text dictation app with local (Nvidia Parakeet/Whisper) and cloud models (BYOK). Privacy-first and available cr",
-    "source": "github_trending",
-    "category": "repo",
-    "relevance": 80,
-    "hot": "stable",
-    "breaking": false,
-    "stars": 11457,
-    "tags": [],
-    "scraped_at": "2026-11-13T04:33:11.708707+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
-  },
-  {
-    "url": "https://github.com/n8n-io/n8n",
-    "hash": "c37165a31cd3fc39",
-    "title": "n8n-io / n8n",
-    "summary": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host ",
-    "source": "github_trending",
-    "category": "repo",
-    "relevance": 80,
-    "hot": "stable",
-    "breaking": false,
-    "stars": 210344,
-    "tags": [],
-    "scraped_at": "2026-11-13T04:33:13.326508+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
-  },
-  {
-    "url": "https://github.com/supabase/supabase",
-    "hash": "2b5226bf08105545",
-    "title": "supabase / supabase",
-    "summary": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI ap",
-    "source": "github_trending",
-    "category": "repo",
-    "relevance": 80,
-    "hot": "stable",
-    "breaking": false,
-    "stars": 114947,
-    "tags": [],
-    "scraped_at": "2026-11-13T04:33:13.326801+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
-  },
-  {
-    "url": "https://github.com/elder-plinius/G0DM0D3",
-    "hash": "ced81c66dfe96262",
-    "title": "elder-plinius / G0DM0D3",
-    "summary": "LIBERATED AI CHAT",
-    "source": "github_trending",
-    "category": "repo",
-    "relevance": 80,
-    "hot": "stable",
-    "breaking": false,
-    "stars": 12253,
-    "tags": [],
-    "scraped_at": "2026-11-13T04:33:13.327092+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scraped_at": "2026-11-11T16:21:39+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
     "url": "https://github.com/shanliuling/dsh-image-gen",
@@ -451,27 +641,83 @@
     "relevance": 80,
     "hot": "stable",
     "breaking": false,
-    "stars": 1408,
+    "stars": 1430,
     "tags": [],
-    "scraped_at": "2026-11-13T04:33:13.328253+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scraped_at": "2026-11-13T13:44:56.803889+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
-    "url": "https://github.com/homeassistant-ai/ha-mcp",
-    "hash": "d4296af1a97fe98c",
-    "title": "homeassistant-ai / ha-mcp",
-    "summary": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
-    "source": "github_trending",
-    "category": "repo",
-    "relevance": 79,
+    "url": "https://arxiv.org/abs/2611.14061v1",
+    "hash": "ebc39e30dad4db3c",
+    "title": "Isolation Is Not Confidentiality: Security Boundaries of Geometric Access Control in RAG",
+    "summary": "Retrieval-Augmented Generation (RAG) systems increasingly rely on vector databases containing documents governed by diff",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 91,
     "hot": "stable",
     "breaking": false,
-    "stars": 7701,
+    "stars": null,
     "tags": [
-      "mcp"
+      "rag",
+      "embeddings",
+      "inference",
+      "security"
     ],
-    "scraped_at": "2026-11-13T04:33:10.322449+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scraped_at": "2026-11-10T13:25:54+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.16366v1",
+    "hash": "f9f0ce5447697abc",
+    "title": "CURATOR: Scalable Fine-grained Evidence Selection for Retrieval-Augmented Generation using Decision Models",
+    "summary": "Retrieval-augmented generation (RAG) provides entire retrieved passages to the LLM, even though only a handful of spans ",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 87,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "rag",
+      "llm"
+    ],
+    "scraped_at": "2026-11-12T06:29:40+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://github.com/avenoxai/avenoxbeyin",
+    "hash": "8401e1633051e8ee",
+    "title": "avenoxai / avenoxbeyin",
+    "summary": "Your AI second brain in one command \u2014 open-source Obsidian + Claude Code system with persistent cross-session memory. av",
+    "source": "github_trending",
+    "category": "repo",
+    "relevance": 70,
+    "hot": "rising",
+    "breaking": false,
+    "stars": 442,
+    "tags": [],
+    "scraped_at": "2026-11-13T13:44:52.515187+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.12241v1",
+    "hash": "4e2db75683f58250",
+    "title": "SNAPRAG: Cost-Efficient Knowledge Extraction Attack on RAG Systems via Adversarial Perturbations",
+    "summary": "Retrieval-Augmented Generation (RAG) systems improve Large Language Model (LLM) responses by incorporating information f",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 91,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "rag",
+      "llm",
+      "evaluation",
+      "security"
+    ],
+    "scraped_at": "2026-11-09T11:30:44+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
     "url": "https://github.com/google-labs-code/stitch-skills",
@@ -483,98 +729,788 @@
     "relevance": 79,
     "hot": "stable",
     "breaking": false,
-    "stars": 8754,
+    "stars": 8763,
     "tags": [
       "agents",
       "mcp"
     ],
-    "scraped_at": "2026-11-13T04:33:13.327769+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scraped_at": "2026-11-13T13:44:56.805719+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
-    "url": "https://github.com/rlaope/oh-my-hermes",
-    "hash": "be80ae1bec07939f",
-    "title": "rlaope / oh-my-hermes",
-    "summary": "\u269a The ultrawork agent with AI coworkers wired into you",
-    "source": "github_trending",
-    "category": "repo",
+    "url": "https://arxiv.org/abs/2611.17304v1",
+    "hash": "1d5e42b48e7a9db0",
+    "title": "Where LLM Agents Get Stuck Debugging Databases: Access More Than Reasoning",
+    "summary": "Large language model (LLM) coding agents are increasingly asked not only to write code but to debug running systems from",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 83,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "agents",
+      "llm",
+      "reasoning"
+    ],
+    "scraped_at": "2026-11-12T18:56:22+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.17015v1",
+    "hash": "e4dc560e3787ffbe",
+    "title": "AI for Biologists: The Knowledge Boundaries of Foundation Models in the Age of Agentic Systems",
+    "summary": "Artificial intelligence (AI) is changing how biological research is done. Biological foundation models trained on millio",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 83,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "agents",
+      "llm"
+    ],
+    "scraped_at": "2026-11-12T16:08:33+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.16661v1",
+    "hash": "c890163094278209",
+    "title": "Reducing Batch Makespan for LLM Agent Workloads through Inference-Environment Coordination",
+    "summary": "Efficient batch execution of agent tasks is critical to LLM training and development workflows, including benchmark eval",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 83,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "agents",
+      "llm",
+      "inference",
+      "evaluation"
+    ],
+    "scraped_at": "2026-11-12T11:38:21+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.13675v2",
+    "hash": "d772de406fd0a572",
+    "title": "OpticalRAG: Pixel-Space Compression for Token-Efficient Retrieval-Augmented Generation",
+    "summary": "Retrieval-augmented generation (RAG) is bottlenecked by the token budget of large language models: feeding long document",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 87,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "rag",
+      "llm",
+      "memory"
+    ],
+    "scraped_at": "2026-11-10T07:24:50+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.11104v1",
+    "hash": "f6631f79e109c432",
+    "title": "Tracing MCP Security Vulnerabilities: Constructing and Analyzing an MCP Security Vulnerability Dataset",
+    "summary": "As a core protocol for integrating large language models (LLMs) with external data sources and tools, the Model Context ",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 91,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "agents",
+      "mcp",
+      "llm",
+      "security"
+    ],
+    "scraped_at": "2026-11-08T03:36:38+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.16425v1",
+    "hash": "db33d4bd44f1c9d4",
+    "title": "RMIT-ADM+S at TREC RAG 2026: Research Agents, Retriever Ablations, and Open-Weight Replication",
+    "summary": "We describe the RMIT-ADM+S team's participation in the TREC 2026 Retrieval-Augmented Generation (RAG) track using the Cl",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 83,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "agents",
+      "rag"
+    ],
+    "scraped_at": "2026-11-12T07:34:28+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.15538v1",
+    "hash": "6f9cf45131febebf",
+    "title": "Faithful in Steps: Improving Generalization and Citation in RAG via Query Decomposition",
+    "summary": "Retrieval-augment generation is a prevalent strategy to mitigate hallucinations of LLMs. The attributable RAG (RAGQ) gen",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 83,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "rag",
+      "llm"
+    ],
+    "scraped_at": "2026-11-11T14:22:09+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.02611v1",
+    "hash": "5c6ed386b6544eaa",
+    "title": "Where Does MCP Security End? A Three-Tier Mitigation Mapping Framework for the OWASP MCP Top 10",
+    "summary": "The Model Context Protocol (MCP) has become a leading standard for connecting Large Language Models (LLMs) to external t",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 91,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "mcp",
+      "llm",
+      "security"
+    ],
+    "scraped_at": "2026-11-02T06:36:08+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.14924v1",
+    "hash": "2611a1222fa3c335",
+    "title": "Edge-Native Multimodal RAG: Hardware-Aware Quantization and Architectural Optimization for Consumer GPUs",
+    "summary": "Deployment of retrieval-augmented generation (RAG) for Edge-AI is constrained by memory and bandwidth limitations. A sta",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 83,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "rag",
+      "inference",
+      "multimodal"
+    ],
+    "scraped_at": "2026-11-11T02:26:07+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.17220v1",
+    "hash": "bb61f4e0d62f00d0",
+    "title": "Scalable Conversational Assessment: Chat-Based Exams with a Two-Agent LLM Pipeline",
+    "summary": "Oral exams are compelling because (1) students can be asked to provide their reasoning for an answer and (2) their inter",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 79,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "agents",
+      "llm",
+      "reasoning"
+    ],
+    "scraped_at": "2026-11-12T18:16:37+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.17161v1",
+    "hash": "a15912f69a7908f9",
+    "title": "Cited but Unused: Parametric Provenance in Retrieval-Augmented Generation",
+    "summary": "Retrieval-augmented generation systems attach citations to attribute claims to their sources. These citations frequently",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 79,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "rag"
+    ],
+    "scraped_at": "2026-11-12T17:39:14+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.16861v1",
+    "hash": "82f3d74dc027da40",
+    "title": "Visual Cipher Bench: Benchmarking LLM Agents on Long-Horizon Visual Reasoning",
+    "summary": "While language-model agents excel at long-horizon coding and terminal tasks, this success relies on two conditions: expl",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 79,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "agents",
+      "llm",
+      "evaluation",
+      "reasoning"
+    ],
+    "scraped_at": "2026-11-12T14:33:46+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.16816v1",
+    "hash": "217036af6294e97a",
+    "title": "Outcome-Mass Alignment: Controlling Length-Dependent Trajectory Influence in Multi-Turn LLM Agent Reinforcement Learning",
+    "summary": "To keep long interaction contexts tractable, stepwise group-relative training for multi-turn LLM agents materializes eac",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 79,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "agents",
+      "llm"
+    ],
+    "scraped_at": "2026-11-12T13:52:12+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.16524v1",
+    "hash": "0a8a56e94b687e82",
+    "title": "A Joint LLM and Optimization Agent Solution for Drone Scheduling in Victim Search Missions",
+    "summary": "Victim search in wilderness areas is time-critical. Drones enable rapid area search, but scheduling them is challenging ",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 79,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "agents",
+      "llm"
+    ],
+    "scraped_at": "2026-11-12T09:20:54+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.16304v1",
+    "hash": "a93ba17756537985",
+    "title": "StateAlign: Internalizing State-Aware Decision-Making for Reliable Multi-Turn Tool Agents via Reinforcement Learning",
+    "summary": "Reinforcement learning has improved the tool-use capabilities of large language models. However, better task performance",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 79,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "agents",
+      "llm"
+    ],
+    "scraped_at": "2026-11-12T05:04:43+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.15820v1",
+    "hash": "c0d3a26e6a6d101a",
+    "title": "Characterization of a Large-Area HRPPD MCP-PMT Coupled to LYSO for TOF-PET",
+    "summary": "Large-area microchannel-plate photomultipliers (MCP-PMTs) such as the High-Rate Picosecond Photon Detector (HRPPD) are a",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 79,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "mcp"
+    ],
+    "scraped_at": "2026-11-11T18:32:59+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.10657v1",
+    "hash": "fc8465bfcf178e64",
+    "title": "MMGraph-Agent: Agentic Multimodal RAG via Cache-Inspired Multimodal Knowledge HyperGraphs",
+    "summary": "Driven by increasingly complex real-world applications, Retrieval-Augmented Generation (RAG) has evolved from textual pi",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 87,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "agents",
+      "rag",
+      "multimodal",
+      "memory"
+    ],
+    "scraped_at": "2026-11-07T11:05:34+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.10477v1",
+    "hash": "30c32da39a53daeb",
+    "title": "PatternBloom: Empowering Agentic RAG with Externalized RL-Distilled Graph Patterns",
+    "summary": "Reinforcement-learning-trained agents for retrieval-augmented generation retrieve content (passages, knowledge-graph fra",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 87,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "agents",
+      "rag",
+      "reasoning"
+    ],
+    "scraped_at": "2026-11-07T05:02:26+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.07689v1",
+    "hash": "2183e2d41b72b120",
+    "title": "MCPHallu: Benchmarking Reasoning, Execution, and Memory Hallucinations in MCP Agents",
+    "summary": "Large language model agents are increasingly deployed through the Model Context Protocol (MCP), which allows them to dis",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 87,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "agents",
+      "mcp",
+      "llm",
+      "evaluation",
+      "reasoning"
+    ],
+    "scraped_at": "2026-11-05T09:14:26+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.06897v1",
+    "hash": "5dde0f0b8fb93a17",
+    "title": "MCP-Eco: A Linked Dataset of MCP Servers, Consumers, and Development Activity",
+    "summary": "The Model Context Protocol (MCP) enables LLM agents to access external tools and data. Studying its software ecosystem r",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 87,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "agents",
+      "mcp",
+      "llm"
+    ],
+    "scraped_at": "2026-11-04T18:47:50+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.03555v2",
+    "hash": "f76bdaa349735bd6",
+    "title": "MCP Tool Poisoning in Agentic AI Frameworks: A Cross-Framework Measurement Study",
+    "summary": "The Model Context Protocol (MCP) lets agentic AI frameworks connect language models to external tool providers, but it c",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 87,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "agents",
+      "mcp",
+      "evaluation",
+      "security"
+    ],
+    "scraped_at": "2026-11-02T18:17:08+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.02527v1",
+    "hash": "1838b400e0a3d4d3",
+    "title": "When Neither Side Confirms: Destructive Tool Approval Across MCP Servers and Hosts",
+    "summary": "LLM agents call tools that delete data or move money through the Model Context Protocol (MCP). The specification asks fo",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 87,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "agents",
+      "mcp",
+      "llm"
+    ],
+    "scraped_at": "2026-11-02T04:57:42+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.36108v1",
+    "hash": "3fd878bab1a52fa0",
+    "title": "Log-To-Leak: Prompt Injection Attacks on Tool-Using LLM Agents via the Model Context Protocol",
+    "summary": "LLM agents increasingly access external tools through the Model Context Protocol (MCP), but the natural-language metadat",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 87,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "agents",
+      "mcp",
+      "llm",
+      "security"
+    ],
+    "scraped_at": "2026-10-26T18:20:24+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.11771v1",
+    "hash": "d276a29728223949",
+    "title": "ARMOR: Adaptive Curriculum Meta-Learning for Noise-Robust RAG Reasoning",
+    "summary": "Retrieval-Augmented Generation (RAG) systems have demonstrated remarkable effectiveness in mitigating hallucinations by ",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 83,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "rag",
+      "reasoning"
+    ],
+    "scraped_at": "2026-11-09T02:22:48+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.11720v1",
+    "hash": "61ae12258d67e9f3",
+    "title": "ShadowBench-MCP: Measuring Shadow Invocations in MCP-Style Tool Routing",
+    "summary": "LLM agents increasingly act as routers for tools, APIs, and software-supply-chain workflows, making an execution path - ",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 83,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "agents",
+      "mcp",
+      "llm",
+      "inference",
+      "security"
+    ],
+    "scraped_at": "2026-11-09T00:29:34+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.14355v1",
+    "hash": "32daf14bf18bb3e8",
+    "title": "CLADE: Category-Level Answering from Deficient Evidence in Retrieval-Augmented Language Models",
+    "summary": "Retrieval-augmented systems often retrieve passages that are accurate and relevant but state the answer at a coarser lev",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 79,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "rag"
+    ],
+    "scraped_at": "2026-11-10T17:16:06+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.17041v1",
+    "hash": "6248edd1a73aa5e4",
+    "title": "From Delegation to Coordination: Learning Efficient Multi-Agent Deep Research",
+    "summary": "Multi-agent deep-research systems use delegation to parallelize search and keep long tool traces out of the main agent's",
+    "source": "arxiv",
+    "category": "paper",
     "relevance": 75,
     "hot": "stable",
     "breaking": false,
-    "stars": 5569,
+    "stars": null,
     "tags": [
       "agents"
     ],
-    "scraped_at": "2026-11-13T04:33:10.322885+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scraped_at": "2026-11-12T16:26:27+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
-    "url": "https://github.com/PenglongHuang/chinese-novelist-skill",
-    "hash": "8159985723fa9624",
-    "title": "PenglongHuang / chinese-novelist-skill",
-    "summary": "\ud83c\udfad AI \u5199\u5c0f\u8bf4\uff1a\u4ece\u96f6\u751f\u6210 10-50 \u7ae0\u5b8c\u6574\u4e2d\u6587\u5c0f\u8bf4\uff0c\u4e09\u5c42\u95ee\u7b54 \u00b7 \u521b\u4f5c\u8bb0\u5fc6 \u00b7 \u60ac\u5ff5\u94a9\u5b50 \u00b7 \u81ea\u52a8\u6821\u9a8c\uff0c\u957f\u7bc7\u7f51\u6587\u8fde\u8f7d\u7686\u5b9c\uff5c\u5f00\u6e90\u514d\u8d39\uff0c\u9002\u914d\u4e3b\u6d41 coding agent\uff5c\ud83e\udd1d Infistar.cc \u8d5e\u52a9 \u00b7 \u6ce8\u518c\u9001 $5\uff5cAI novel",
-    "source": "github_trending",
-    "category": "repo",
+    "url": "https://arxiv.org/abs/2611.16879v1",
+    "hash": "96189783b0d42e0a",
+    "title": "Context Graph: Explainable Multi-Agent Decision Chains in AI-RAN",
+    "summary": "AI-RAN distributes network control across multiple autonomous agents, namely xApps and rApps operating over shared radio",
+    "source": "arxiv",
+    "category": "paper",
     "relevance": 75,
     "hot": "stable",
     "breaking": false,
-    "stars": 4840,
+    "stars": null,
     "tags": [
       "agents"
     ],
-    "scraped_at": "2026-11-13T04:33:11.709108+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scraped_at": "2026-11-12T14:43:22+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
-    "url": "https://github.com/Orkas-AI/Orkas",
-    "hash": "c876a536f70a15e7",
-    "title": "Orkas-AI / Orkas",
-    "summary": "Orkas is an open-source (MIT), local-first AI team for your desktop: a Commander turns your goal into to-dos and coordin",
-    "source": "github_trending",
-    "category": "repo",
+    "url": "https://arxiv.org/abs/2611.16627v1",
+    "hash": "675a109d2e87df1f",
+    "title": "Folio: Recoverable Multi-Resolution Context Folding for Long-Horizon Language Agents",
+    "summary": "Long-horizon language agents accumulate tool results and replies until the history no longer fits the context window. Cu",
+    "source": "arxiv",
+    "category": "paper",
     "relevance": 75,
     "hot": "stable",
     "breaking": false,
-    "stars": 9313,
+    "stars": null,
     "tags": [
-      "agents"
+      "agents",
+      "memory"
     ],
-    "scraped_at": "2026-11-13T04:33:11.709588+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scraped_at": "2026-11-12T10:59:40+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
-    "url": "https://github.com/tiagozip/cap",
-    "hash": "d1f4bddf91c86744",
-    "title": "tiagozip / cap",
-    "summary": "The open-source, privacy-friendly CAPTCHA you host yourself. Bots and AI agents out, people in.",
-    "source": "github_trending",
-    "category": "repo",
+    "url": "https://arxiv.org/abs/2611.16603v1",
+    "hash": "8ff5e104b74ccd8d",
+    "title": "Regime-Uncertain Data Transactions: A Game-Theoretic Framework for Self-Adapting and Self-Diagnosing Multi-ML-Agent Systems",
+    "summary": "Autonomous ML agents in large organizations exchange data and model outputs across organizational and legal boundaries. ",
+    "source": "arxiv",
+    "category": "paper",
     "relevance": 75,
     "hot": "stable",
     "breaking": false,
-    "stars": 8365,
+    "stars": null,
     "tags": [
       "agents"
     ],
-    "scraped_at": "2026-11-13T04:33:11.709889+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scraped_at": "2026-11-12T10:38:21+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
-    "url": "https://github.com/NVIDIA/SkillEvaluator",
-    "hash": "d17b0500bab017de",
-    "title": "NVIDIA / SkillEvaluator",
-    "summary": "Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation",
-    "source": "github_trending",
-    "category": "repo",
-    "relevance": 70,
+    "url": "https://arxiv.org/abs/2611.16574v1",
+    "hash": "9a0380621c8ca0aa",
+    "title": "HALight: Heterogeneous Multi-Agent Reinforcement Learning for Traffic Signal Control under Lane-Level Missing Observations",
+    "summary": "Multi-agent reinforcement learning has shown great promise for traffic signal control. However, most existing methods re",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 75,
     "hot": "stable",
     "breaking": false,
-    "stars": 909,
+    "stars": null,
     "tags": [
       "agents"
     ],
-    "scraped_at": "2026-11-13T04:33:10.324329+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scraped_at": "2026-11-12T10:02:01+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.11113v1",
+    "hash": "8dc6fc69d9cb20ee",
+    "title": "PCG-RAG: Progressive Compositional Grounding for Retrieval-Augmented Generation in Complex Web Question Answering",
+    "summary": "Complex Web question answering requires retrieval-augmented generation (RAG) systems to identify target entities from mu",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 83,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "rag"
+    ],
+    "scraped_at": "2026-11-08T03:53:00+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.16388v1",
+    "hash": "26cbe403b5309765",
+    "title": "Strategically Robust Multi-Agent Control",
+    "summary": "A key source of uncertainty in multi-agent systems is the behavior of other agents. Game-theoretic control approaches ig",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 75,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "agents",
+      "security"
+    ],
+    "scraped_at": "2026-11-12T06:58:56+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.16378v1",
+    "hash": "85c9c8f27deef3f4",
+    "title": "Evidence-Governed Adoption of Self-Generated Updates in Autonomous AI Agents",
+    "summary": "Autonomous agents modify prompts, memories, tools, workflows, and policies using interaction histories. Yet a plausible ",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 75,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "agents"
+    ],
+    "scraped_at": "2026-11-12T06:45:02+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.11010v1",
+    "hash": "2f8b2bf55f292fe5",
+    "title": "Lightfoot: Graph Retrieval-Augmented Generation with Exact, Model-Free Document Deletion",
+    "summary": "Graph-based retrieval-augmented generation (GraphRAG) improves multi-hop question answering, but deployed systems face t",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 83,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "rag"
+    ],
+    "scraped_at": "2026-11-07T23:15:23+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.06438v1",
+    "hash": "d69ae771943f3e5d",
+    "title": "Understanding the Out-of-Distribution Generalization of Chain-of-Thought Reasoning in LLMs",
+    "summary": "Chain-of-Thought (CoT) reasoning substantially improves Large Language Models (LLMs), yet its out-of-distribution (OOD) ",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 83,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "llm",
+      "reasoning"
+    ],
+    "scraped_at": "2026-11-04T12:38:45+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.01926v1",
+    "hash": "53080c619803ff23",
+    "title": "TAC-CoT: Tool-Empowered Implicit Chain-of-Thought via Interleaving Explicit Tokens",
+    "summary": "LLM-based agentic systems are increasingly combined with CoT reasoning to solve tasks that require accurate reasoning, e",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 83,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "agents",
+      "llm",
+      "reasoning"
+    ],
+    "scraped_at": "2026-11-01T14:05:15+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.01676v1",
+    "hash": "436cdb1e5d7fc1c6",
+    "title": "MMCoT$^3$: Empowering 3D Scene Understanding with 3D-Text Interleaved Multi-Modal Chain-of-Thought Reasoning",
+    "summary": "Understanding and reasoning over 3D scenes from point clouds is essential for a broad range of AI applications. Recent 3",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 83,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "llm",
+      "inference",
+      "reasoning"
+    ],
+    "scraped_at": "2026-11-01T07:51:02+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.10335v1",
+    "hash": "1a041be933b9f181",
+    "title": "Two-Sided Conformal Evidence Sets for Retrieval-Augmented Generation",
+    "summary": "Retrieval-augmented generation (RAG) can surface passages that support a claim, contradict it, or fail to address it, ye",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 83,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "rag"
+    ],
+    "scraped_at": "2026-11-07T00:07:52+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.06585v1",
+    "hash": "c1a6baea523ec30a",
+    "title": "Signed, Sealed, Leaked: Trust Beyond Signature for MCP Toolchains",
+    "summary": "AI agents rely on third-party tools, such as Model Context Protocol (MCP) servers, whose publishers can be authenticated",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 83,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "agents",
+      "mcp",
+      "security"
+    ],
+    "scraped_at": "2026-11-04T14:40:32+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.41479v1",
+    "hash": "40fc1e2178e84d96",
+    "title": "EvoMCP: Co-evolving MCP agents and training data",
+    "summary": "Supervised fine-tuning of Model Context Protocol (MCP) agents is typically conducted on a static data distribution, whic",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 83,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "agents",
+      "mcp",
+      "fine-tuning"
+    ],
+    "scraped_at": "2026-10-30T09:35:29+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.34298v1",
+    "hash": "4dbf5ff2d7a78ec8",
+    "title": "Matched Capabilities, Different Behaviors: A Controlled Study of MCP and CLI Interfaces for Language Agents",
+    "summary": "Language agents increasingly act through external tools and interactive environments, making the interface between the m",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 83,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "agents",
+      "mcp"
+    ],
+    "scraped_at": "2026-10-25T13:54:07+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
     "url": "https://github.com/Parcha-ai/agentrun/blob/main/README.md",
@@ -586,27 +1522,12 @@
     "relevance": 65,
     "hot": "stable",
     "breaking": false,
-    "stars": 87,
+    "stars": 120,
     "tags": [
       "agents"
     ],
     "scraped_at": "2026-11-12T18:15:48+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
-  },
-  {
-    "url": "https://github.com/oaustegard/claude-skills",
-    "hash": "62d5b8ae660dea30",
-    "title": "oaustegard / claude-skills",
-    "summary": "My collection of Claude skills",
-    "source": "github_trending",
-    "category": "repo",
-    "relevance": 70,
-    "hot": "stable",
-    "breaking": false,
-    "stars": 375,
-    "tags": [],
-    "scraped_at": "2026-11-13T04:33:10.322657+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
     "url": "https://github.com/adewaskar/jarvis",
@@ -618,10 +1539,44 @@
     "relevance": 70,
     "hot": "stable",
     "breaking": false,
-    "stars": 868,
+    "stars": 874,
     "tags": [],
-    "scraped_at": "2026-11-13T04:33:13.327553+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scraped_at": "2026-11-13T13:44:56.806479+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.13873v1",
+    "hash": "e256465192882f91",
+    "title": "Transparency Disclosures for Chain-of-Thought Monitorability",
+    "summary": "Chain-of-thought (CoT) monitoring is one of the most valuable tools for monitoring advanced AI systems, but it is under ",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 75,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "reasoning"
+    ],
+    "scraped_at": "2026-11-10T10:33:11+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.13456v1",
+    "hash": "823834dd0ccf7dd1",
+    "title": "When Reasoning looks like Hidden Understanding: How Chain-of-Thought Fosters Anthropomorphism, Perceptions of Epistemic Superiority, and Cognitive Deference",
+    "summary": "As AI-based products permeate society, specifically systems using generative models, a belief system is emerging about w",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 75,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "reasoning"
+    ],
+    "scraped_at": "2026-11-10T02:00:52+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
     "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
@@ -636,7 +1591,189 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-11-09T15:05:57+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.09759v1",
+    "hash": "4b7b192cc84d3efd",
+    "title": "A Tight Hierarchy for Chain of Thought",
+    "summary": "Chain-of-thought (CoT) reasoning has emerged as a powerful paradigm for extending the computational capabilities of tran",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 79,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "prompt-engineering",
+      "reasoning"
+    ],
+    "scraped_at": "2026-11-06T17:24:46+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.09511v1",
+    "hash": "3487e5d1c91354dc",
+    "title": "V-STORM: A Structure-Aware Grounded Chain of Thought Dataset for Faithful and Fine-Grained Spatio-Temporal Video Reasoning",
+    "summary": "While MLLMs can often identify what happens in a video, they still struggle with fine-grained spatio-temporal reasoning,",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 79,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "llm",
+      "prompt-engineering",
+      "reasoning"
+    ],
+    "scraped_at": "2026-11-06T14:27:06+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.09082v1",
+    "hash": "fa6ad9b55f57d32a",
+    "title": "BrainCoT: A Multi-Task Zero-Shot Brain Signal Foundation Model with Neurometric-Anchored Chain-of-Thought Reasoning",
+    "summary": "Brain signals exhibit substantial multi-center heterogeneity, strong inter-subject variability, and highly diverse task ",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 79,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "rag",
+      "reasoning"
+    ],
+    "scraped_at": "2026-11-06T07:13:18+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.07586v1",
+    "hash": "4b26d65c07e55c24",
+    "title": "Stress Testing Chain-of-Thought Monitoring Against Covert Misalignment",
+    "summary": "As LLM agents advance rapidly in autonomy, the risk of hidden objectives that bypass safety constraints becomes increasi",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 79,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "agents",
+      "llm",
+      "security",
+      "reasoning"
+    ],
+    "scraped_at": "2026-11-05T07:39:01+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.04717v1",
+    "hash": "310446544541f812",
+    "title": "BrainwashedLLM: Jailbreaking via Automated Adversarial Chain of Thoughts Discovery",
+    "summary": "Large Reasoning Models (LRMs) achieve strong performance on complex tasks by generating explicit Chain-of-Thought (CoT) ",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 79,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "llm",
+      "prompt-engineering",
+      "security",
+      "reasoning"
+    ],
+    "scraped_at": "2026-11-03T11:38:50+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.04342v1",
+    "hash": "30508b509e642639",
+    "title": "Beyond Fine-Tuning: Evaluating Prompt Engineering and Prompt Tuning for Roman Urdu Hate Speech Detection",
+    "summary": "Low Resource Languages (LRLs) pose significant challenges for hate speech detection because of a scarcity of readily ava",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 79,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "fine-tuning",
+      "prompt-engineering"
+    ],
+    "scraped_at": "2026-11-03T05:27:20+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.01740v1",
+    "hash": "4427ae436a0d5a0a",
+    "title": "How Does Chain-of-Thought Supervision Teach Models to Reason? A Theoretical Analysis",
+    "summary": "Training with chain-of-thought (CoT) supervision is an effective approach for teaching models multi-step reasoning proce",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 79,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "inference",
+      "reasoning"
+    ],
+    "scraped_at": "2026-11-01T09:41:39+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.37127v1",
+    "hash": "fdd1117e3d341455",
+    "title": "MCP-Net: Real-Time Coronary Perception Network and Topological Analysis for Robotic Guidewire Navigation",
+    "summary": "Coronary guidewire navigation during percutaneous coronary intervention requires continuous interpretation of vessel ana",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 79,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "mcp",
+      "robotics"
+    ],
+    "scraped_at": "2026-10-27T12:25:48+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.36221v1",
+    "hash": "f9a2f9f0d6475520",
+    "title": "EREBOTS 4.0: A framework for conversational assistants with A2A agents and MCP tools",
+    "summary": "In recent years, multi-agent systems have shifted from rule-based, symbolic agents to sub-symbolic agents built on langu",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 79,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "agents",
+      "mcp"
+    ],
+    "scraped_at": "2026-10-26T19:56:14+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.11892v1",
+    "hash": "ecfe4b02ec5ff8a5",
+    "title": "When Answer Decodability Is Not a Decision: Separating Final-Answer and Imminent-Emission Signals in Chain-of-Thought",
+    "summary": "Answer probes applied to chain-of-thought hidden states are often read as evidence that a language model has already dec",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 75,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [],
+    "scraped_at": "2026-11-09T05:14:36+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
     "url": "https://github.com/FrigadeHQ/yogurt",
@@ -648,10 +1785,60 @@
     "relevance": 70,
     "hot": "stable",
     "breaking": false,
-    "stars": 288,
+    "stars": 291,
     "tags": [],
     "scraped_at": "2026-11-11T15:33:06+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
+    "hash": "cf8aede2b245e7be",
+    "title": "Hugging Face CEO vows to keep fighting for open-source AI",
+    "summary": "HN story with 21 points and 2 comments.",
+    "source": "hacker_news",
+    "category": "news",
+    "relevance": 60,
+    "hot": "stable",
+    "breaking": false,
+    "stars": 21,
+    "tags": [],
+    "scraped_at": "2026-11-12T18:17:29+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.11209v1",
+    "hash": "da4cbf5be5b1a324",
+    "title": "Viscot-steer: Disentangling and Transferring Visual Chain-of-Thought via Activation Steering",
+    "summary": "Visual chain-of-thought (visual-CoT), also known as \"thinking with images\", equips LVLMs with the ability to locate and ",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 75,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "reasoning"
+    ],
+    "scraped_at": "2026-11-08T07:57:11+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.03948v1",
+    "hash": "aeb497b18560a052",
+    "title": "Balancing Chain-of-Thought and Answer Supervision for Small Language Models on Medical Question Answering",
+    "summary": "Small language models (<=9B parameters) can support local medical question answering (QA) while reducing privacy and lat",
+    "source": "arxiv",
+    "category": "paper",
+    "relevance": 75,
+    "hot": "stable",
+    "breaking": false,
+    "stars": null,
+    "tags": [
+      "fine-tuning",
+      "reasoning"
+    ],
+    "scraped_at": "2026-11-02T20:48:29+00:00",
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
     "url": "https://huggingface.co/blog/3d-lora-finetuning",
@@ -668,7 +1855,7 @@
       "fine-tuning"
     ],
     "scraped_at": "2026-11-12T00:00:00+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
     "url": "https://github.com/klad-app/klad",
@@ -685,7 +1872,7 @@
       "agents"
     ],
     "scraped_at": "2026-11-11T16:00:50+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
     "url": "https://news.ycombinator.com/item?id=50455811",
@@ -697,30 +1884,30 @@
     "relevance": 64,
     "hot": "stable",
     "breaking": false,
-    "stars": 61,
+    "stars": 62,
     "tags": [
       "agents",
       "mcp"
     ],
     "scraped_at": "2026-11-11T17:11:56+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
     "url": "https://machinelearning.apple.com/research/faster-retrieval",
     "hash": "b21fa54b837dba6b",
     "title": "Faster Retrieval for Better, More Efficient RAG",
-    "summary": "HN story with 233 points and 38 comments.",
+    "summary": "HN story with 236 points and 38 comments.",
     "source": "hacker_news",
     "category": "news",
     "relevance": 64,
     "hot": "stable",
     "breaking": false,
-    "stars": 233,
+    "stars": 236,
     "tags": [
       "rag"
     ],
     "scraped_at": "2026-11-11T16:57:45+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
     "url": "https://openai.com/index/closing-ai-guidance-gap-education",
@@ -735,7 +1922,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-11-10T09:00:00+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
     "url": "https://news.ycombinator.com/item?id=50471281",
@@ -747,10 +1934,10 @@
     "relevance": 60,
     "hot": "stable",
     "breaking": false,
-    "stars": 40,
+    "stars": 51,
     "tags": [],
     "scraped_at": "2026-11-12T17:51:23+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
     "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
@@ -767,7 +1954,7 @@
       "llm"
     ],
     "scraped_at": "2026-11-12T19:07:35+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
     "url": "https://cabird.com/talks/shipping-faster/",
@@ -779,10 +1966,10 @@
     "relevance": 60,
     "hot": "stable",
     "breaking": false,
-    "stars": 127,
+    "stars": 128,
     "tags": [],
     "scraped_at": "2026-11-11T16:33:28+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
     "url": "https://huggingface.co/blog/qvac/botpsy",
@@ -799,7 +1986,7 @@
       "agents"
     ],
     "scraped_at": "2026-11-11T05:01:16+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
     "url": "https://huggingface.co/blog/token-pooling",
@@ -816,7 +2003,7 @@
       "embeddings"
     ],
     "scraped_at": "2026-11-11T00:00:00+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
     "url": "https://openai.com/business/customer-stories/amplitude",
@@ -833,7 +2020,7 @@
       "agents"
     ],
     "scraped_at": "2026-11-12T20:00:00+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
     "url": "https://openai.com/business/customer-stories/gondola",
@@ -848,7 +2035,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-11-12T12:00:00+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
     "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
@@ -865,7 +2052,7 @@
       "reasoning"
     ],
     "scraped_at": "2026-11-12T09:30:00+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
     "url": "https://openai.com/index/children-first-declaration",
@@ -880,7 +2067,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-11-12T00:00:00+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
     "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
@@ -895,7 +2082,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-11-12T00:00:00+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
     "url": "https://openai.com/index/coderabbit-codex-daybreak",
@@ -912,7 +2099,7 @@
       "agents"
     ],
     "scraped_at": "2026-11-09T08:00:00+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
     "url": "https://openai.com/index/chatgpt-plus-for-veterans",
@@ -927,7 +2114,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-11-11T08:00:00+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
     "url": "https://openai.com/index/jiostar-vijay-seshadri",
@@ -942,7 +2129,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-11-11T00:00:00+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
     "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
@@ -957,7 +2144,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-11-10T12:00:00+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
     "url": "https://openai.com/index/introducing-businesses-chatgpt",
@@ -972,7 +2159,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-11-10T10:00:00+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
     "url": "https://openai.com/index/singapore-airlines-travel-work",
@@ -987,7 +2174,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-11-10T08:00:00+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
     "url": "https://openai.com/index/ai-effect-on-freelance-work",
@@ -1002,7 +2189,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-11-10T07:00:00+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
     "url": "https://openai.com/index/cogent-security",
@@ -1019,7 +2206,7 @@
       "agents"
     ],
     "scraped_at": "2026-11-10T00:00:00+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
     "url": "https://huggingface.co/blog/hub-gcp-marketplace",
@@ -1034,7 +2221,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-11-10T00:00:00+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
     "url": "https://huggingface.co/blog/decision",
@@ -1049,7 +2236,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-11-10T00:00:00+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
     "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
@@ -1064,7 +2251,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-11-09T19:00:00+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
     "url": "https://openai.com/index/control-room",
@@ -1081,7 +2268,7 @@
       "security"
     ],
     "scraped_at": "2026-11-09T13:00:00+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
     "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
@@ -1096,7 +2283,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-11-09T12:34:29+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
     "url": "https://openai.com/index/kuken",
@@ -1111,22 +2298,7 @@
     "stars": null,
     "tags": [],
     "scraped_at": "2026-11-09T08:00:00+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
-  },
-  {
-    "url": "https://openai.com/index/partnering-with-hacktron",
-    "hash": "a0a44ed09dc9a108",
-    "title": "Partnering with Hacktron to find vulnerabilities in OpenAI\u2019s systems",
-    "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen d",
-    "source": "rss_blog",
-    "category": "news",
-    "relevance": 55,
-    "hot": "stable",
-    "breaking": false,
-    "stars": null,
-    "tags": [],
-    "scraped_at": "2026-11-06T08:00:00+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   },
   {
     "url": "https://huggingface.co/blog/allenai/toyblocks",
@@ -1143,6 +2315,6 @@
       "robotics"
     ],
     "scraped_at": "2026-11-06T14:00:48+00:00",
-    "scored_at": "2026-11-13T04:34:24.793140+00:00"
+    "scored_at": "2026-11-13T13:44:58.020319+00:00"
   }
 ]
